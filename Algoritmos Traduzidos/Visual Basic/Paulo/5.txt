@@ -1,0 +1,11 @@
+Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim MIN As Integer
+        Dim SEG As Integer
+        MsgBox("10:00")
+        For MIN = 9 To 9 Step -1
+            For SEG = 59 To 30 Step -1
+                MsgBox(" ")
+                MsgBox(MIN.ToString + ":" + SEG.ToString)
+            Next
+        Next
+End Sub

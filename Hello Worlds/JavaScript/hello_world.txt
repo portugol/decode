@@ -1,0 +1,22 @@
+Para escrever num documento HTML
+
+var a;
+a = 'Hello, world!'
+document.write(a);
+
+ou
+
+document.write('Hello, world!');
+
+
+Para escrever na consola
+
+var a;
+
+a = 'Hello World';
+
+console.log(a);
+
+ou
+
+console.log('Hello, world!');

@@ -1,0 +1,17 @@
+Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim P As Integer
+        Dim NUM1 As Integer
+        Dim NUM As Integer
+        NUM1 = 1
+        NUM = InputBox("DIGITE UM NUMERO:")
+        P = NUM1 * (NUM1 + 1) * (NUM1 + 2)
+        While (P < NUM)
+            NUM1 = NUM1 + 1
+            P = NUM1 * (NUM1 + 1) * (NUM1 + 2)
+        End While
+        If P = NUM Then
+            MsgBox("TRIANGULAR")
+        Else
+            MsgBox("NÃO TRIANGULAR")
+        End If
+End Sub

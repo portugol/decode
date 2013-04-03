@@ -1,0 +1,8 @@
+  var contador;
+  contador = 1;
+
+  while (contador <= 100)
+  {
+  document.write(contador + ", ");
+  contador = contador + 2;
+  }

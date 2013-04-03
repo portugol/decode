@@ -1,0 +1,12 @@
+Program MesPRG;
+uses crt;
+Var mes : Integer;
+Begin
+     mes := 0;
+     repeat
+           writeln('Introduza um mes');
+           readln(mes);
+ 
+     Until (mes > 0) and (mes < 13);
+writeln('Mes introduzido ' , mes);
+End.

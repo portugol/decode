@@ -1,0 +1,15 @@
+public class Ex5 {
+
+    
+    public static void main(String[] args) {
+        double num;
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Digite um Numero ou entao -999 para terminar");
+        num=Double.parseDouble(scanner.nextLine());
+        while(num <-999 || num > -999){
+            System.out.println("Triplo:" + num*3);
+        num=Double.parseDouble(scanner.nextLine());
+        }
+    }
+}

@@ -1,0 +1,21 @@
+	
+var salario;
+var prof;
+
+salario = prompt ("Introduza o valor do Salário");
+prof = prompt ("Cargo profissional.  1-Gerente  2-Técnico  3-Outro");
+
+if (prof == 2)
+	{
+		salario = (salario * 1.05);
+	}
+else if (prof == 1)
+	{
+		salario = (salario * 1.03);
+	}
+else if (prof == 3)
+	{
+		salario = (salario * 1.01);
+	}
+
+document.write("O novo salário é " + salario);

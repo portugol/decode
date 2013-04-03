@@ -1,0 +1,3 @@
+Ponham aqui os Hello Worlds do grupo.
+
+Tentem deixar pelo menos uma versão em q se define uma variável como texto e mostra-se essa variável.
