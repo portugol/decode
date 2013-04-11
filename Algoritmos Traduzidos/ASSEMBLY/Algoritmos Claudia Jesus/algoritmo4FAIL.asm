@@ -3,7 +3,7 @@
 ;   Fazer um algoritmo que receba a altura e o sexo de uma pessoa, calcular e imprimir o seu
 ;   peso ideal, utilizando as seguintes formulas:
 ;	para homens:  (72 * H) - 58
-;	para mulheres: (62 * H) - 44
+;	para mulheres: (62ds * H) - 44
 
 data segment
     str1 db "Introduza a sua altura: $"
