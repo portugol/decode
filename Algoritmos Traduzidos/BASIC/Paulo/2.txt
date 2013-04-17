@@ -1,0 +1,6 @@
+1 PRINT "1 - Verão"
+2 PRINT "2 - Outono"
+3 PRINT "3 - Inverno"
+4 PRINT "4 - Primavera"
+10 INPUT "Escolha a opção do menu referente ao período desejado"; O
+20 IF O < 1 OR O > 4 THEN GOTO 10 ELSE IF O = 1 THEN PRINT "verão" ELSE IF O = 2 THEN PRINT "outono" ELSE IF O = 3 THEN PRINT "inverno" ELSE IF O = 4 THEN PRINT "primavera"
