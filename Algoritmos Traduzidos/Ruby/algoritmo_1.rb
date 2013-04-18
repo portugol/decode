@@ -1,8 +1,8 @@
-#!/usr/bin/ruby
+#!/usr/bin/ruby  
 
-puts "Salario: "
+print "Salario: "
 salario = gets.chomp
-puts "Profissao"
+print "Profissao: "
 prof = gets.chomp
 
 if prof == "tecnico" 

@@ -21,10 +21,10 @@ namespace AlgoritmosPaulo
 			num1 = 1;
 			Console.WriteLine("Digite um numero:");
 			num = int.Parse(Console.ReadLine());
-			p = num1 * (num1 + 1) * (num1 + 2);
+			p = num1 * num1 + (1 * (num1 + 2));
 			while(p < num){
 			num1 += 1;
-			p = num1 * (num1 + 1) * (num1 + 2);
+			p = num1 * num1 + (1 * (num1 + 2));
 			}
 			if(p == num)
 			{

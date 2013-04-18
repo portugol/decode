@@ -46,8 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Algoritmo3.cs" />
-    <Compile Include="Algoritmo4.cs" />
     <Compile Include="Algoritmo6.cs" />
     <Compile Include="Algoritmo7.cs" />
     <Compile Include="Algoritmo8.cs" />

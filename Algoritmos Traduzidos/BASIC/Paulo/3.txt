@@ -1,0 +1,4 @@
+5 LET C = 0
+10 PRINT C
+20 LET C = C + 2
+30 IF C <= 100 THEN GOTO 10
