@@ -1,0 +1,16 @@
+Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim salario As Integer
+        Dim prof As String
+        salario = InputBox("Salário")
+        prof = InputBox("Profissão")
+        If prof = "tecnico" Then
+            salario = salario * 1.05
+        Else
+            If prof = "gerente" Then
+                salario = salario * 1.03
+            Else
+                salario = salario * 1.01
+            End If
+        End If
+        MsgBox("O novo salário é " + salario.ToString)
+End Sub

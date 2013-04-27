@@ -1,0 +1,45 @@
+Inicio:
+
+using System;
+
+namespace DefaultNamespace
+{
+	public class Class1
+	{
+		public static void Main(string[] args)
+		{
+
+
+a <- 0.0:
+
+double a = 0;
+
+
+Escrever para o ecrã:
+
+Console.WriteLine(".....");
+
+ler variavel a:
+
+a = tipo.Parse(Console.ReadLine());
+tipo é substituido pelo tipo de variavel
+
+de 1 a 5 escreve:
+
+for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine(...);
+        }
+
+se < 5 escreve:
+
+if(a < 5)
+	{
+            Console.WriteLine(...);
+ 	}
+
+fim:
+}//fecha o namespace
+}//fecha a class
+}//fecha o main
+

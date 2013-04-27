@@ -1,0 +1,4 @@
+Mes = input('Mes ')
+while int(Mes)<1 or int(Mes)>12:
+    Mes = input('Mes ')
+print('Mes: ',Mes)

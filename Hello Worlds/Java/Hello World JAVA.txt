@@ -1,0 +1,22 @@
+public class HelloWorldPSI {
+
+       public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+
+
+
+ou
+
+
+public class HelloWorldPSI {
+
+ 
+    public static void main(String[] args) {
+        String hello ="Hello World";
+       
+        System.out.println(hello);
+    }
+}

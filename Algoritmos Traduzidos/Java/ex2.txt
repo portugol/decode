@@ -1,0 +1,15 @@
+public class Ex2 {
+
+  
+    public static void main(String[] args) {
+        int mes;
+        mes=0;
+        Scanner scanner = new Scanner(System.in);
+        do {
+            System.out.println("Introduza um mes");
+            mes =Integer.parseInt(scanner.nextLine());
+        } while (mes <0 || mes >13);
+        
+        System.out.println("Mes introduzido:" + mes);
+    }
+}

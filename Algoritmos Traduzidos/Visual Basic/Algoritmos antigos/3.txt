@@ -1,0 +1,22 @@
+Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim opcao As Integer
+        opcao = 0
+        MsgBox("1 - Verão")
+        MsgBox("2 - Outono")
+        MsgBox("3 - Inverno")
+        MsgBox("4 - Primavera")
+        opcao = InputBox("Escolha a opção do menu referente ao período desejado")
+        While opcao < 1 Or opcao > 4
+            opcao = InputBox("Escolha a opção do menu referente ao período desejado")
+        End While
+        Select Case opcao
+            Case 1
+                MsgBox("verão")
+            Case 2
+                MsgBox("outono")
+            Case 3
+                MsgBox("inverno")
+            Case 4
+                MsgBox("primavera")
+        End Select
+End Sub

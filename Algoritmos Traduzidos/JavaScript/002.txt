@@ -1,0 +1,11 @@
+var mes;  
+  do
+  {
+
+  mes = prompt ("Introduza um mês");
+
+  }
+  
+  while (mes < 0 || mes > 13); 
+
+  document.write ("Mês introduzido: ", + mes); 

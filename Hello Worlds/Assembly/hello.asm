@@ -1,0 +1,32 @@
+STACK SEGMENT PARA STACK 
+	DB	64 DUP ('MYSTACK')
+STACK ENDS
+
+DATA SEGMENT PARA 'DATA'
+	MESSAGE DB 'Ola Mundo','$'
+DATA ENDS
+
+MYCODE SEGMENT PARA 'CODE'
+MAIN PROC FAR
+	ASSUME CS:MYCODE,DS:DATA,ES:DATA,SS:STACK
+    PUSH DS
+    SUB  AX,AX
+    PUSH AX
+	
+	MOV AX, DATA
+	MOV DS,AX
+	MOV ES,AX
+	
+	MOV DX,OFFSET MESSAGE
+	MOV AH,09
+	INT 21h
+	
+	MOV AH, 4Ch ; Service 4Ch - Terminate with Error Code
+    MOV AL, 0 ; Error code
+    INT 21h ; Interrupt 21h - DOS General Interrupts
+
+    
+	RET
+MAIN endp
+MYCODE ends
+END

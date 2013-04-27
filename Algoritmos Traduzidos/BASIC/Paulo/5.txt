@@ -1,0 +1,11 @@
+1 PRINT "10:00"
+2 LET M = 9
+3 GOTO 5
+4 LET M = M - 1
+5 LET S = 59
+6 GOTO 8
+7 LET S = S - 1
+8 PRINT " "
+9 PRINT M + ":" + S
+10 IF S > 30 THEN GOTO 7
+11 IF M > 9 THEN GOTO 4

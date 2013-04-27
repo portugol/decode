@@ -1,0 +1,100 @@
+1-
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+int main()
+{
+    int salario;
+    char prof[8];
+    scanf("%d",&salario);
+    scanf("%s", prof);
+        if(prof=="tecnico")
+        salario*=1.05;
+    else{
+        if(prof=="gerente")
+            salario*=1.03;
+        else{
+            salario=(salario*1.01);
+    }
+    }
+    printf("O novo salario e: %d",salario);
+    return 0;
+}
+
+
+
+2-
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+
+int main()
+{
+    int opcao;
+    printf("1-Verao \n");
+    printf("2-Outono\n");
+    printf("3-Inverno\n");
+    printf("4-Primavera\n");
+    while(opcao<1 || opcao>4){
+    printf("Escolha a opção do menu referente ao período desejado:");
+    scanf("%d",&opcao);
+    switch (opcao){
+case 1:
+    printf("Verao");
+    break;
+    case 2:
+    printf("Outono");
+    break;
+    case 3:
+    printf("Inverno");
+    break;
+    case 4:
+    printf("Primavera");
+    break;
+    default:
+        printf("ERROR");
+    }}
+}
+
+
+
+
+
+3-
+int main()
+{
+ int contador=2;
+
+ while(contador<=100){
+    printf("%d , \t",contador);
+    contador=contador+2;
+ }
+}
+
+
+
+4-
+int main()
+{
+int P;
+int NUM1;
+int NUM;
+NUM1=1;
+printf("DIGITE UM NUMERO:");
+scanf("%d",&NUM);
+P=NUM1*(NUM1+1)*(NUM1+2);
+while(P<NUM){
+NUM1=NUM1+1;
+P=NUM1*(NUM1+1)*(NUM1+2);
+}
+if(P==NUM)
+printf(" TRIANGULAR");
+else
+printf("NAO TRIANGULAR");
+}
+
+
+
+
+

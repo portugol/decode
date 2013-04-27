@@ -1,0 +1,8 @@
+print (' Digite um número ou -999 para terminar ')
+Num = input(' Digite numero: ')
+while int(Num)<-999 or int(Num)>-999:
+    Num = int(Num)*3.0
+    print ('Triplo: ',Num)
+    print (' Digite um número ou -999 para terminar ')
+    Num = input(' Digite numero: ')
+    

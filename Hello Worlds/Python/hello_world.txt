@@ -1,0 +1,6 @@
+###### Hello World em Python ####
+
+
+a = ('Hello World')
+
+print (a)
