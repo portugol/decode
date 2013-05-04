@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Ex10 {
+    public static void main(String[] args) {
+       double percurso,consumo;
+       String tipo;
+       percurso =0;
+       consumo =0;
+       Scanner scanner = new Scanner (System.in);
+       
+        System.out.println("selecione o tipo de carro (A/B/C)");
+        tipo= scanner.nextLine();
+        
+        System.out.println("insira o numero de km que deseja efectuar");
+        percurso = Double.parseDouble(scanner.nextLine());
+        
+        if (tipo.equals("C") || tipo.equals("c")) {
+            consumo = percurso/12;
+        }else{
+            if (tipo.equals("B") || tipo.equals("b")) {
+                consumo = percurso/10;
+                
+            }else{
+                if (tipo.equals("A") || tipo.equals("a")) {
+                    consumo = percurso/8;
+                    
+                }else{
+                    consumo =0;
+                }
+                    
+            }
+        }
+        
+        if (consumo != 0) {
+            System.out.println("Consumo estimado em litros," + consumo);
+        }else{
+            System.out.println("Modelo inexistente");
+        }
+    }
+}

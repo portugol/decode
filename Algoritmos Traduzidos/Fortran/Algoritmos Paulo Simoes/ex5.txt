@@ -1,0 +1,11 @@
+program contagem
+integer :: min,seg
+
+print *,"10:00"
+	do min=9,9,-1
+    	do seg=59,30,-1
+        	print *," "
+            print *,min , ":",seg
+	    end do
+   end do
+end

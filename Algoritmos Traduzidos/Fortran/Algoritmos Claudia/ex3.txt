@@ -1,0 +1,17 @@
+program Veridade
+
+integer :: idade
+idade=0
+
+print *,"Digite a sua idade"
+read *,idade
+
+if(idade>=65) then
+   print *,"maior de 65"
+   else if(idade>=18) then
+     print *,"maior de idade"
+   else
+     print *,"menor de idade"
+endif
+
+end

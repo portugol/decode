@@ -1,0 +1,11 @@
+program calculoFactorial
+integer :: i,numero,factorial
+
+print *,"Digite um numero:"
+read *,numero
+factorial =1
+do i=1,numero
+  factorial=factorial*i
+end do
+print *,numero," ! =", factorial
+end

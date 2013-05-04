@@ -1,0 +1,8 @@
+program inteiro3casas
+integer ::a,d,c
+print *,"Digite o numero de tres casas"
+read *,a
+d=mod(a,100)/10
+print *," "
+print *,"Algarismo na casa das dezenas: ",d
+end

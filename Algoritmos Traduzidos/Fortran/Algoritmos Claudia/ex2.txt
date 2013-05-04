@@ -1,0 +1,17 @@
+program verificarmenor
+
+real ::a,b
+a=0
+b=0
+
+print *,"Digite primeiro numero"
+read *,a
+print *,"Digite segundo numero"
+read *,b
+
+if(a<b) then
+  print *,"Menor: ",a 
+else
+  print *,"Menor: ",b
+endif
+end

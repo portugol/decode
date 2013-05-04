@@ -1,0 +1,19 @@
+program ordemcrescente
+
+real :: a,b
+a=0.0
+b=0.0
+
+print *, "Digite o primeiro valor"
+read *, a
+print *, "Digite o segundo valor"
+read *, b
+
+if (a<b) then
+  print *,a,b
+ else
+  print *,b,a
+endif
+end 
+
+

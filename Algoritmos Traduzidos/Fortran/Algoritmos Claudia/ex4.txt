@@ -1,0 +1,18 @@
+program pesoideal
+character(1) :: sexo
+real :: h,peso
+h=0
+peso=0
+
+print *,"Introduza a altura"
+read *,h
+print *,"Introduza o sexo M/F"
+read *,sexo
+
+if(sexo.eq."M" .or. sexo.eq."m" ) then
+  peso=72.7 * h -58
+ else
+  peso=62.1 * h -44.7
+endif
+print *,"o seu peso ideal é",peso
+end

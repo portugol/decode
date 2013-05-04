@@ -1,0 +1,10 @@
+program tabuada
+integer :: i,t
+t=1
+print *,"tabuada a mostrar:"
+read *,t
+j=t
+do i=1,10
+  print *,j," * ",i," = ",i*j
+end do
+end

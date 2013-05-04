@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Ex6 {
+
+    public static void main(String[] args) {
+        double diagmaior,diagmenor;
+        double area;
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Medida da diagonal maior");
+        diagmaior=Double.parseDouble(scanner.nextLine());
+        System.out.println("Medida da diagonal menor");
+        diagmenor=Double.parseDouble(scanner.nextLine());
+        
+        area=(diagmaior * diagmenor) /2;
+        System.out.println("Area :" + area);
+    }
+}
