@@ -59,7 +59,7 @@ var diagmaior, diagmenor, area : Real;
   Program Prg5Termo;
 var  
 	razao, termo : Integer;
-	quinto : Real
+	quinto : Real;
  Begin
  	write('Entre com o primeiro termo: ');
 	readln(termo);

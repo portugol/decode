@@ -70,7 +70,7 @@ implementation
 procedure TForm1.FormCreate(Sender: TObject);
 var d, a: Integer;
  Begin
- 	a := StrToInt(InputBox('PrgNum_3_casas','Digite o numero de três casas','Exemple: 123'));
+ 	a := StrToInt(InputBox('PrgNum_3_casas','Digite o numero de três casas','Example: 123'));
 	d := (a div 10) mod 10;
   ShowMessage('Algarismo na casa das dezenas: ' + IntToStr(d));
   Application.Terminate;
@@ -108,9 +108,9 @@ implementation
 procedure TForm1.FormCreate(Sender: TObject);
 var a, b, c, diagonal : Real;
  Begin
-  a := StrToFloat(InputBox('PrgNum_3_casas','Digite a base','Exemple: 10,10'));
-  b := StrToFloat(InputBox('PrgNum_3_casas','Digite a altura','Exemple: 20'));
-  c := StrToFloat(InputBox('PrgNum_3_casas','Digite a profundidade','Exemple: 15'));
+  a := StrToFloat(InputBox('PrgNum_3_casas','Digite a base','Example: 10,10'));
+  b := StrToFloat(InputBox('PrgNum_3_casas','Digite a altura','Example: 20'));
+  c := StrToFloat(InputBox('PrgNum_3_casas','Digite a profundidade','Example: 15'));
 	diagonal := sqrt( a*2 + b*2 + c*2 );
   ShowMessage('Diagonal: ' + FloatToStr(diagonal));
   Application.Terminate;
@@ -149,8 +149,8 @@ implementation
 procedure TForm1.FormCreate(Sender: TObject);
 var diagmaior, diagmenor, area : Real;
  Begin
-  diagmaior := StrToFloat(InputBox('PrgAreaLosango','Medida da diagonal maior','Exemple: 20,10'));
-  diagmenor := StrToFloat(InputBox('PrgAreaLosango','Medida da diagonal menor','Exemple: 10,55'));;
+  diagmaior := StrToFloat(InputBox('PrgAreaLosango','Medida da diagonal maior','Example: 20,10'));
+  diagmenor := StrToFloat(InputBox('PrgAreaLosango','Medida da diagonal menor','Example: 10,55'));;
 	area := (diagmaior * diagmenor) / 2;
   ShowMessage('Area: ' + FloatToStr(area));
   Application.Terminate;
@@ -191,8 +191,8 @@ var
 	razao, termo : Integer;
 	quinto : Real;
 Begin
-  termo := StrToInt(InputBox('Prg5Termo','Entre com o primeiro termo','Exemple: 1'));
-  razao := StrToInt(InputBox('Prg5Termo','Entre com o primeiro termo','Exemple: 5'));
+  termo := StrToInt(InputBox('Prg5Termo','Entre com o primeiro termo','Example: 1'));
+  razao := StrToInt(InputBox('Prg5Termo','Entre com o primeiro termo','Example: 5'));
 	quinto := termo * exp(4*ln(razao));
   ShowMessage('5º termo desta PG é: ' + FloatToStr(quinto));
   Application.Terminate;
@@ -231,7 +231,7 @@ implementation
 procedure TForm1.FormCreate(Sender: TObject);
 var preco, npreco : Real;
  Begin
-  preco := StrToFloat(InputBox('PrgDesconto','Digite o valor do produto','Exemple: 100'));
+  preco := StrToFloat(InputBox('PrgDesconto','Digite o valor do produto','Example: 100'));
 	npreco := preco * 0.91;
   ShowMessage('Preço com desconto: ' + FloatToStr(npreco));
   Application.Terminate;
@@ -269,8 +269,8 @@ implementation
 procedure TForm1.FormCreate(Sender: TObject);
 var num, demon : Integer;
  Begin
-  num := StrToInt(InputBox('PrgFracTranDec','Digite o numerador','Exemple: 6'));
-  demon := StrToInt(InputBox('PrgFracTranDec','Digite o denominador','Exemple: 2'));
+  num := StrToInt(InputBox('PrgFracTranDec','Digite o numerador','Example: 6'));
+  demon := StrToInt(InputBox('PrgFracTranDec','Digite o denominador','Example: 2'));
   ShowMessage('Decimal: ' + FloatToStr(num/demon));
   Application.Terminate;
 end;
@@ -308,7 +308,7 @@ implementation
 procedure TForm1.FormCreate(Sender: TObject);
 var numero : Real;
  Begin
-  numero := StrToFloat(InputBox('PrgFracTranDec','Digite o número','Exemple: 20,1'));
+  numero := StrToFloat(InputBox('PrgFracTranDec','Digite o número','Example: 20,1'));
 	If(numero > 20)Then
     ShowMessage(FloatToStr(numero));
 
