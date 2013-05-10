@@ -1,0 +1,5 @@
+C:\Users\Lopes\Documents\SharpDevelop Projects\Factorial\obj\Debug\Factorial.csprojResolveAssemblyReference.cache
+C:\Users\Lopes\Documents\SharpDevelop Projects\Factorial\bin\Debug\Factorial.exe
+C:\Users\Lopes\Documents\SharpDevelop Projects\Factorial\bin\Debug\Factorial.pdb
+C:\Users\Lopes\Documents\SharpDevelop Projects\Factorial\obj\Debug\Factorial.exe
+C:\Users\Lopes\Documents\SharpDevelop Projects\Factorial\obj\Debug\Factorial.pdb

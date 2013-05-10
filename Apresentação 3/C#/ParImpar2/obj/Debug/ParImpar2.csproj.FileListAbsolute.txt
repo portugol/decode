@@ -1,0 +1,5 @@
+C:\Users\Lopes\Documents\SharpDevelop Projects\ParImpar2\bin\Debug\ParImpar2.exe
+C:\Users\Lopes\Documents\SharpDevelop Projects\ParImpar2\bin\Debug\ParImpar2.pdb
+C:\Users\Lopes\Documents\SharpDevelop Projects\ParImpar2\obj\Debug\ParImpar2.csprojResolveAssemblyReference.cache
+C:\Users\Lopes\Documents\SharpDevelop Projects\ParImpar2\obj\Debug\ParImpar2.exe
+C:\Users\Lopes\Documents\SharpDevelop Projects\ParImpar2\obj\Debug\ParImpar2.pdb
