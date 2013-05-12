@@ -1,0 +1,31 @@
+Condições:
+S/N
+10 INPUT ""; n
+20 IF n % 2 = 0 THEN PRINT "Par" ELSE PRINT "Impar"
+
+S
+10 INPUT ""; n
+20 IF n % 2 = 0 THEN PRINT "Par"
+
+Ciclos:
+WHILE
+10 LET i = 1
+15 PRINT i
+16 LET i = i + 1
+20 IF i <= 10 THEN GOTO 15
+
+DOWHILE
+10 INPUT ""; i
+20 IF i < 0 THEN GOTO 10
+
+Função:
+10 INPUT ""; i
+20 LET j = 0
+30 GOTO 100
+40 PRINT j
+50 END
+100 LET k = i
+110 LET j = k
+120 IF k > 2 THEN LET j = j * (k - 1) ELSE GOTO 40
+130 LET k = k - 1
+140 GOTO 120
