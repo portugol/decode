@@ -1,0 +1,12 @@
+package numeros1ate10;
+
+public class Numeros1ate10 {
+
+    public static void main(String[] args) {
+       int l=1;
+       while(l<=10){
+           System.out.println(l);
+           l++;
+       }
+    }
+}

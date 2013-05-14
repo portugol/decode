@@ -1,0 +1,10 @@
+program numeros1ate10
+
+integer :: l
+l=1
+
+while(l<=10) do
+	print *,l
+    l=l+1
+endwhile
+end
