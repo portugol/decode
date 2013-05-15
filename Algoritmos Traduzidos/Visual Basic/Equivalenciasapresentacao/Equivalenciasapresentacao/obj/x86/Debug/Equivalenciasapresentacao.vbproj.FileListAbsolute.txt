@@ -1,9 +1,0 @@
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\bin\Debug\Equivalenciasapresentacao.exe
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\bin\Debug\Equivalenciasapresentacao.pdb
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\bin\Debug\Equivalenciasapresentacao.xml
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\obj\x86\Debug\Equivalenciasapresentacao.Form1.resources
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\obj\x86\Debug\Equivalenciasapresentacao.Resources.resources
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\obj\x86\Debug\Equivalenciasapresentacao.vbproj.GenerateResource.Cache
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\obj\x86\Debug\Equivalenciasapresentacao.exe
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\obj\x86\Debug\Equivalenciasapresentacao.xml
-c:\users\user\documents\visual studio 2010\Projects\Equivalenciasapresentacao\Equivalenciasapresentacao\obj\x86\Debug\Equivalenciasapresentacao.pdb
