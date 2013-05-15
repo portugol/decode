@@ -203,12 +203,13 @@ Begin
 	Begin
 		f := f * itera;
 	end;
-
+  Result := f;
 End;
 
 procedure TForm1.FormCreate(Sender: TObject);
 var i, j : integer;
 Begin
+j:= 0;
 i := 5;
 j := Fact(i);
 
