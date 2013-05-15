@@ -21,6 +21,7 @@ DOWHILE
 Função:
 10 INPUT ""; i
 20 LET j = 0
+25 REM Salto para a função
 30 GOTO 100
 40 PRINT j
 50 END
