@@ -1,8 +1,0 @@
-menor: <
-menor ou igual: <=
-maior: >
-maior ou igual: >=
-igual a: ==
-diferente: !=
-E Condicional: &&
-Ou Condicional: ||
