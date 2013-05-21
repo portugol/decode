@@ -1,0 +1,16 @@
+	=	igual	
+	==      igual igual
+	<       menor
+	<=      menor ou igual
+	>	maior
+	>=	maior ou igual
+	/=      diferente
+
+	.and. 	e
+	.or.    ou	
+	.not.   nao
+
+	mod()   resto
+		- exemplo para fazer 4%2 fazemos : mod(4,2)
+	**      exponencial
+		- exemplo : 5^4 fazemos : 5**4
