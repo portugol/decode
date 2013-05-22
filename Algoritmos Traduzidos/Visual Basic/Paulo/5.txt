@@ -1,11 +1,19 @@
-Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Dim MIN As Integer
-        Dim SEG As Integer
+Fluxograma incorrecto (loop infinito)
+
+    Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
+        Dim min As Integer
+        min = 0
+        Dim seg As Integer
+        seg = 0
         MsgBox("10:00")
-        For MIN = 9 To 9 Step -1
-            For SEG = 59 To 30 Step -1
+        min = 9
+        While (min <= 9)
+            seg = 59
+            While (seg <= 30)
                 MsgBox(" ")
-                MsgBox(MIN.ToString + ":" + SEG.ToString)
-            Next
-        Next
-End Sub
+                MsgBox(min.ToString + ":" + seg.ToString)
+                seg = seg + -1
+            End While
+            min = min + -1
+        End While
+    End Sub
