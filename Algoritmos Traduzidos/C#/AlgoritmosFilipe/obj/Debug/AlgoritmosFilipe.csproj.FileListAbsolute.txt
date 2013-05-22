@@ -1,5 +1,0 @@
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosFilipe\bin\Debug\AlgoritmosFilipe.exe
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosFilipe\bin\Debug\AlgoritmosFilipe.pdb
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosFilipe\obj\Debug\AlgoritmosFilipe.csprojResolveAssemblyReference.cache
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosFilipe\obj\Debug\AlgoritmosFilipe.exe
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosFilipe\obj\Debug\AlgoritmosFilipe.pdb

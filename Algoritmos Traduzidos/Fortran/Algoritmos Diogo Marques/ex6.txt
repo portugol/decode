@@ -1,9 +1,0 @@
-program areaLosango
-real :: diagmaior,diagmenor,area
-print *,"Medida da diagonal maior"
-read *,diagmaior
-print *,"Medida da diagonal menor"
-read *,diagmenor
-area=(diagmaior*diagmenor)/2
-print *,"area :",area
-end

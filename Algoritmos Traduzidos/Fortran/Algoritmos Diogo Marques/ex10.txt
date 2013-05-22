@@ -1,8 +1,0 @@
-program verificarMaior
-real :: numero
-print *,"digite o numero"
-read *,numero
-if(numero>20)then
-  print*,numero
-end if
-end

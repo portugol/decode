@@ -1,6 +1,0 @@
-program numeros
-integer :: i
-do i=1,100,+1
-  print *,i," "
-end do
-end

@@ -1,5 +1,0 @@
-C:\Users\Lopes\Documents\SharpDevelop Projects\UMADEZ\bin\Debug\UMADEZ.exe
-C:\Users\Lopes\Documents\SharpDevelop Projects\UMADEZ\bin\Debug\UMADEZ.pdb
-C:\Users\Lopes\Documents\SharpDevelop Projects\UMADEZ\obj\Debug\UMADEZ.csprojResolveAssemblyReference.cache
-C:\Users\Lopes\Documents\SharpDevelop Projects\UMADEZ\obj\Debug\UMADEZ.exe
-C:\Users\Lopes\Documents\SharpDevelop Projects\UMADEZ\obj\Debug\UMADEZ.pdb

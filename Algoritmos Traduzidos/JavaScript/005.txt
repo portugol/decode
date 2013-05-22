@@ -1,9 +1,0 @@
-	var num;
-	num = prompt("Digite um número ou -999 para terminar");
-
-	do
-	{		
-		document.write("Triplo: " + (num*3) + "<br>"); 
-		num = prompt("Digite um número ou -999 para terminar");
-	}
-	while (num < -999 || num > -999);

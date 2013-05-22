@@ -1,5 +1,0 @@
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosClaudia\AlgoritmosClaudia\obj\Debug\AlgoritmosClaudia.csprojResolveAssemblyReference.cache
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosClaudia\AlgoritmosClaudia\bin\Debug\AlgoritmosClaudia.exe
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosClaudia\AlgoritmosClaudia\bin\Debug\AlgoritmosClaudia.pdb
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosClaudia\AlgoritmosClaudia\obj\Debug\AlgoritmosClaudia.exe
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosClaudia\AlgoritmosClaudia\obj\Debug\AlgoritmosClaudia.pdb

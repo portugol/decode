@@ -1,5 +1,0 @@
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosPaulo\AlgoritmosPaulo\obj\Debug\AlgoritmosPaulo.csprojResolveAssemblyReference.cache
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosPaulo\AlgoritmosPaulo\bin\Debug\AlgoritmosPaulo.exe
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosPaulo\AlgoritmosPaulo\bin\Debug\AlgoritmosPaulo.pdb
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosPaulo\AlgoritmosPaulo\obj\Debug\AlgoritmosPaulo.exe
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosPaulo\AlgoritmosPaulo\obj\Debug\AlgoritmosPaulo.pdb

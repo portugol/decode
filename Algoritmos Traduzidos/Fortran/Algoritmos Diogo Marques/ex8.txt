@@ -1,7 +1,0 @@
-program produtos
-real :: preco,npreco
-print *,"digite o valor do produto"
-read *,preco
-npreco=preco*0.91
-print *,"Preco com desconto:",npreco
-end

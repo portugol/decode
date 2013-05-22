@@ -1,5 +1,0 @@
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosDiogo\obj\Debug\AlgoritmosDiogo.csprojResolveAssemblyReference.cache
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosDiogo\bin\Debug\AlgoritmosDiogo.exe
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosDiogo\bin\Debug\AlgoritmosDiogo.pdb
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosDiogo\obj\Debug\AlgoritmosDiogo.exe
-C:\Users\Lopes\Desktop\Psi codigo\AlgoritmosDiogo\obj\Debug\AlgoritmosDiogo.pdb

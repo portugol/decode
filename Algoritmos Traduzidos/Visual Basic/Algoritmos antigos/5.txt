@@ -1,8 +1,0 @@
-Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Dim num As Double
-        num = InputBox("Digite um numero ou -999 para terminar")
-        While (num < -999) Or (num > -999)
-            MsgBox("Triplo: " + (num * 3).ToString)
-            num = InputBox("Digite um numero ou -999 para terminar")
-        End While
-End Sub

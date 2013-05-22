@@ -1,7 +1,0 @@
-program numero3casas
-integer :: d,a
-print *,"Digite o numero de tres casas"
-read *,a
-d=mod(a/10,10)
-print *,"Algarismo na casa das dezenas :",d
-end

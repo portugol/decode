@@ -1,8 +1,0 @@
-program areaquadrado
-integer :: lado,area
-print *,"Medida do lado do quadrado"
-read *,lado
-print *," "
-area = lado * lado
-print *,"a area do quadrado é:",area
-end

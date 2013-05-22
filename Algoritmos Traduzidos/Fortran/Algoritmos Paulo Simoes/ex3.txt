@@ -1,8 +1,0 @@
-program parImpar
-integer :: contador
-contador =2
-  do while(contador <=100)
-    print *,contador
-    contador=contador +2
-  end do
-end

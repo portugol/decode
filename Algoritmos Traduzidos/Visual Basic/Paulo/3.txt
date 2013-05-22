@@ -1,8 +1,0 @@
-    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
-        Dim contador As Integer
-        contador = 0
-        While contador <= 100
-            MsgBox(contador + " ")
-            contador = contador + 2
-        End While
-    End Sub

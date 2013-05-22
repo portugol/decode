@@ -1,4 +1,0 @@
-10 INPUT "Salário"; S
-20 INPUT "Profissão"; P
-30 IF P="tecnico" THEN LET S = S * 1.05 ELSE IF P="gerente" THEN LET S = S * 1.03 ELSE LET S = S * 1.01
-40 PRINT "O novo salário é " + S

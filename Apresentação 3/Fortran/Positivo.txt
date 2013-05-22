@@ -1,9 +1,0 @@
-program Positivo
-
-integer :: l
-l=0
-do while(l<=0)
-  read *,l
-
-end do
-end
