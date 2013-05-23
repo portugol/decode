@@ -37,149 +37,193 @@ start:
         
         mov ax,data
         mov ds,ax 
-
+    
+    ;print str1
         mov ah, 09h
         lea dx, str1
         int 21h
-        
+    
+    ;read mes    
         mov ah, 0ah
 		lea dx, mes 
-		int 21h 
-		
-		mov ah,09h
-        lea dx,newline
+		int 21h
+		 
+	;mudar de linha	
+		mov ah, 09h
+        lea dx, newline
         int 21h  
-		
+		      
+	;limpar registos	      
 		xor ax, ax 
-		xor cx, cx
+		xor cx, cx  
+	
+	;inicializar contador SI a 2	
 		mov si, 02h
+	
+	;BL = mes.length	
+		mov bl, mes[1]
 		
-		mov bl, mes[1]  
+    ;verificar se o array mes esta vazio  
 		mov cl, bl
-		cmp cl,0
+		cmp cl, 0              
+
+    ;termina o programa
 		jz fim
 
-lop:	 
-        mov bl,mes[si]
-	    add al,bl
-	    sub al,30h
+lop:	    
+    ;coloca em AL o valor decimal de mes
+        mov bl, mes[si]
+	    add al, bl
+	    sub al, 30h
 	    
-        sub si,01h	
-		cmp si,cx
+        sub si, 01h	
+		cmp si, cx
 		je jan
-		add si,01h
+		add si, 01h
 		inc si
 
-	    mov bl,10h
+	    mov bl, 10h
 	    mul bl 
 	    
 	    jmp lop 
 	    
 jan:	
-        cmp al,01h
-        jne fev
-        
+    ;compara AL e 1
+        cmp al, 01h
+        jne fev     ;if AL != 1
+    
+    ;print str2    
         mov ah, 09h
         lea dx, str2
         int 21h
-        jmp fim   
-fev:        
-        cmp al,02h
-        jne mar
-        
+    ;salta para o fim    
+        jmp fim
+           
+fev:    
+    ;compara AL e 2    
+        cmp al, 02h
+        jne mar    ;if AL != 2
+    
+    ;print str3        
         mov ah, 09h
         lea dx, str3
         int 21h
-        jmp fim
-mar:        
-        cmp al,03h
-        jne abr
+    
+    ;salta para o fim    
+        jmp fim  
         
+mar:    
+    ;...    
+        cmp al, 03h
+        jne abr     ;...
+    
+    ;...    
         mov ah, 09h
         lea dx, str4
         int 21h
+    
+    ;...    
         jmp fim
+
 abr:        
-        cmp al,04h
+        cmp al, 04h
         jne mai  
         
         mov ah, 09h
         lea dx, str5
         int 21h
+    
         jmp fim
+
 mai:        
-        cmp al,05h
+        cmp al, 05h
         jne jun
         
         mov ah, 09h
         lea dx, str6
         int 21h
+
         jmp fim
+
 jun:        
-        cmp al,06h
+        cmp al, 06h
         jne jul 
         
         mov ah, 09h
         lea dx, str7
         int 21h
+
         jmp fim
+
 jul:        
-        cmp al,07h
+        cmp al, 07h
         jne ago 
         
         mov ah, 09h
         lea dx, str8
         int 21h
+        
         jmp fim
+
 ago:        
-        cmp al,08h
+        cmp al, 08h
         jne set
         
         mov ah, 09h
         lea dx, str9
         int 21h
+
         jmp fim
+
 set:        
-        cmp al,09h
+        cmp al, 09h
         jne oct
         
         mov ah, 09h
         lea dx, str10
         int 21h
+
         jmp fim
+
 oct:        
-        cmp al,10h
+        cmp al, 10h
         jne nov
         
         mov ah, 09h
         lea dx, str11
         int 21h
+
         jmp fim
+
 nov:        
-        cmp al,11h
+        cmp al, 11h
         jne dez
         
         mov ah, 09h
         lea dx, str12
         int 21h
+
         jmp fim
+
 dez:        
-        cmp al,12h
+        cmp al, 12h
         jne na
         
         mov ah, 09h
         lea dx, str13
         int 21h
+
         jmp fim
+
 na:        
         mov ah, 09h
         lea dx, str14
         int 21h  
          	      		
-fim:    		
+fim:    
+    ;termina o programa		
         mov ax, 4c00h
         int 21h  
 
 ends
-
 end start

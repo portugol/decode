@@ -9,7 +9,7 @@ data segment
                          
     newline db 10,13,"$" 
     
-    buffer db 3,?, 2 dup(' ')
+    num db 3,?, 2 dup(' ')
 
 ends
 
@@ -23,31 +23,41 @@ code segment
 start:      
         
         mov ax,data
-        mov ds,ax 
-
+        mov ds,ax
+        
+    ;print str1    
         mov ah, 09h
         lea dx, str1
         int 21h
         
+    ;read num    
         mov ah, 0ah
-		lea dx, buffer 
-		int 21h 
-		
-		mov ah,09h
-        lea dx,newline
+		lea dx, num 
+		int 21h
+		 
+	;mudar de linha	
+		mov ah, 09h
+        lea dx, newline
         int 21h  
-		
+	
+	;limpar registos	
 		xor ax, ax 
-		xor cx, cx
-		mov si, 02h
+		xor cx, cx   
 		
-		mov bl, buffer[1]  
+	;inicializar contador SI a 2	
+		mov si, 02h          
+		
+	;BL = num.length		
+		mov bl, num[1]
+	
+	;verificar se o array num esta vazio		  
 		mov cl, bl
 		cmp cl, 0
 		jz fim
 
-lop:	 
-        mov bl, buffer[si]
+lop:
+    ;colocar em AL o valor decimal de num	 
+        mov bl, num[si]
 	    add al, bl
 	    sub al, 30h
 	    
@@ -63,25 +73,50 @@ lop:
 	    jmp lop 
 	    
 next:
-        mov bl, 03d
+;TUTORIAL
+;
+;DIVISOEs
+;
+;   MOV AL, 4
+;   MOV BL, 2
+;   DIV BL
+;
+;   <=>
+;
+;   AL/BL
+;
+;O resto da divisao sera colocado
+;no registo AH.
+;Caso se usem registo de 16bits (AX, BX)
+;para a divisao, o resto sera colocado
+;no registo DX
+
+    ;dividir AL por BL
+        mov bl, 03d    
         div bl
-        
+    
+    ;verificar se o resto e 0    
         cmp ah, 0
-        je multi
+        je multi    ;if AH = 0
+    
+    ;print str3    
         mov ah, 09h
         lea dx, str3
         int 21h
+    
+    ;saltar para o fim
         jmp fim
 
 multi:
+    ;print str2
         mov ah, 09h
         lea dx, str2
         int 21h              
 		
-fim:    		
+fim:    
+    ;termina o programa		
         mov ax, 4c00h
         int 21h  
 
 ends
-
 end start

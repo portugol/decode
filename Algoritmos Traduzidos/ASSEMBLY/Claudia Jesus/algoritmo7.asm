@@ -8,12 +8,10 @@ data segment
     str3 db "E multiplo de 5 $"
     str4 db "E multiplo de 2 $"
     str5 db "Nao e multiplo de nenhum $"
-    
-    
-                         
+                             
     newline db 10,13,"$" 
     
-    buffer db 3,?, 2 dup(' ')
+    num db 3,?, 2 dup(' ')
 
 ends
 
@@ -26,32 +24,44 @@ code segment
         assume ds:data,cs:code
 start:      
         
-        mov ax,data
-        mov ds,ax 
-
+        mov ax, data
+        mov ds, ax 
+    
+    ;print str1
         mov ah, 09h
         lea dx, str1
         int 21h
-        
+    
+    ;read num            
         mov ah, 0ah
-		lea dx, buffer 
+		lea dx, num 
 		int 21h 
-		
-		mov ah,09h
-        lea dx,newline
+		          
+	;mudar de linha	          
+		mov ah, 09h
+        lea dx, newline
         int 21h  
-		
+		              
+	;limpar registos	         
 		xor ax, ax 
 		xor cx, cx
-		mov si, 02h
 		
-		mov bl, buffer[1] 
+	;inicializar o contador SI a 2		
+		mov si, 02h
+		                          
+	;BL = num.length	                            
+		mov bl, num[1]
+	
+	;verificar se o array num esta vazio	 
 		mov cl, bl
-		cmp cl, 0
+		cmp cl, 0                        
+	
+	;saltar para o fim	
 		jz fim
 
-lop:	 
-        mov bl, buffer[si]
+lop:	              
+    ;colocar em AL o valor decimal de num
+        mov bl, num[si]
 	    add al, bl
 	    sub al, 30h
 	    
@@ -66,52 +76,74 @@ lop:
 	    
 	    jmp lop 
 	    
-mul10:  
-        mov cx, ax
+mul10:                                
+    ;conservar em CX o valor de AX
+        mov cx, ax              
+        
+    ;dividir AL por BL    
         mov bl, 10d
         div bl
-        
+    
+    ;comparar AH e 0    
         cmp ah, 0
-        jne mul5
-        
+        jne mul5    ;if AH != 0
+    
+    ;print str2    
         mov ah, 09h
         lea dx, str2
         int 21h
+    
+    ;saltar para o fim        
         jmp fim
 
-mul5:             
-        mov ax, cx   
+mul5:                 
+    ;colocar em AX o valor guardado em CX
+        mov ax, cx                  
+    
+    ;dividir AL por BL    
         mov bl, 05d
         div bl
-        
+    
+    ;comparar AH e 0    
         cmp ah, 0 
-        jne mul2 
-        
+        jne mul2    ;if AH != 0 
+    
+    ;print str3    
         mov ah, 09h
         lea dx, str3
         int 21h
+    
+    ;saltar para o fim    
         jmp fim
         
 mul2:
+    ;colocar em AX o valor guardado em CX
         mov ax, cx
-        
+    
+    ;dividir AL por BL    
         mov bl, 02d
         div bl
         
+    ;comparar AH e 0    
         cmp ah, 0
         jne na 
-        
+                    
+    ;print str4                
         mov ah, 09h
         lea dx, str4
         int 21h
+    
+    ;saltar para o fim    
         jmp fim
 
-na:               
+na:
+    ;print str5               
 		mov ah, 09h
         lea dx, str5
         int 21h
         
-fim:    		
+fim:    		    
+    ;terminar o programa
         mov ax, 4c00h
         int 21h  
 
