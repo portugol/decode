@@ -1,0 +1,20 @@
+program ImcCheck
+integer :: imc
+
+print *,"Digite o valor do IMC(Indice de massa corporal)"
+read *,imc
+
+if(imc<20)then
+  print *,"Abaixo do peso"
+  else if((imc>=20).and.(imc<=24))then
+    print *,"Peso ideal"
+    else if((imc>=25).and.(imc<=29))then
+      print *,"Excesso de peso"
+      else if((imc>=30).and.(imc<=39))then
+        print *,"Obesidade"
+        else if(imc>39)then
+          print *,"Obesidade mórbida"
+          else
+            print *,"Valor inválido"
+end if
+end

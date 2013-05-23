@@ -1,0 +1,15 @@
+adição: +
+subtração: -
+multiplicação: *
+divisão: /
+potenciação: **
+módulo ou resto divisão: %
+
+menor: <
+menor ou igual: <=
+maior: >
+maior ou igual: >=
+igual a: ==
+diferente: !=
+E Condicional: &&
+Ou Condicional: ||

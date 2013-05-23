@@ -1,0 +1,10 @@
+program razaoPG
+integer :: quinto,razao,termo
+print *,"Entre com o 1º termo"
+read *,termo
+print *,"Entre com a razao"
+read *,razao
+
+quinto=termo*(razao**(4.))
+print *,"5º termo desta PG é:",quinto
+end

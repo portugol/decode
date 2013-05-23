@@ -1,0 +1,25 @@
+program clima
+integer :: opcao
+opcao=0
+
+print *,"1 - Verao"
+print *,"2 - Outono"
+print *,"3 - Inverno"
+print *,"4 - Primavera"
+
+do while(opcao<1.or.opcao>4)
+	print *,"Escolha a opção do menu referente ao período desejado"
+    read *,opcao
+end do
+
+select case(opcao)
+  case (1)
+  	print *,"Verao"
+  case (2)
+  	print *,"Outono"
+  case (3)
+  	print *,"Inverno"
+  case (4)
+  	print *,"Primavera"
+end select
+end

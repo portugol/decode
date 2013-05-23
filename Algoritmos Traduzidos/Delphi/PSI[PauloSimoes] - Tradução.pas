@@ -28,8 +28,8 @@ procedure TForm1.FormCreate(Sender: TObject);
 var salario : Real;
     prof : String;
 Begin
-     salario := StrToFloat(InputBox('SalarioPRG', 'Introduza o salário', 'Exemple:500'));
-     prof := InputBox('SalarioPRG', 'Escolha uma categoria técnico/gerente/outros', 'Exemple: técnico');
+     salario := StrToFloat(InputBox('SalarioPRG', 'Introduza o salário', 'Example:500'));
+     prof := InputBox('SalarioPRG', 'Escolha uma categoria técnico/gerente/outros', 'Example: técnico');
      If prof = 'técnico' then
         BEGIN
           salario := salario * 1.05;
@@ -89,7 +89,7 @@ Begin
 
      while (opcao < 1) OR (opcao > 4) DO
      Begin
-          opcao := StrToInt(InputBox('SalarioPRG', '1 - Verão'#13#10'2 - Outono'#13#10'3 - Inverno'#13#10'4 - Primavera'#13#10'Escolha a opção do menu referente ao periodo desejado', 'Exemple:1'));
+          opcao := StrToInt(InputBox('SalarioPRG', '1 - Verão'#13#10'2 - Outono'#13#10'3 - Inverno'#13#10'4 - Primavera'#13#10'Escolha a opção do menu referente ao periodo desejado', 'Example:1'));
      End;
      Case opcao of
      1 :
@@ -195,7 +195,7 @@ procedure TForm1.FormCreate(Sender: TObject);
 var p, num1, num : Integer;
  Begin
 	num1 := 1;
-  num := StrToInt(InputBox('PRGTriangular', 'Digite um número', 'Exemple:24'));
+  num := StrToInt(InputBox('PRGTriangular', 'Digite um número', 'Example:24'));
 	p := num1 * (num1 + 1) * (num1 + 2);
 	while(p < num)do
 	Begin
@@ -294,7 +294,7 @@ var
 	k,n : Integer;
 	pi : real;
  Begin
-  n := StrToInt(InputBox('PRGExpressaoMat', 'Digite o valor de n', 'Exemple:2'));
+  n := StrToInt(InputBox('PRGExpressaoMat', 'Digite o valor de n', 'Example:2'));
 	for  k := 0 to n do
 	Begin
 		if(k mod 2 = 0)then
@@ -346,7 +346,7 @@ var
  Begin
  	for L := 0 to 9 do
  	Begin
-    nomes[L] := InputBox('PRGNome10Alunos', 'Digite '+IntToStr(L+1)+' nome', 'Exemple:João');
+    nomes[L] := InputBox('PRGNome10Alunos', 'Digite '+IntToStr(L+1)+' nome', 'Example:João');
  	End;
 	for L := 0 to 9 do
  	Begin

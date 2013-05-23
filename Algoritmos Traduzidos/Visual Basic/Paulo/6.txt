@@ -1,0 +1,21 @@
+    Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
+        Dim k As Integer
+        k = 0
+        Dim n As Integer
+        n = 0
+        Dim pi As Double
+        pi = 0.0
+        MsgBox("Digite o valor de n ")
+        n = InputBox("")
+        k = 0
+        While (k <= n)
+            If k Mod 2 = 0 Then
+                pi = pi + 1 / (2 * k + 1)
+            Else
+                pi = pi - 1 / (2 * k + 1)
+            End If
+            k = k + 1
+        End While
+        pi = 4 * pi
+        MsgBox("O valor de pi é " + pi.ToString)
+    End Sub

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Ex7 {
+    public static void main(String[] args) {
+        int numero;
+        numero=0;
+        Scanner scanner = new Scanner (System.in);
+               
+        System.out.println("Digite um numero");
+        numero = Integer.parseInt(scanner.nextLine());
+        
+        if (numero%10 ==0) {
+            System.out.println("é multiplo de 10");
+        }else{
+            if (numero %2 ==0) {
+                System.out.println("é multiplo de 2");
+            }else{
+                if (numero %5 ==0) {
+                    System.out.println("é multiplo de 5");
+                }else{
+                    System.out.println("nao é multiplo de 2 nem de 5");
+                }
+            }
+        } 
+    }
+}

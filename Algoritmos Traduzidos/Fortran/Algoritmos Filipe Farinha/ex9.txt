@@ -1,0 +1,6 @@
+program numerosPar
+integer :: i
+do i=1,10
+  print *,2*i
+end do
+end

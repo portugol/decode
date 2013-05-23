@@ -1,17 +1,19 @@
-Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
         Dim P As Integer
-        Dim NUM1 As Integer
-        Dim NUM As Integer
-        NUM1 = 1
-        NUM = InputBox("DIGITE UM NUMERO:")
-        P = NUM1 * (NUM1 + 1) * (NUM1 + 2)
-        While (P < NUM)
-            NUM1 = NUM1 + 1
-            P = NUM1 * (NUM1 + 1) * (NUM1 + 2)
+        P = 0
+        Dim num1 As Integer
+        num1 = 0
+        Dim num As Integer
+        num1 = 1
+        num = InputBox("DIGITE UM NUMERO:")
+        P = num1 * (num1 + 1) * (num1 + 2)
+        While (P < num)
+            num1 = num1 + 1
+            P = num1 * (num1 + 1) * (num1 + 2)
         End While
-        If P = NUM Then
+        If P = num Then
             MsgBox("TRIANGULAR")
         Else
             MsgBox("NÃO TRIANGULAR")
         End If
-End Sub
+    End Sub

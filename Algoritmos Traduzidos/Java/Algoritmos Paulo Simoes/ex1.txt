@@ -1,0 +1,29 @@
+public class Ex1 {
+
+  
+    public static void main(String[] args) {
+
+        double salario;
+        String prof;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Indique salario base");
+        salario = Double.parseDouble(scanner.nextLine());
+
+        System.out.println("Indique o tipo de profissional: \n ->tecnico \n ->gerente \n(caso seja normal, avançar)  ");
+        prof = scanner.nextLine();
+
+        if (prof.equals("tecnico")) {
+            salario = salario * 1.05;
+        } else if (prof.equals("gerente")) {
+            salario = salario * 1.03;
+        } else {
+            salario = salario * 1.01;
+        }
+            
+        System.out.println("O novo salario é:" + salario);
+
+
+
+    }
+}

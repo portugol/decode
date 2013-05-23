@@ -1,0 +1,20 @@
+
+import java.util.Scanner;
+
+public class Ex10 {
+
+    public static void main(String[] args) {
+        int li, ls, s;
+        s = 0;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Limite inferior");
+        li = scanner.nextInt();
+        System.out.println("Limite superior");
+        ls = scanner.nextInt();
+        while (li <= ls) {
+            s = s + li;
+            li = li + 1;
+        }
+        System.out.println("" + s);
+    }
+}

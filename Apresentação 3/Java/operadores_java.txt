@@ -1,0 +1,16 @@
+	=		igual	
+	==      	igual igual
+	<       	menor
+	<=      	menor ou igual
+	>		maior
+	>=		maior ou igual
+	!=      	diferente
+
+	&& 		e
+	||      	ou	
+	!       	nao
+
+	%       	resto
+				
+	Math.pow        exponencial
+				

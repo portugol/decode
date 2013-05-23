@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Ex5 {
+
+    public static void main(String[] args) {
+        double a,b,c,diagonal;
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Digite a base");
+        a=scanner.nextDouble();
+        
+        System.out.println("Digite a altura");
+        b=scanner.nextDouble();
+        
+        System.out.println("Digite a profundidade");
+        c=scanner.nextDouble();
+        
+        diagonal=Math.sqrt(a*2 + b*2 + c*2);
+        System.out.println("Diagonal :" + diagonal );
+    }
+}

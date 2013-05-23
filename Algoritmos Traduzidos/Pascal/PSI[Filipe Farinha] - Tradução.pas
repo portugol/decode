@@ -16,7 +16,7 @@ var i, j : Integer;
  --------------------------------------------------------------------------------------------------------------------------------------------------
  2. Programa que calcula a área de um quadrado cujo lado é fornecido pelo utilizador.
  
- Program PRGSquareSide ;
+Program PRGSquareSide ;
 var lado, area : Integer;
  Begin
  	write('Medida do lado do quadrado: ');
@@ -77,7 +77,7 @@ var ano : Integer;
  
  6. Programa que calcula o IMC (Índice de Massa Corporal).
  
- Program PRGIMC ;
+Program PRGIMC ;
 var imc : integer;
  Begin
  	write('Digite o valor do IMC (Índice de Massa Corporal): ');
@@ -141,4 +141,73 @@ var i : Integer;
 	End; 
  End.
  
+ --------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 10. Programa que imprime a soma de todos os numeros inteiros num intervalo introduzido pelo utilizador.
+ 
+Program PRGexample;
+var li, ls, s : Integer;
+ Begin
+ 	write('Limite inferior: ');  
+ 	readln(li); 
+ 	write('Limite superior: '); 
+ 	readln(ls);
+	while (li < ls) do 
+	Begin
+		s := s + li;
+		li := li + 1;
+	End;
+	write(s) ; 
+ End.
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 11. Escreva um programa que coloque no ecrã os primeiros 10 números inteiros
+ 
+Program PrgExample;
+var i : Integer;
+ Begin
+ 	i := 1;
+ 	while(i <= 10)do
+ 	Begin
+ 		writeln(i);
+ 		i := i + 1;
+ 	End;
+ End.
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ 12. Escreva um programa que calcule a soma e o produto dos n primeiros números naturais
+ Program PRGExample;
+var n, num, soma, produto : Integer;
+ Begin
+ 	write('Introduza um numero: ');  
+	readln(num);
+	soma := 0;
+	produto := 1;
+	for n:= produto to  num do
+	Begin
+		soma := soma+n;
+		produto:=produto*n;
+	End;
+	writeln('Soma = ' , soma); 	
+	writeln('Produto = ', produto); 
+ End.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+13. Escreva um programa que solicite ao utilizador um número e escreva em simultâneo a sequência crescente e decrescente entre 1 e esse número 
+
+Program PRGExample ;
+var i, j, n : Integer;
+ Begin
+ 	write('Introduza um número: '); 
+ 	readln(n);
+ 	j := n;
+ 	for i:=1 to n do
+ 	Begin
+ 		writeln(i ,'  ', j);
+ 		j := j-1;
+ 	End;
+ End.
  

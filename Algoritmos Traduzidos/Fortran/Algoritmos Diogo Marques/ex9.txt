@@ -1,0 +1,8 @@
+program numeradorEdenominador
+integer :: num,demon
+print *,"digite o numerador"
+read *,num
+print *,"digite o denominador"
+read *,demon
+print *,"decimal :",num/demon
+end
