@@ -1,0 +1,5 @@
+C:\Users\Ricardo\Documents\SharpDevelop Projects\Tiago Pirina\Algoritmos\bin\Debug\Algoritmos.exe
+C:\Users\Ricardo\Documents\SharpDevelop Projects\Tiago Pirina\Algoritmos\bin\Debug\Algoritmos.pdb
+C:\Users\Ricardo\Documents\SharpDevelop Projects\Tiago Pirina\Algoritmos\obj\Debug\Algoritmos.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Documents\SharpDevelop Projects\Tiago Pirina\Algoritmos\obj\Debug\Algoritmos.exe
+C:\Users\Ricardo\Documents\SharpDevelop Projects\Tiago Pirina\Algoritmos\obj\Debug\Algoritmos.pdb
