@@ -1,0 +1,335 @@
+1-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    float a;
+    float b;
+    a=0.0;
+    a=0.0;
+    printf("digite o primeiro numero");
+    scanf("%f",&a);
+    printf("digite o segundo numero");
+    scanf("%f",&b);
+    if (a<b)
+    {
+        printf("%f %f",a,b);
+    }
+    else
+    {
+        printf("%f %f",b,a);
+    }
+}
+
+
+
+2-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    float a,b;
+    a=0;
+    b=0;
+    printf("Digite primeiro numero");
+    scanf("%f",&a);
+    printf("Digite segundo numero");
+    scanf("%f",&b);
+    if(a<b)
+    {
+        printf("menor: %f",a);
+    }
+    else
+    {
+        printf("menor: %f",b);
+    }
+}
+
+
+
+3-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int idade;
+    idade=0;
+    printf("Digite a sua idade: ");
+    scanf("%d",&idade);
+    if(idade >=18)
+    {
+        printf("maior de idade");
+    }
+    else
+    {
+        printf("menor de idade");
+    }
+}
+
+
+
+4-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    char sexo;
+    float h, peso;
+    h = 0;
+    peso = 0;
+    printf ("Introduza a altura: ");
+    scanf("%f",&h);
+    printf ("Introduza o sexo M/F: ");
+    scanf("%f",&sexo);
+    if (sexo == "M" || sexo == "m")
+    {
+        peso = 72.7 * h - 58;
+    }
+    else
+    {
+        peso = 62.1 * h - 44.7;
+    }
+    printf ("O seu peso ideal e: %f", peso);
+}
+
+
+
+
+5-
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int num;
+    num = 0;
+    printf("Insira um numero de 1 a 12 ");
+    scanf("%d",&num);
+    switch(num)
+    {
+    case 1:
+        printf("Janeiro");
+        break;
+    case 2:
+        printf("Fevereiro");
+        break;
+    case 3:
+        printf("Março");
+        break;
+    case 4:
+        printf("Abril");
+        break;
+    case 5:
+        printf("Maio");
+        break;
+    case 6:
+        printf("Junho");
+        break;
+    case 7:
+        printf("Julho");
+        break;
+    case 8:
+        printf("Agosto");
+        break;
+    case 9:
+        printf("Setembro");
+        break;
+    case 10:
+        printf("Outubro");
+        break;
+    case 11:
+        printf("Novembro");
+        break;
+    case 12:
+        printf("Dezembro");
+        break;
+    default:
+        printf("Mes inexistente ");
+        break;
+    }
+
+}
+
+
+
+
+
+6-
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int numero;
+    numero = 0;
+    printf("Digite um numero ");
+    scanf("%d",&numero);
+    if(numero%3==0)
+    {
+        printf("Multiplo de 3 ");
+    }
+    else
+    {
+        printf("Nao e multiplo de 3 ");
+    }
+}
+
+
+
+7-
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int numero;
+    numero = 0;
+    printf("Digite um numero ");
+    scanf("%d",&numero);
+    if(numero%10==0)
+    {
+        printf("Multiplo de 10 ");
+    }
+    else
+    {
+        if(numero%2==0)
+        {
+            printf("Multiplo de 2 ");
+        }
+        else
+        {
+            if(numero%5==0)
+            {
+                printf("Multiplo de 5 ");
+            }
+            else
+            {
+                printf("Nao e multiplo de 2, 5 nem 10 ");
+            }
+        }
+    }
+}
+
+
+
+8-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int numero;
+    int c;
+    numero=0;
+    c=0;
+    printf("Digite um numero de 3 algarismos ");
+    scanf("%d",&numero);
+    c=numero/100;
+    if (c%2==0)
+    {
+        printf("O algarismo das centenas e par: %d",c);
+    }
+    else
+    {
+        printf("O algarismo das centenas e impar: %d",c);
+
+    }
+}
+
+
+
+
+9-
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int lado1;
+    int lado2;
+    int lado3;
+    lado1=0;
+    lado2=0;
+    lado3=0;
+    printf("Digite o valor do primeiro lado: ");
+    scanf("%d",&lado1);
+    printf("Digite o valor do segundo lado: ");
+    scanf("%d",&lado2);
+    printf("Digite o valor do terceiro lado: ");
+    scanf("%d",&lado3);
+    if(lado3<(lado1+lado2) && lado2<(lado1+lado3) && lado1<(lado2+lado3))
+    {
+        printf("Os lados formam um triangulo");
+
+    }
+    else
+    {
+        printf("Os lados nao formam um triangulo");
+
+
+    }
+}
+
+
+
+
+
+10-
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    float percurso, consumo;
+    char tipo;
+    percurso=0;
+    consumo=0;
+    printf("Seleccione o tipo de carro: (A/B/C) ");
+    scanf("%c",&tipo);
+    printf("Insira o numero de km que deseja efectuar ");
+    scanf("%f",&percurso);
+    if(tipo=='C' || tipo=='c')
+    {
+        consumo=percurso/12;
+    }
+    else
+    {
+        if(tipo=='B' || tipo=='b')
+        {
+            consumo=percurso/10;
+        }
+        else
+        {
+            if(tipo=='A' || tipo=='a')
+            {
+                consumo=percurso/8;
+            }
+            else
+            {
+                consumo=0;
+            }
+        }
+    }
+    if (consumo!=0)
+    {
+        printf("Consumo estimado em litros: %f",consumo);
+
+    }
+    else
+    {
+        printf("Modelo Inexistente");
+    }
+}
+
+
+
+
