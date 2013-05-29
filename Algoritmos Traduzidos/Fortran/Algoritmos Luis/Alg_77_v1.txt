@@ -1,0 +1,15 @@
+program Alg_77_v1
+real :: a
+real :: b
+real quadif
+
+a=0.0
+b=0.0
+
+print *,"introduza 2 valores"
+read *,a
+read *,b
+quadif = (a-b)**2
+print *,"o quadrado da diferença= ",quadif
+end
+

@@ -1,0 +1,23 @@
+package alg_77_v1;
+
+import java.util.Scanner;
+
+public class Alg_77_v1 {
+
+    public static void main(String[] args) {
+      
+      double a;
+      double b;
+      double quadif;
+      Scanner scanner = new Scanner(System.in);
+      a=0.0;
+      b=0.0;
+      System.out.println("introduza dois valores");
+      a=Double.parseDouble(scanner.nextLine());
+      b=Double.parseDouble(scanner.nextLine());
+      
+      quadif=Math.pow((a-b), 2);
+        System.out.println("o quadrado da diferença é "+quadif);
+      
+    }
+}

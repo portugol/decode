@@ -1,0 +1,25 @@
+package alg_volumeparalelepipedo;
+
+import java.util.Scanner;
+
+public class Alg_volumeParalelepipedo {
+
+    public static void main(String[] args) {
+       
+        double lmaior;
+        double lmenor;
+        double altura;
+        double volume;
+        Scanner scanner = new Scanner(System.in);
+        lmaior=0.0;
+        lmenor=0.0;
+        altura=0.0;
+        
+        System.out.println("introduza lado maior, lado menor, e altura por esta ordem");
+        lmaior=Double.parseDouble(scanner.nextLine());
+        lmenor=Double.parseDouble(scanner.nextLine());
+        altura=Double.parseDouble(scanner.nextLine());
+        volume =lmaior*lmenor*altura;    
+        System.out.println("o volume é "+volume);
+    }
+}

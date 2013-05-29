@@ -1,0 +1,20 @@
+package alg_78;
+
+import java.util.Scanner;
+
+public class Alg_78 {
+
+    public static void main(String[] args) {
+       
+        
+        int n;
+        int nd;
+        Scanner scanner = new Scanner(System.in);
+        n=0;
+        System.out.println("digite o numero de lados do poligono");
+        n=scanner.nextInt();
+        nd=(n*(n-3))/2;
+        System.out.println("numero de diagonais "+nd);
+        
+    }
+}

@@ -1,0 +1,12 @@
+program Alg_64
+
+real :: c
+real :: f
+c=0.0
+
+print *,"introduza o valor em graus centigrados"
+read *,c
+f=(9*c+160)/5
+print *,"graus em farenheit :",f
+end
+

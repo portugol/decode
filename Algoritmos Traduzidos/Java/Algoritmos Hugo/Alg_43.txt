@@ -1,0 +1,17 @@
+package alg_43;
+
+import java.util.Scanner;
+
+public class Alg_43 {
+
+    public static void main(String[] args) {
+        double x, logaritmo;
+        Scanner scanner = new Scanner(System.in);
+        x = 0.0;
+        System.out.println("introduza um numero");
+        x = Double.parseDouble(scanner.nextLine());
+        //logaritmo =Math.log(x) / Math.log(10);  seria outra forma de fazer
+        logaritmo=Math.log10(x);
+        System.out.println("o logaritmo base 10 deste numero é:"+logaritmo);
+    }
+}

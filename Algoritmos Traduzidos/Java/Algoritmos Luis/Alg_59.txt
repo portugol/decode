@@ -1,0 +1,22 @@
+package alg_59;
+
+import java.util.Scanner;
+
+public class Alg_59 {
+
+    public static void main(String[] args) {
+    
+        double cateto1;
+        double cateto2;
+        double h;
+        Scanner scanner = new Scanner(System.in);
+        cateto1=0.0;
+        cateto2=0.0;
+        System.out.println("introduza o 1º cateto");
+        cateto1=Double.parseDouble(scanner.nextLine());
+        System.out.println("introduza o 2º cateto");
+        cateto2=Double.parseDouble(scanner.nextLine());
+        h=Math.sqrt((Math.pow(cateto1, 2))+(Math.pow(cateto2, 2)));
+        System.out.println("a hipotenusa é:"+h);
+    }
+}

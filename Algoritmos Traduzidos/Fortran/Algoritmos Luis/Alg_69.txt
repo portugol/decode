@@ -1,0 +1,17 @@
+program Alg_69
+
+real :: num1
+real :: num2
+real :: ndec
+
+num1=0.0
+num2=0.0
+ndec=0.0
+
+print *,"introduza 1º o numerador e de seguida o denominador"
+read *,num1
+read *,num2
+
+ndec=num1/num2
+print *,"numero decimal= ",ndec
+end

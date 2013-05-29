@@ -1,0 +1,21 @@
+package alg_perimetroquadrado;
+
+import java.util.Scanner;
+
+public class Alg_perimetroQuadrado {
+
+    public static void main(String[] args) {
+       
+        
+        double lado;
+        double perimetro;
+        Scanner scanner = new Scanner(System.in);
+        lado=0.0;
+        
+        System.out.println("introduza o valor do lado do quadrado");
+        lado=Double.parseDouble(scanner.nextLine());
+        perimetro=lado*4;
+        System.out.println("perimetro= "+perimetro);
+        
+    }
+}

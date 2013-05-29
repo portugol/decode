@@ -1,0 +1,17 @@
+package alg_38;
+
+import java.util.Scanner;
+
+public class Alg_38 {
+
+    public static void main(String[] args) {
+     double num1;
+     Scanner scanner = new Scanner(System.in);
+     num1=0.0;
+     System.out.println("introduza um numero real");
+     num1=Double.parseDouble(scanner.nextLine());
+     num1=num1/3;
+     System.out.println(num1);
+     
+    }
+}

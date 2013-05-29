@@ -1,0 +1,17 @@
+package alg_64;
+
+import java.util.Scanner;
+
+public class Alg_64 {
+
+    public static void main(String[] args) {
+      
+       double c,f;
+       Scanner scanner = new Scanner(System.in);
+       c=0.0;
+       System.out.println("introduza o valor em graus centigrados");
+       c=Double.parseDouble(scanner.nextLine());
+       f=(9*c+160)/5;
+       System.out.println("graus em farenheit "+f);
+    }
+}

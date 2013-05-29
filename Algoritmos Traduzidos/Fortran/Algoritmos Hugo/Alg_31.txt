@@ -1,0 +1,6 @@
+program alg_31
+
+integer :: ma
+ma=(8+9+7)/3
+print *,"a media é",ma
+end

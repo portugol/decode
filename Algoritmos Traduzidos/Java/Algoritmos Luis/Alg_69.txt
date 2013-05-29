@@ -1,0 +1,22 @@
+package alg_69;
+
+import java.util.Scanner;
+
+public class Alg_69 {
+
+    public static void main(String[] args) {
+       double num1;
+       double num2;
+       double ndec;
+       Scanner scanner = new Scanner(System.in);
+       num1=0.0;
+       num2=0.0;
+       ndec=0.0;
+       System.out.println("introduza o 1º numerador e de seguida o denominador");
+       num1=Double.parseDouble(scanner.nextLine());
+       num2=Double.parseDouble(scanner.nextLine());
+       
+       ndec=num1/num2;
+       System.out.println("numero decimal "+ndec);
+    }
+}

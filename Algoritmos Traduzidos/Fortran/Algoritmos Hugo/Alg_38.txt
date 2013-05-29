@@ -1,0 +1,10 @@
+program Alg_38
+
+real :: num1
+num1=0.0
+print *,"introduza um numero real"
+read *,num1
+num1=num1/3
+
+print *,num1
+end

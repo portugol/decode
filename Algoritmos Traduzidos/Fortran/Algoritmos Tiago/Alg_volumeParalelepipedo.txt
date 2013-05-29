@@ -1,0 +1,19 @@
+program Alg_volumeParalelepipedo
+
+real :: lmaior
+real :: lmenor
+real :: altura
+real :: volume
+
+lmaior=0.0
+lmenor=0.0
+altura=0.0
+
+print *,"introduza o lado maior,o lado menor, e a altura por esta ordem"
+read *,lmaior
+read *,lmenor
+read *,altura
+
+volume =lmaior*lmenor*altura
+print *,"o volume é; ",volume
+end

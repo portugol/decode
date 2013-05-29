@@ -1,0 +1,10 @@
+program Alg_43
+
+real :: x
+real :: logaritmo
+x=0.0
+print *,"introduza um numero"
+read *,x
+logaritmo = log10(x)
+print *,"o logaritmo base 10 deste numero é ",logaritmo
+end

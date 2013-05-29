@@ -1,0 +1,12 @@
+program Alg_78
+
+integer :: n
+integer :: nd
+
+n=0
+
+print *,"digite o numero de lados do poligono"
+read *,n
+nd =(n*(n-3))/2
+print *,"numero de diagonais = ",nd
+end

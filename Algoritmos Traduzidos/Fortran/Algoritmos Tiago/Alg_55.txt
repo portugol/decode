@@ -1,0 +1,17 @@
+program Alg_55
+
+real :: dmenor
+real :: dmaior
+real :: area
+
+dmenor=0.0
+dmaior=0.0
+
+print *,"introduza a diagonal menor"
+read *,dmenor
+print *,"introduza a diagonal maior"
+read *,dmaior
+
+area =(dmenor*dmaior)/2
+print *,"a area é : ",area
+end

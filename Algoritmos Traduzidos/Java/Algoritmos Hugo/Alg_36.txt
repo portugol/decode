@@ -1,0 +1,19 @@
+package alg_36;
+
+import java.util.Scanner;
+
+public class Alg_36 {
+
+    public static void main(String[] args) {
+        int num1,num2,soma;
+        Scanner scanner = new Scanner(System.in);
+        num1=0;
+        num2=0;
+        
+        System.out.println("Introduza os 2 numeros");
+        num1=scanner.nextInt();
+        num2=scanner.nextInt();
+        soma = num1+num2;
+        System.out.println("Soma:" + soma);
+    }
+}

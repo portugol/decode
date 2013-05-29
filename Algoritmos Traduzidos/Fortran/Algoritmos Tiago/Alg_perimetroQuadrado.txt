@@ -1,0 +1,13 @@
+program Alg_perimetroQuadrado
+real :: lado
+real :: perimetro
+
+lado =0.0
+
+print *,"introduza o valor do lado do quandrado"
+read *,lado
+perimetro = lado*4
+
+print *,"perimetro = ",perimetro
+end
+

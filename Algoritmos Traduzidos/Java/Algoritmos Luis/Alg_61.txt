@@ -1,0 +1,20 @@
+package alg_61;
+
+import java.util.Scanner;
+
+public class Alg_61 {
+
+    public static void main(String[] args) {
+        double razao,termo;
+        double quinto;
+        Scanner scanner = new Scanner(System.in);
+        razao=0.0;
+        termo=0.0;
+        System.out.println("introduza o 1ºtermo");
+        termo=Double.parseDouble(scanner.nextLine());
+        System.out.println("introduza a razao");
+        razao=Double.parseDouble(scanner.nextLine());
+        quinto=termo*(Math.pow(razao, 4));
+        System.out.println("o 5º termo desta progressao geometrica é "+quinto);
+    }
+}

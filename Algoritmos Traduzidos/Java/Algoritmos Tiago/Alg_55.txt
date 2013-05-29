@@ -1,0 +1,23 @@
+package alg_55;
+
+import java.util.Scanner;
+
+public class Alg_55 {
+
+    public static void main(String[] args) {
+       
+        double dmenor;
+        double dmaior;
+        double area;
+        Scanner scanner = new Scanner (System.in);
+        dmenor=0.0;
+        dmaior=0.0;
+        System.out.println("introduza a diagonal menor");
+        dmenor=Double.parseDouble(scanner.nextLine());
+        System.out.println("introduza a dagonal maior");
+        dmaior=Double.parseDouble(scanner.nextLine());
+        
+        area=(dmenor*dmaior)/2;
+        System.out.println("a area é :" +area);
+    }
+}

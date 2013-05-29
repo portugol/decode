@@ -1,0 +1,16 @@
+program Alg_60
+
+real :: razao
+real :: termo
+real :: dec
+
+razao=0.0
+termo=0.0
+
+print *,"introduza o 1º termo"
+read *,termo
+print *,"introduza a razao"
+read *,razao
+dec =termo+(9*razao)
+print *,"o 10º termo desta progressao aritmetica e: ",dec
+end

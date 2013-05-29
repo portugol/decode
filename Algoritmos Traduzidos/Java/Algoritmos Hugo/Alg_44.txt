@@ -1,0 +1,21 @@
+package alg_44;
+
+import java.util.Scanner;
+
+public class Alg_44 {
+
+    public static void main(String[] args) {
+       double base;
+       double x;
+       double logaritmo;
+       Scanner scanner = new Scanner(System.in);
+       base=0.0;
+       x=0.0;
+       System.out.println("introduza a base do logaritmo que pretende");
+       base=Double.parseDouble(scanner.nextLine());
+       System.out.println("introduza um numero");
+       x=Double.parseDouble(scanner.nextLine());
+       logaritmo=Math.log(x)/Math.log(base);
+       System.out.println("o logaritmo base "+base+" deste numero é:"+logaritmo);
+    }
+}

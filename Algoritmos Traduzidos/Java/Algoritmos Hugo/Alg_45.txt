@@ -1,0 +1,19 @@
+package alg_45;
+
+import java.util.Scanner;
+
+public class Alg_45 {
+
+    public static void main(String[] args) {
+      double x;
+      double raizquad;
+      double quad;
+      Scanner scanner = new Scanner(System.in);
+      x=0.0;
+      System.out.println("introduza um numero");
+      x=Double.parseDouble(scanner.nextLine());
+      raizquad=Math.sqrt(x);
+      quad=x*x;
+      System.out.println("a raiz quadrada é:"+raizquad+" e o quadrado é:"+quad);
+    }
+}

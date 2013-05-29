@@ -1,0 +1,22 @@
+package alg_perimetrorectangulo;
+
+import java.util.Scanner;
+
+public class Alg_perimetroRectangulo {
+
+    public static void main(String[] args) {
+        double base;
+        double altura;
+        double perimetro;
+        Scanner scanner = new Scanner(System.in);
+        base=0.0;
+        altura=0.0;
+        System.out.println("base:");
+        base=Double.parseDouble(scanner.nextLine());
+        System.out.println("altura:");
+        altura=Double.parseDouble(scanner.nextLine());
+        
+        perimetro=2*(base+altura);
+        System.out.println("area = "+perimetro );
+    }
+}

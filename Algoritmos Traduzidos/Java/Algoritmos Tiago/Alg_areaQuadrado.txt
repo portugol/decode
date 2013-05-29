@@ -1,0 +1,19 @@
+package alg_areaquadrado;
+
+import java.util.Scanner;
+
+public class Alg_areaQuadrado {
+
+    public static void main(String[] args) {
+      
+        double lado;
+        double area;
+        Scanner scanner = new Scanner(System.in);
+        lado=0.0;
+        System.out.println("introduza o valor do lado do quadrado");
+        lado=Double.parseDouble(scanner.nextLine());
+        area=lado*lado;
+        System.out.println("area= "+area);
+        
+    }
+}

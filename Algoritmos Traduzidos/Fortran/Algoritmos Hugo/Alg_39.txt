@@ -1,0 +1,15 @@
+program Alg_39
+
+real :: num1
+real :: num2
+integer :: media
+
+num1=0.0
+num2=0.0
+print *,"introduza 2 numeros"
+read *,num1
+read *,num2
+media =(num1+num2)/2
+print *,"media = ",media
+end
+

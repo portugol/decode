@@ -1,0 +1,16 @@
+package alg_46;
+
+import java.util.Scanner;
+
+public class Alg_46 {
+
+    public static void main(String[] args) {
+      double saldo;
+      double nsaldo;
+      Scanner scanner = new Scanner(System.in);
+      saldo=0.0;
+      saldo=Double.parseDouble(scanner.nextLine());
+      nsaldo=saldo*1.01;
+      System.out.println("o novo saldo é:"+nsaldo);
+    }
+}

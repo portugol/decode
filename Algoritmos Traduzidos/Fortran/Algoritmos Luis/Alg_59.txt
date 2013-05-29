@@ -1,0 +1,16 @@
+program alg_59
+
+real :: cateto1
+real :: cateto2
+real :: h
+
+cateto1=0.0
+cateto2=0.0
+
+print *,"introduza o 1º cateto"
+read *,cateto1
+print *,"introduza o 2º cateto"
+read *,cateto2
+h=SQRT((cateto1**2)+(cateto2**2))
+print *,"a hipotenusa é ",h
+end

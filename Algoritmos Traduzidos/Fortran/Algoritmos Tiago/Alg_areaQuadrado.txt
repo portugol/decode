@@ -1,0 +1,12 @@
+program Alg_areaQuadrado
+
+real :: lado
+real :: area
+lado=0.0
+
+print *,"introduza o valor do lado do quadrado"
+read *,lado
+area =lado*lado
+print *,"area = ",area
+end
+

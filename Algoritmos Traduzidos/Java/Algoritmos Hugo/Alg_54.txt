@@ -1,0 +1,19 @@
+package alg_54;
+
+import java.util.Scanner;
+
+public class Alg_54 {
+
+    public static void main(String[] args) {
+      double base,altura,area;
+      Scanner scanner = new Scanner(System.in);
+      base=0.0;
+      altura=0.0;
+      System.out.println("introduza a base");
+      base=Double.parseDouble(scanner.nextLine());
+      System.out.println("introduza a altura");
+      altura=Double.parseDouble(scanner.nextLine()); 
+      area=(base*altura)/2;
+      System.out.println("a area é:"+area);
+    }
+}

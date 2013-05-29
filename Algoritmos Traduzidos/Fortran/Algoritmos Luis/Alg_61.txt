@@ -1,0 +1,17 @@
+program Alg_61
+
+real :: razao
+real :: termo
+real :: quinto
+
+razao=0.0
+termo=0.0
+
+print *,"introduza o 1º termo"
+read *,termo
+print *,"introduza a razao"
+read *,razao
+
+quinto=termo*(razao**4)
+print *,"o 5º termmo desta progressao geometrica é ",quinto
+end

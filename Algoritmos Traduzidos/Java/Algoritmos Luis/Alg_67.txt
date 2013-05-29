@@ -1,0 +1,28 @@
+package alg_67;
+
+import java.util.Scanner;
+
+public class Alg_67 {
+
+    public static void main(String[] args) {
+        
+        double valor;
+        double taxa;
+        double tempo;
+        double prest;
+        Scanner scanner = new Scanner(System.in);
+        valor=0.0;
+        taxa=0.0;
+        tempo=0.0;
+        System.out.println("introduza o valor da prestação");
+        valor=Double.parseDouble(scanner.nextLine());
+        System.out.println("introduza a taxa");
+        taxa=Double.parseDouble(scanner.nextLine());
+        System.out.println("introduza o numero de meses em atraso");
+        tempo=Double.parseDouble(scanner.nextLine());
+        prest=valor+(valor*(taxa/100)*tempo);
+        System.out.println("a prestação em atraso é "+prest);
+        
+        
+    }
+}

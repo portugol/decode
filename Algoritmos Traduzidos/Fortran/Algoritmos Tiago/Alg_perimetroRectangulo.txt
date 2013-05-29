@@ -1,0 +1,17 @@
+program Alg_perimetroRectangulo
+
+real :: base
+real :: altura
+real :: perimetro
+
+base=0.0
+altura=0.0
+
+print *,"base:"
+read *,base
+print *,"altura:"
+read *,altura
+
+perimetro=2*(altura+base)
+print *,"perimetro = ",perimetro
+end

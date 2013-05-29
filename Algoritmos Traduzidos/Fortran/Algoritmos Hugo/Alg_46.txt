@@ -1,0 +1,11 @@
+program alg_46
+
+real :: saldo
+real :: nsaldo
+
+saldo =0.0
+print *,"introduza o saldo"
+read *,saldo
+nsaldo=saldo*1.01
+print *,"o novo saldo é ",nsaldo
+end

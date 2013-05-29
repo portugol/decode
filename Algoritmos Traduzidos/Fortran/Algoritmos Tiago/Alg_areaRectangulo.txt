@@ -1,0 +1,15 @@
+program Alg_areaRectangulo
+
+real :: base
+real :: altura
+base=0.0
+altura=0.0
+
+print *,"base :"
+read *,base
+print *,"altura :"
+read *,altura
+
+area =base*altura
+print *,"area = ",area
+end

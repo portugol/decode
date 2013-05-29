@@ -1,0 +1,18 @@
+program Alg_potencia
+
+real :: b
+real :: p
+real :: res
+
+b=0.0
+p=0.0
+res=0.0
+
+print *,"intriduza a base"
+read *,b
+print *,"introduza a potencia"
+read *,p
+
+res =b**p
+print *,"o resultado da potencia é : ",res
+end

@@ -1,0 +1,16 @@
+program Alg_77_v2
+real :: a
+real :: b
+real difquad
+
+a=0.0
+b=0.0
+
+print *,"introduza 2 valores"
+read *,a
+read *,b
+difquad = (a**2)-(b**2)
+print *,"a diferença dos quadrados= ",difquad
+end
+
+

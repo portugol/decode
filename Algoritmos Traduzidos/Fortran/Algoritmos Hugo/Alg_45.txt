@@ -1,0 +1,13 @@
+program Alg_45
+
+real :: x
+integer :: raizquad
+integer :: quad
+
+x=0.0
+print *,"introduza um numero"
+read *,x
+raizquad = SQRT(x)
+quad =x*x
+print *,"a raiz quadrada é ",raizquad," e o quadrado é",quad
+end

@@ -1,0 +1,20 @@
+package alg_39;
+
+import java.util.Scanner;
+
+public class Alg_39 {
+
+    public static void main(String[] args) {
+       double num1,num2;
+       double media;
+       Scanner scanner = new Scanner(System.in);
+       num1=0.0;
+       num2=0.0;
+       
+        System.out.println("introduza os 2 numeros");
+        num1=Double.parseDouble(scanner.nextLine());
+        num2=Double.parseDouble(scanner.nextLine());
+        media = (num1+num2)/2;
+        System.out.println("media:"+media);
+    }
+}

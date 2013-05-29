@@ -1,0 +1,10 @@
+package alg_31;
+public class Alg_31 {
+
+    public static void main(String[] args) {
+       int ma;
+       ma=0;
+       ma=(8+9+7)/3;
+        System.out.println("a media e:" + ma);
+    }
+}

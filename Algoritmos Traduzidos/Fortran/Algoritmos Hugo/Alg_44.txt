@@ -1,0 +1,15 @@
+program Alg_44
+
+real :: base
+real :: x
+real :: logaritmo
+base=0.0
+x=0.0
+
+print *,"introduza a base do logaritmo que pretende"
+read *,base
+print *,"introduza um numero"
+read *,x
+logaritmo = log(x)/log(base)
+print *,"o logaritmo base ",base,"deste numero é ",logaritmo
+end
