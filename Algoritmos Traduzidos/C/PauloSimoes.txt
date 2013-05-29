@@ -4,7 +4,25 @@
 
 
 
-2-
+
+2- 
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+int mes;
+mes=0;
+do {
+    printf("Introduza um mes: ");
+    scanf("%d",&mes);
+}while(mes <1 || mes >12);
+printf("\nmes introduzido: %d",mes);
+}
+
+
+
+3-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -43,13 +61,15 @@ void main()
 
 
 
-3-
+4-
 #include <stdio.h>
 #include <stdlib.h>
 
 void main()
 {
-    int contador=0;
+    int contador;
+contador =0;
+contador = 1;
     while(contador<=100){
         printf("%d \t",contador);
         contador=contador+2;
@@ -57,9 +77,29 @@ void main()
 }
 
 
+5-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    float num;
+    printf("DIGITE UM NUMERO OU -999 PARA TERMINAR");
+    scanf("%f",&num);
+    while(num<-999 || num>-999)
+    {
+        printf("TRIPLO: %f",num*3);
+        printf("\n DIGITE UM NUMERO OU -999 PARA TERMINAR");
+        scanf("%f",&num);
+    }
+}
 
 
-4-
+
+
+
+
+6-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -92,7 +132,7 @@ void main()
 
 
 
-5-
+7-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -113,7 +153,11 @@ void main()
 
 
 
-6-
+
+
+
+
+8-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -143,16 +187,59 @@ void main()
 
 
 
-7-
+9-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int sabor;
+    sabor=0;
+    do
+    {
+        printf("Escolha um sabor de sorvete: \n");
+        printf("1- Morango\n");
+        printf("2- Abacaxi \n");
+        printf("3- Chocolate\n");
+        printf("4- Caramelo\n");
+        printf("5- Salada de frutas\n");
+        scanf("%d",&sabor);
+    }
+    while(sabor<1 || sabor >5);
+    switch(sabor)
+    {
+    case 1:
+        printf("Voce escolheu Morango");
+        break;
+    case 2:
+        printf("Voce escolheu Abacaxi");
+        break;
+    case 3:
+        printf("Voce escolheu Chocolate");
+        break;
+    case 4:
+        printf("Voce escolheu Caramelo");
+        break;
+    case 5:
+        printf("Voce escolheu Salada de Frutas");
+        break;
+    default:
+        printf("Sabor invalido");
+    }
+}
+
+
+
+
+
+10-
 
 
 
 
 
 
-
-
-8-
+11-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -173,6 +260,35 @@ void main()
 }
 
 
+12-
+#include <stdio.h>
+#include <stdlib.h>
 
+void main()
+{
+    int n[3][3];
+    int l;
+    int c;
+    int t;
+    l=0;
+    c=0;
+    t=0;
+    for(l=0; l<=2; l++)
+    {
+        for(c=0; c<=2; c++)
+        {
+            printf("\nIntroduza o elemento linha %d coluna %d :",l+1,c+1);
+            scanf("%d",&n[l][c]);
+        }
+    }
+    printf("\n Diagonal Principal \n");
+    for(l=0; l<=2; l++)
+    {
+        printf("%d \n", n[l][l]);
+    }
+    for(t=0; t<=l; t++)
+    {
+        printf("\t");
+    }
+}
 
-9-
