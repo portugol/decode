@@ -1,0 +1,214 @@
+1-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int i, j;
+	for (i=1; i=5; i++)
+	{
+		for (j=1; j=i; j++)
+		{
+			printf ("*");
+		}		
+		printf ("\n");
+	}
+}
+
+
+2-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int lado, area;
+	printf ("Medida do lado do quadrado: ");
+	scanf ("%i", &lado);
+	printf ("\n");
+	area = lado * lado;
+	printf ("A area do quadrado é: %i", area);	
+}
+
+
+3-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int numero;
+	printf ("Digite um numero: ");
+	scanf ("%i", &numero);
+	if ( numero > 0)
+	{
+		printf ("positivo");
+	}
+	else
+	{
+		if ( numero < 0)
+		{
+			printf ("negativo");
+		}
+		else
+		{
+			printf ("nulo");
+		}
+	}
+	
+}
+
+
+4-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int n;
+	printf ("Digite um número: ");
+	scanf ("%i", &n);
+	if ( n%2 == 0)
+	{
+		printf ("Número par");
+	}
+	else
+	{
+		printf ("Número ímpar");
+	}
+	
+}
+
+
+5-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int ano;
+	printf (" Digite um ano: ");
+	scanf ("%i", &ano);
+	if (ano % 400 = 0) 
+	{
+		printf ("Ano bisisexto");
+	}
+	else
+	{
+		if (ano % 4 = 0) && (ano % 100 != 0)
+		{
+			printf ("Ano bisisexto");
+		}
+		else
+		{
+			printf ("Ano comum");
+		}
+	}
+}
+
+
+6-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{	
+	int imc;
+	printf ("Digite o valor do IMC (Índice de Massa Corporal): ");
+	scanf ("%i", &imc);
+	if ( imc < 20 )
+	{
+		printf ("Abaixo do peso");
+	}
+	else
+	{
+		if (imc >= 20 && imc <= 24) 
+		{
+			printf ("Peso ideal");
+		}
+		else
+		{
+			if (imc >= 25 && imc <= 39) 
+			{
+				printf ("Excesso de peso");
+			}
+			else
+			{
+				if (imc >= 30 && imc <= 39) 
+				{
+					printf ("Obesidade");
+				}
+				else
+				{
+					if ( imc > 39 )
+					{
+						printf ("Obesidade mórbida");
+					}
+					else
+					{
+						printf ("Valor inválido");
+					}
+				}
+			}
+		}
+	}	
+}
+
+
+7-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{	
+	int i, t, j = 1;
+	printf ("Tabuada a mostrar: ");
+	scanf ("%i", &t);
+	j = t
+	for (i=1; i==10; i++)
+	{
+		printf ("%i", i, " * ","%i", j, " = ","%i", i * j, "\n");
+	}
+	
+}
+
+
+8-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int i, numero, factorial;
+	printf ("Digite um numero: ");
+	scanf ("%i", &numero);
+	factorial = 1;
+	for (i=1; i==numero; i++)
+	{
+		factorial = factorial * i;
+	}
+	printf ("%i", numero, "! = %i", factorial);	
+}
+
+
+
+
+
+10-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int li, ls, s;
+	printf ("Limite inferior: ");
+	scanf ("%i", &li);
+	printf ("Limite superior: ");
+	scanf ("%i", &ls);
+	while (li <= ls) do
+	{
+		s = s + li;
+		li = li + 1;
+	}
+	printf ("%i", s);
+}

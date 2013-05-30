@@ -1,0 +1,164 @@
+1-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    char sexo;
+    float h;
+    float peso;
+    printf("Digite a altura:");
+    scanf("%f",&h);
+    printf("digite o sexo (M ou F):");
+    scanf("%c",&sexo);
+    if (sexo=="M" || sexo=="m")
+    {
+		peso = 72.7 * h - 58;
+    }
+    else
+    {
+        peso = 62.1 * h - 44.7;
+    }
+	printf("O seu peso ideal é: %f", peso);
+}
+
+2-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int i
+	for (i=0; i==100; i++)
+	{
+		printf("%i",i);
+	}
+}
+
+3-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int d
+	int a
+	printf ("Digite o numero de tres casas:");
+	scanf ("%i", &a);
+	d = &a / 10 % 10;
+	printf ("Algarismo na casa das dezenas: %i", &d);
+}
+
+4-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int a;
+	int b;
+	printf("Digite o numero de tres casas:");
+	scanf ("%i", &a);
+	d = a % 100 / 10;
+	printf(" ");
+	printf("Algarismo na casa das dezenas: %i",d);
+}
+
+5-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	float a;
+	float b;
+	float c;
+	float diagonal;
+	printf ("Digite a base:");
+	scanf ("%f",&a);
+	printf ("Digite a altura:");
+	scanf ("%f",&b);
+	printf ("Digite a profundidade:");
+	scanf ("%f",&c);
+	diagonal = sqrt(a*2+b*2+c*2);
+	printf ("Diagonal: %f", diagonal);
+}
+
+6-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	float diagmaior;
+	float diagmenor;
+	float area;
+	printf ("Medida da diagonal maior:");
+	scanf ("%f",&diagmaior);
+	printf ("Medida da diagonal menor:");
+	scanf ("%f",&diagmenor);
+	area = (diagmaior * diagmenor)/2;
+	printf ("Area: %f", area);
+}
+
+7-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int quinto;
+	int razao
+	int termo
+	printf ("Entre com o 1º termo:");
+	scanf ("%i", &termo);
+	printf ("Entre com a razao:");
+	scanf ("%i",&razao);
+	quinto = termo * razao^4;
+	printf ("5ºtermo desta PG é: %f", quinto);
+}
+
+8-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	float preco;
+	float npreco;
+	printf ("Digite o vlaor do produto:");
+	scanf ("%f", &preco);
+	npreco = preco*0.91;
+	printf ("Preço com desconto: %f", npreco);
+}
+
+9-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	int num;
+	int demon;
+	printf ("Digite o numerador:");
+	scanf ("%i", &num);
+	printf ("Digite o denominador:");
+	scanf ("%i", &demon);
+	printf ("Decimal: %i", num/demon);
+}
+
+10-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+	float numero;
+	printf ("Digite o numero:");
+	scanf ("%f", &numero);
+	if (numero>20)
+	{
+		printf ("%f", numero");
+	}
+}
+	

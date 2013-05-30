@@ -1,0 +1,139 @@
+1-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	int ma=0;
+	ma=(8+9+7)/3;
+	printf ("a media é: %i", ma);
+}
+
+2-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	int num1=0;
+	int num2=0;
+	int soma;
+	printf ("Introduza 2 numeros:");
+	scanf ("%i %i", &num1, &num2);
+	soma = num1+num2;
+	printf ("Soma: %i", soma);
+}
+
+3-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	int num1;
+	int num2;
+	int produto;
+	printf ("Introduza 2 numeros:");
+	scanf ("%i", &num1);
+	scanf ("%i", &num2);
+	produto = num1*num2;
+	printf ("Produto: %i", produto);
+}
+
+4-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	float num1;
+	num = 0.0;
+	printf ("Introduza um numero real: ");
+	scanf ("%f", &num1);
+	num1 = num1/3;
+	printf ("Terceira parte é: %f", num1);
+}
+
+5-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	float num1=0.0;
+	float num2=0.0;
+	int media;
+	printf ("Introduza 2 numeros:");
+	scanf ("%f", &num1);
+	scanf ("%f", &num2);
+	media = (num1+num2)/2;
+	printf ("Media: %i", media);
+}
+
+6-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	float x=0.0;
+	int logaritmo;
+	printf ("intrduza um numero);
+	scanf ("%f", &x);
+	logaritmo=log(x)/log(10);
+	printf ("O logaritmo base 10 deste numero é: %i", logaritmo);
+}
+
+7-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	int base=0;
+	float x=0.0;
+	int logaritmo;
+	printf ("Introduza a base do logaritmo que pretende calcular");
+	scanf ("%i", base);
+	printf ("Introduza um numero");
+	scanf ("%f", x);
+	logaritmo=log(x)/log(base);
+	printf("O logaritmo base 10 deste numero é: %i", logaritmo);
+}
+
+8-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	float x=0.0;
+	int raizquad;
+	int quad;
+	printf ("Introduza um numero");
+	scanf ("%f",&x);
+	raizquad=sqrt(x);
+	quad=x*x;
+	printf("A raiz quadrada é: %i", raizquad, "e o quadrado é: %i", quad);
+}
+
+9-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload saldo=0.0;
+	int nsaldo;
+	printf ("introduza o saldo: ");
+	scanf ("%f",&saldo);
+	nsaldo=saldo*1.01;
+	printf ("o novo saldo é : %f",nsaldo);
+}
+
+10-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload base0.0;
+	fload altura=0.0;
+	int area;
+	printf "introduza a base";
+	scanf ("%f",&base);
+	printf "introduza a altura";
+	scanf ("%f",&altura);
+	area=(base*altura)/2;
+	printf ("A area é :%i", area);
+}

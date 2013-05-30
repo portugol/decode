@@ -1,0 +1,137 @@
+1-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload cateto1=0.0;
+	fload cateto2=0.0;
+	int h;
+	printf ( "introduza o 1º cateto " );
+	scanf ( "%f",&cateto1 );
+	printf ( "introduza o 2º cateto " );
+	scanf ( "%f",&cateto2 );
+	h=raiz((cateto1^2)+(cateto2^2));
+	printf ( "a hipotenusa é %i",h);
+}
+
+2-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload razao=0.0;
+	fload termo=0.0;
+	int dec;
+	printf ( "introduza o 1º termo");
+	scanf ( "%f",&termo);
+	printf ( "introduza a razao");
+	scanf ( "%f",&razao);
+	dec= termo + (9*razao);
+	printf ( "O 10º termo desta progressão aritmética é: %i",dec);
+}
+
+3-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload razao=0.0;
+	fload termo=0.0;
+	int quinto;
+	printf ( "introduza o 1º termo");
+	scanf ( "%f",&termo);
+	printf ( "introduza a razao");
+	scanf ( "%f",&razao);
+	quinto=termo * (razao^4);
+	printf ( "O 5º termo desta progressão geométrica é: %i",quinto);
+}
+
+4-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload c=0.0;
+	int f;
+	printf ( "introduza o valor em graus centígrados ");
+	scanf ( "%f",&c);
+	f=(9*c+160)/5;
+	printf ( "graus farenheit = %i",f);
+}
+
+5-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload valor=0.0;
+	fload taxa=0.0;
+	int tempo=0;
+	int prest;
+	printf ( "introduza o valor da prestação");
+	scanf ( "%f",&valor);
+	printf ( "introduza a taxa ");
+	scanf ( "%f",&taxa);
+	printf ( "introduza o numero de meses em atraso ");
+	scanf ( "%i",&tempo);
+	prest=valor+(valor*(taxa/100)*tempo);
+	printf ( "A prestação em atraso é %i",prest);
+}
+
+6-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload num1=0.0;
+	fload num2=0.0;
+	int ndec=0;
+	printf ( "introduza 1º o numerador e de seguida o denominador:");
+	scanf ( "%f",&num1);
+	scanf ( "%f",&num2);
+	ndec = num1 / num2;
+	printf ( "numero decimal = %i" , ndec);
+}
+
+7-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload a=0.0;
+	fload b=0.0;
+	int quadif;
+	printf ( "introduza dois valores");
+	scanf ( "%f",&a);
+	scanf ( "%f",&b);
+	quadif=(a-b)^2;
+	printf ( "o quadrado da diferença = %i",quadif);
+}
+
+8-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload a=0.0;
+	fload b=0.0;
+	int difqua;
+	printf ( "introduza dois valores");
+	scanf ( "%f",&a);
+	scanf ( "%f",&b);
+	difqua=(a^2)-(b^2);
+	printf ( "a diferença dos quadrados = %i",difqua);
+}
+
+9-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	int n=0;
+	int nd;
+	printf ( "digite o numero de lados do poligono: ");
+	scanf ( "%f",&n);
+	nd=(n*(n-3))/2;
+	printf ( "numero de diagonais = %i",nd);
+}

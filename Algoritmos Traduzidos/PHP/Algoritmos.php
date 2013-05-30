@@ -62,22 +62,23 @@
 
 4-
 <?php
-$P=$_POST['T1'];
-$NUM1=$_POST['T2'];
-$NUM=$_POST['T1'];
-$NUM1=1;
-echo "DIGITE UM NUMERO:";
-$P=$NUM1*($NUM1+1)*($NUM1+2);
-while($P<$NUM){
+ $P=$_POST['T1'];
+ $NUM1=$_POST['T2'];
+ $NUM=$_POST['T1'];
+ $NUM1=1;
+ echo "DIGITE UM NUMERO:";
+ $P=$NUM1*($NUM1+1)*($NUM1+2);
+ while($P<$NUM)
+ { 
 	$NUM1=$NUM1+1;
 	$P=$NUM1*($NUM1+1)*($NUM1+2);
-}
-if($P==$NUM)
-{
+ }
+	if($P==$NUM)
+ {
 	echo "TRIANGULAR";
-}
-else
-{
+ }
+	else
+ {
 	echo "NAO TRIANGULAR";
-}
+ }
 ?>

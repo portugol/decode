@@ -1,0 +1,103 @@
+1-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload dmenor=0.0;
+	fload dmaior=0.0;
+	fload area;
+	printf ( "introduza a diagonal menor" );
+	scanf ( "%f",&dmenor);
+	printf ( "introduza a diagonal maior");
+	scanf ( "%f",&dmaior);
+	area= (dmenor*dmaior)/2;
+	printf ( "A area é : %f", area);
+}
+
+
+2-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+	fload lado=0.0;
+	inteiro area;
+	printf ( "introduza o valor do lado do quadrado :");
+	scanf ( "%f",&lado);
+	area = lado *lado;
+	printf ( "area = %i",area);
+}
+
+3-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+	fload base=0.0;
+	fload altura=0.0;
+	inteiro area;
+	printf ( "base: ");
+	scanf ( "%f",&base);
+	printf ( "altura :");
+	scanf ( "%f",&altura);
+	area=2*(base+altura);
+	printf ( "area = %i",area);
+}
+
+
+4-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+	fload lado=0.0;
+	inteiro perimetro;
+	printf ( "introduza o valor do lado do quadrado :");
+	scanf ( "%f",&lado);
+	perimetro = lado *4;
+	printf ( "perimetro = %i",perimetro);
+}
+
+5-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+	fload base=0.0;
+	fload altura=0.0;
+	inteiro perimetro;
+	printf ( "base: ");
+	scanf ( "%f",&base);
+	printf ( "altura :");
+	scanf ( "%f",&altura);
+	perimetro=2*(base+altura);
+	printf ( "perimetro = %i",perimetro);
+}
+
+6-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+	inteiro b=0;
+	inteiro p=0;
+	inteiro res=0;
+	printf ( "introduza a base: ");
+	scanf ( "%i",&b);
+	printf ( "introduza a potencia: ");
+	scanf ( "%i",&p);
+	res = b ^ p;
+	printf ( "o resultado da potencia é: %i" , res);
+}
+
+7-
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+	fload lmaior=0.0;
+	fload lmenor=0.0;
+	fload altura=0.0;
+	inteiro volume;
+	printf ( "introduza lado maior  lado menor e a altura por esta ordem");
+	scanf ( "%f",&lmaior);
+	scanf ( "%f",&lmenor);
+	scanf ( "%f",&altura);
+	volume=lmaior*lmenor*altura;
+	printf ( "o volume é :%i", volume);
+}
