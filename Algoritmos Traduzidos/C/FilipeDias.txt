@@ -1,0 +1,225 @@
+1-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int num, c;
+    printf("\nnumero de 4 algarismos: ");
+    scanf("%d",&num);
+    c=num/100;
+    if((c%4)==0)
+    {
+        printf("\no numero e multiplo de 4: ",c);
+    }
+    else
+    {
+        printf("\no numero nao e multiplo de 4: ",c);
+
+    }
+    printf("\n");
+}
+
+
+
+2-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    float num;
+    printf("\ndigite numero:");
+    scanf("%f",&num);
+    if (num>20 && num<90)
+    {
+        printf("\no numero esta na faixa de 20 a 90, exclusive");
+    }
+    else
+    {
+        printf("\no numero esta fora da faixa de 20 a 90");
+
+    }
+    printf("\n");
+}
+
+
+
+3-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    float numero;
+    printf("\nDigite numero: ");
+    scanf("%f",&numero);
+    if (numero>20)
+    {
+        printf("\nmaior que 20");
+    }
+    else
+    {
+        if (numero<20)
+        {
+            printf("\nmenor que 20");
+        }
+        else
+        {
+            printf("\nigual a 20");
+        }
+    }
+    printf("\n");
+}
+
+
+
+103-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int anon, anoa;
+    printf("\nInsira o ano corrente: ");
+    scanf("%d",&anoa);
+    printf("\nInsira o ano de nascimento:");
+    scanf("%d",&anon);
+    if (anon>anoa)
+    {
+        printf("\nAno de Nascimento invalido");
+    }
+    else
+    {
+        printf("\n Idade: %d",anoa-anon);
+    }
+    printf("\n");
+}
+
+
+
+104-
+
+
+
+
+
+
+
+105-
+
+
+
+
+
+106-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int n;
+    int num;
+    int fat;
+    n=0;
+    num=0;
+    fat=0;
+    printf("\nEste programa calcula N factorial");
+    printf("\nDigite o valor para ser calculado:");
+    scanf("%d",&num);
+    if(num>=0)
+    {
+        fat=1;
+        n=num;
+        while(n>0)
+        {
+            fat=fat*n;
+            n=n-1;
+        }
+        printf("O numero factorial de %d e %d",num,fat);
+    }
+    else
+    {
+        printf("O calculo do fact aplica-se somente aos numeros naturais");
+    }
+    printf("\n");
+}
+
+
+
+
+108-
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int mes;
+    printf("Insira o Mes qm que nasceu de 1 a 12 ");
+    scanf("%d",&mes);
+    if (mes <1 || mes > 12)
+    {
+        printf("Insira um mes valido! ");
+    }
+    else
+        printf("\n Mes introduzido: %d",mes);
+}
+
+
+
+
+109-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int peso;
+    int ex;
+    int m;
+    ex=0;
+    m=0;
+    m=4;
+    printf(" insira o peso dos peixes: ");
+    scanf("%d",&peso);
+    if (peso>50)
+    {
+        ex=peso-50;
+        ex=ex*m;
+        printf("tem de pagar %d euros pelo excedente de peixe apanhado",ex);
+    }
+    else
+    {
+        printf(" nao precisa de pagar multa");
+    }
+}
+
+
+
+110-
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    float a;
+    float b;
+    float x;
+    a=0.0;
+    b=0.0;
+    x=0.0;
+    printf("\n escreva o valor de a: ");
+    scanf("%f",&a);
+    printf("\n escreva o valor de b: ");
+    scanf("%f",&b);
+    if(a!=0)
+    {
+        x=(b*(-1))/a;
+        printf("O valor de x e: %f",x);
+    }
+    else
+    {
+        printf("nao existe zero.");
+    }
+}
