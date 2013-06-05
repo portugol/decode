@@ -1,0 +1,13 @@
+Assembly - emu8086
+C# - SharpDevelop 4.3
+C - CodeBlocks
+C++ - CodeBlocks
+Fortran - Plato_Fortran
+Java - NetBeans
+JavaScript - Browser
+Lua - SciTE_Lua
+Pascal - Pzim
+Perl - Padre, the Perl IDE
+Python - IDLE
+Ruby - JetBrains RubyMine 5.4.1
+Visual Basic - Microsoft Visual Studio 2010
