@@ -1,6 +1,5 @@
 2 – Imprimir todos os numero de 1 ate 100
 
-Program PrgNume_1_100;
 var i: Integer;
  Begin
  	for i := 1 to 100 do
@@ -12,7 +11,6 @@ var i: Integer;
  --------------------------------------------------------------------------------------
  3 – Entrar com um número inteiro de 3 casas e imprimir o algarismo da casa das dezenas
  
-Program PrgNum_3_casas;
 var d, a: Integer;
  Begin
  	write('Digite o numero de três casas: ');  
@@ -24,7 +22,6 @@ var d, a: Integer;
  --------------------------------------------------------------------------------------
  5 – Entrar com os lados a, b , c de um paralelepípedo. Calcular e imprimir a diagonal.
  
-Program PrgParalelepípedo;
 var a, b, c, diagonal : Real;
  Begin
  	write('Digite a base: ');
@@ -41,7 +38,6 @@ var a, b, c, diagonal : Real;
  
 6 - Crie um algoritmo que calcule e imprima a área de um losango
 
-Program PrgAreaLosango;
 var diagmaior, diagmenor, area : Real;
  Begin
  	write('Medida da diagonal maior: ') ;
@@ -56,7 +52,6 @@ var diagmaior, diagmenor, area : Real;
  
   7 - Entrar com a razão de uma PG e o valor do 1º termo. Calcular e imprimir o 5º termo da serie.
   
-  Program Prg5Termo;
 var  
 	razao, termo : Integer;
 	quinto : Real;
@@ -72,7 +67,6 @@ var
  
  8 – Faça um algoritmo que possa entrar com o valor de um produto e imprima o novo tendo em vista um desconto de 9%
  
-Program PrgDesconto;
 var preco, npreco : Real;
  Begin
  	write('Digite o valor do produto: ') ;
@@ -83,7 +77,6 @@ var preco, npreco : Real;
  --------------------------------------------------------------------------------------
  9- Criar um algoritmo que leia o numerador e denominador de uma fracção e transformá-lo em um número decimal
  
-Program PrgFracTranDec;
 var num, demon : Integer;
  Begin 
  	write('Digite o numerador: '); 
@@ -97,13 +90,15 @@ var num, demon : Integer;
  
  10 – Entrar com o número e imprimi-lo caso seja maior que 20
 
-Program PrgFracTranDec;
+
 var numero : Real;
  Begin 
  	write('Digite o número: ');
 	readln(numero);
 	If(numero > 20)Then  
+	Begin
 		writeln(numero);
+	End;
  End.
  
  
