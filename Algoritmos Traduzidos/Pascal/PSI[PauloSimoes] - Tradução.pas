@@ -97,7 +97,7 @@ var p, num1, num : Integer;
 		write('Não triangular');
 	End;
  End.
- 
+ ------------------------------------------
 5-Elabore um algoritmo que simule uma contagem regressiva de 30 segundos, ou seja, mostre 10:00, e então 
 9:59, 9:58, ..., 9:30 
 Algoritmo – Contagem regressiva
@@ -114,6 +114,9 @@ var min, seg : Integer;
 		End;
 	End;  
  End.
+ 
+Nota: Não entra
+-----------------------------------------
  
  6- Desenvolva um algoritmo que calcule o valor de n a partir da seguinte expressão matemática:
 
