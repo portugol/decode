@@ -1,5 +1,5 @@
 
-;10. Fazer um algoritmo que leia o percurso em quilómetros, o tipo do carro e informe 
+;10. Fazer um algoritmo que leia o percurso em quilometros, o tipo do carro e informe 
 ;    o consumo estimado de combustivel, sabendo-se que um carro tipo C faz 12km com 
 ;    um litro de gasolina, um tipo B faz 9km e o tipo C, 8km por litro.      
 
@@ -27,47 +27,64 @@ code segment
         
 start:                        
         mov ax,data
-        mov ds,ax 
-           
+        mov ds,ax
+         
+    ;print str1           
         mov ah,09h
         lea dx,str1
         int 21h
-        
+    
+    ;read tipo    
         mov ah,0ah
 		lea dx,tipo 
 		int 21h 
-		
+	
+	;mudar de linha	
 		mov ah,09h
         lea dx,newline
         int 21h         
-            
+               
+    ;print str2           
         mov ah,09h
         lea dx,str2
         int 21h
-        
+    
+    ;read dist    
         mov ah,0ah
 		lea dx,dist 
 		int 21h 
-		
+	
+	;mudar de linha	
 		mov ah,09h
         lea dx,newline
         int 21h
-                                
+              
+    ;limpar variaveis                            
         xor ax, ax
         xor bx, bx 
-		xor cx, cx
+		xor cx, cx    
 		
+	;BL = tipo[0]
 		mov bl, tipo[2] 
+	
+	;guardar em DI o primeiro caracter de tipo
 		mov di, bx
-
+	
+	;inicializar o contador SI a 2 
 		mov si, 02h
-		
+	
+	;BL = dist.length
 		mov bl, dist[1] 
+	
+	;CL = Bl
 		mov cl, bl
+	
+	;verificar se CL = 0, se for, salta para o fim
 		cmp cl, 0
 		jz fim
 
 lop:	 
+	;colocar o valor decimal de dist em AL
         mov bl, dist[si]
 	    add al, bl
 	    sub al, 30h
@@ -83,10 +100,14 @@ lop:
 	    
 	    jmp lop 
 	    
-carroc:    
+carroc:   
+	;colocar em SI o valor decimal de dist
         mov si, ax
+	
+	;limpar o registo DX
         xor dx, dx
-        
+    
+    ;verificar se o valor em DI Ã© um 'c' ou 'C'
         cmp di, 'c'
         je nextc   
         cmp di, 'C'

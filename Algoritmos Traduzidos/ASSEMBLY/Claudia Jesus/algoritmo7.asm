@@ -36,19 +36,19 @@ start:
         mov ah, 0ah
 		lea dx, num 
 		int 21h 
-		          
+		
 	;mudar de linha	          
 		mov ah, 09h
         lea dx, newline
         int 21h  
-		              
+		
 	;limpar registos	         
 		xor ax, ax 
 		xor cx, cx
 		
 	;inicializar o contador SI a 2		
 		mov si, 02h
-		                          
+	
 	;BL = num.length	                            
 		mov bl, num[1]
 	
