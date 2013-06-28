@@ -1,0 +1,34 @@
+REPETIÇÃO
+
+Create an algorithm that writes a number from 1 to 10.
+
+Create an algorithm that asks for a positive number.
+
+Filipe Farinha
+
+10
+Create an algorithm that prints the sum of all integers in a range inserted by the user.
+
+
+Paulo Simões
+
+2
+Create an algorithm that allows the user to insert his or hers birth month. The algorithm can only finish if the month is valid (between 1 and 12).
+
+3
+A user requests for the execution of the algorithm “weather station” and types the number corresponding the chosen station. The algorithm only continues when the chosen option is valid (between 1 and 5).
+
+4
+Create an algorithm that prints all odd numbers from 1 to 100.
+
+6
+Create an algorithm that asks for a number then prints if it is a triangular number.
+
+7
+Create an algorithm that simulates a countdown of 10 minutes, in other words, prints 10:00, 9:59, 9:58, ..., 9:00; 8:59, 8:58... until 0:00.
+
+8
+Develop an algorithm that calculates the value of N from the following mathematical expression:
+
+11
+Given a country A with 5.000.000 inhabitants and a yearly birthrate of 3%, and a country B with 7.000.000 inhabitants and a yearly birthrate of 2%, calculate and print the amount of time required for the population of country A  to surpass the population of country B.
