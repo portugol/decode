@@ -1,0 +1,270 @@
+100-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num, c;
+    cout<<"\n numero de 4 algarismos: ";
+    cin>>num;
+    c=num/100;
+    if((c%4)==0)
+    {
+        cout<<"\no numero e multiplo de 4: "<<c;
+    }
+    else
+    {
+        cout<<"\no numero nao e multiplo de 4: "<<c;
+
+    }
+    cout<<"\n";
+}
+
+
+101-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+float num;
+    cout<<"\ndigite numero:";
+    cin>>num;
+    if (num>20 && num<90)
+    {
+        cout<<"\no numero esta na faixa de 20 a 90, exclusive";
+    }
+    else
+    {
+        cout<<"\no numero esta fora da faixa de 20 a 90";
+
+    }
+    cout<<"\n";
+}
+
+102-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float numero;
+    cout<<"\nDigite numero: ";
+    cin>>numero;
+    if (numero>20)
+    {
+        cout<<"\nmaior que 20";
+    }
+    else
+    {
+        if (numero<20)
+        {
+            cout<<"\nmenor que 20";
+        }
+        else
+        {
+            cout<<"\nigual a 20";
+        }
+    }
+    cout<<"\n";
+}
+
+
+103-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int anon, anoa;
+    cout<<"\nInsira o ano corrente: ";
+    cin>>anoa;
+    cout<<"\nInsira o ano de nascimento:";
+    cin>>anon;
+    if (anon>anoa)
+    {
+        cout<<"\nAno de Nascimento invalido";
+    }
+    else
+    {
+        cout<<"\n Idade: "<<anoa-anon;
+    }
+    cout<<"\n";
+}
+
+
+
+104-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int idade;
+    string nome, sexo;
+    cout<<"\n Digite nome: ";
+    cin>>nome;
+    cout<<"\n Digite sexo(m/f): ";
+    cin>> sexo;
+    cout<<"\n Digite idade: ";
+    cin>> idade;
+    if((sexo=="F" || sexo=="f") && idade<25)
+    {
+        cout<<"\n "<<nome<<" ACEITA";
+    }
+    else
+    {
+        cout<<"\n "<<nome<<" Nao ACEITA";
+
+    }
+    cout<<"\n";
+}
+
+
+
+
+105-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string sigla;
+    cout<<"\n Digite Sigla: ";
+    cin>>sigla;
+    if(sigla=="RJ" || sigla=="rj")
+    {
+        cout<<"\n Carioca";
+    }
+    else
+    {
+        if(sigla=="SP" || sigla=="sp")
+        {
+            cout<<"\n Paulista";
+        }
+        else
+        {
+            if(sigla=="MG" || sigla=="mg")
+            {
+                cout<<"\n Minas Gerais";
+            }
+            else
+            {
+                cout<<"\n Outros estados";
+            }
+        }
+    }
+    cout<<"\n";
+}
+
+
+
+
+106-
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    int num;
+    int fat;
+    n=0;
+    num=0;
+    fat=0;
+    cout<<"\nEste programa calcula N factorial";
+    cout<<"\nDigite o valor para ser calculado:";
+    cin>>num;
+    if(num>=0)
+    {
+        fat=1;
+        n=num;
+        while(n>0)
+        {
+            fat=fat*n;
+            n=n-1;
+        }
+        cout<<"O numero factorial de "<<num<<" e "<<fat;
+    }
+    else
+    {
+        cout<<"O calculo do fact aplica-se somente aos numeros naturais";
+    }
+    cout<<"\n";
+}
+
+
+108- 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int mes;
+    cout<<"Insira o Mes qm que nasceu de 1 a 12 ";
+    cin>>mes;
+    if (mes <1 || mes > 12)
+    {
+        cout<<"Insira um mes valido! ";
+    }
+    else
+        cout<<"\n Mes introduzido: "<<mes;
+}
+
+
+
+109-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int peso;
+    int ex;
+    int m;
+    ex=0;
+    m=0;
+    m=4;
+    cout<<" insira o peso dos peixes: ";
+    cin>>peso;
+    if (peso>50)
+    {
+        ex=peso-50;
+        ex=ex*m;
+        cout<<"tem de pagar "<<ex<<" euros pelo excedente de peixe apanhado";
+    }
+    else
+    {
+        cout<<" nao precisa de pagar multa";
+    }
+}
+
+
+110-
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a;
+    float b;
+    float x;
+    a=0.0;
+    b=0.0;
+    x=0.0;
+    cout<<"\n escreva o valor de a: ";
+    cin>>a;
+    cout<<"\n escreva o valor de b: ";
+    cin>>b;
+    if(a!=0)
+    {
+        x=(b*(-1))/a;
+        cout<<"O valor de x e: "<<x;
+    }
+    else
+    {
+        cout<<"nao existe zero.";
+    }
+}

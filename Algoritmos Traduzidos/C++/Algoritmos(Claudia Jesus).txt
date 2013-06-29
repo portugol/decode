@@ -1,0 +1,307 @@
+1-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a;
+    float b;
+    a=0.0;
+    a=0.0;
+    cout<<"digite o primeiro numero";
+    cin>>a;
+    cout<<"digite o segundo numero";
+    cin>>b;
+    if (a<b)
+    {
+        cout<<a<<" "<<b;
+    }
+    else
+    {
+        cout<<b<<" "<<a;
+    }
+}
+
+
+2-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float a,b;
+    a=0;
+    b=0;
+    cout<<"Digite primeiro numero: ";
+    cin>>a;
+    cout<<"Digite segundo numero: ";
+    cin>>b;
+    if(a<b)
+    {
+        cout<<"menor: "<<a;
+    }
+    else
+    {
+        cout<<"menor: "<<b;
+    }
+}
+
+
+3-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int idade;
+    idade=0;
+    cout<<"Digite a sua idade: ";
+    cin>>idade;
+    if(idade >=18)
+    {
+        cout<<"maior de idade";
+    }
+    else
+    {
+        cout<<"menor de idade";
+    }
+}
+
+
+4-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char sexo;
+    float h, peso;
+    h = 0;
+    peso = 0;
+    cout<<"Introduza a altura: ";
+    cin>>h;
+    cout<<"Introduza o sexo M/F: ";
+    cin>>sexo;
+    if (sexo == 'M' || sexo == 'm')
+    {
+        peso = 72.7 * h - 58;
+    }
+    else
+    {
+        peso = 62.1 * h - 44.7;
+    }
+    cout<<"O seu peso ideal e: "<< peso;
+}
+
+
+5-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ int num;
+    num = 0;
+    cout<<"Insira um numero de 1 a 12 ";
+    cin>>num;
+    switch(num)
+    {
+    case 1:
+        cout<<"Janeiro";
+        break;
+    case 2:
+        cout<<"Fevereiro";
+        break;
+    case 3:
+        cout<<"Março";
+        break;
+    case 4:
+        cout<<"Abril";
+        break;
+    case 5:
+        cout<<"Maio";
+        break;
+    case 6:
+        cout<<"Junho";
+        break;
+    case 7:
+        cout<<"Julho";
+        break;
+    case 8:
+        cout<<"Agosto";
+        break;
+    case 9:
+        cout<<"Setembro";
+        break;
+    case 10:
+        cout<<"Outubro";
+        break;
+    case 11:
+        cout<<"Novembro";
+        break;
+    case 12:
+        cout<<"Dezembro";
+        break;
+    default:
+        cout<<"Mes inexistente ";
+        break;
+    }
+}
+
+
+
+6-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int numero;
+    numero = 0;
+    cout<<"Digite um numero ";
+    cin>>numero;
+    if(numero%3==0)
+    {
+        cout<<"Multiplo de 3 ";
+    }
+    else
+    {
+        cout<<"Nao e multiplo de 3 ";
+    }
+}
+
+7-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int numero;
+    numero = 0;
+    cout<<"Digite um numero ";
+    cin>>numero;
+    if(numero%10==0)
+    {
+        cout<<"Multiplo de 10 ";
+    }
+    else
+    {
+        if(numero%2==0)
+        {
+            cout<<"Multiplo de 2 ";
+        }
+        else
+        {
+            if(numero%5==0)
+            {
+                cout<<"Multiplo de 5 ";
+            }
+            else
+            {
+                cout<<"Nao e multiplo de 2, 5 nem 10 ";
+            }
+        }
+    }
+}
+
+
+8-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int numero;
+    int c;
+    numero=0;
+    c=0;
+    cout<<"Digite um numero de 3 algarismos ";
+    cin>>numero;
+    c=numero/100;
+    if (c%2==0)
+    {
+        cout<<"O algarismo das centenas e par: "<<c;
+    }
+    else
+    {
+        cout<<"O algarismo das centenas e impar: "<<c;
+
+    }
+}
+
+
+9-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int lado1;
+    int lado2;
+    int lado3;
+    lado1=0;
+    lado2=0;
+    lado3=0;
+    cout<<"Digite o valor do primeiro lado: ";
+    cin>>lado1;
+    cout<<"Digite o valor do segundo lado: ";
+    cin>>lado2;
+    cout<<"Digite o valor do terceiro lado: ";
+    cin>>lado3;
+    if(lado3<(lado1+lado2) && lado2<(lado1+lado3) && lado1<(lado2+lado3))
+    {
+        cout<<"Os lados formam um triangulo";
+    }
+    else
+    {
+        cout<<"Os lados nao formam um triangulo";
+    }
+}
+
+
+10-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float percurso, consumo;
+    char tipo;
+    percurso=0;
+    consumo=0;
+    cout<<"Seleccione o tipo de carro: (A/B/C) ";
+    cin>>tipo;
+    cout<<"Insira o numero de km que deseja efectuar ";
+    cin>>percurso;
+    if(tipo=='C' || tipo=='c')
+    {
+        consumo=percurso/12;
+    }
+    else
+    {
+        if(tipo=='B' || tipo=='b')
+        {
+            consumo=percurso/10;
+        }
+        else
+        {
+            if(tipo=='A' || tipo=='a')
+            {
+                consumo=percurso/8;
+            }
+            else
+            {
+                consumo=0;
+            }
+        }
+    }
+    if (consumo!=0)
+    {
+        cout<<"Consumo estimado em litros: "<<consumo;
+    }
+    else
+    {
+        cout<<"Modelo Inexistente";
+    }
+}
+

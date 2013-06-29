@@ -130,3 +130,162 @@ int main()
     }
 }
 
+7-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int MIN;
+    int SEG;
+    cout<<"10:00";
+    for(MIN=9; MIN>=0; MIN--)
+    {
+        for(SEG=59; SEG>=30; SEG--)
+        {
+            cout<<"\t";
+            cout<<MIN<<":"<<SEG;
+        }
+    }
+}
+
+8- 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int k;
+    int n;
+    float pi=0;
+    cout<<"Digite o valor de n ";
+    cin>>n;
+    for(k=0; k<=n; k++)
+    {
+        if (k%2==0)
+        {
+            pi=pi+1/(2*k+1);
+        }
+        else
+        {
+            pi=pi-1/(2*k+1);
+        }
+    }
+    pi=4*pi;
+    cout<<"O valor de pi e "<< pi;
+}
+
+9-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int sabor;
+    sabor=0;
+    do
+    {
+        cout<<"Escolha um sabor de sorvete: \n";
+        cout<<"1- Morango\n";
+        cout<<"2- Abacaxi \n";
+        cout<<"3- Chocolate\n";
+        cout<<"4- Caramelo\n";
+        cout<<"5- Salada de frutas\n";
+        cin>>sabor;
+    }
+    while(sabor<1 || sabor >5);
+    switch(sabor)
+    {
+    case 1:
+        cout<<"Voce escolheu Morango";
+        break;
+    case 2:
+        cout<<"Voce escolheu Abacaxi";
+        break;
+    case 3:
+        cout<<"Voce escolheu Chocolate";
+        break;
+    case 4:
+       cout<<"Voce escolheu Caramelo";
+        break;
+    case 5:
+        cout<<"Voce escolheu Salada de Frutas";
+        break;
+    default:
+        cout<<"Sabor invalido";
+    }
+}
+
+
+10-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string nomes[10];
+    int l;
+    l=0;
+    for(l=0; l<=9; l++)
+    {
+        cout<<"\n Digite "<<l+1<<" nome: ";
+        cin>> nomes[l];
+    }
+    for (l=0; l<=9; l++)
+    {
+        cout<<"\n "<<nomes[l];
+    }
+}
+
+
+11-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ int anos;
+    float a;
+    float b;
+    a= 5000000;
+    b=7000000;
+    while(a<=b)
+    {
+        a=a*1.03;
+        b=b*1.02;
+        anos=anos+1;
+    }
+    cout<<"\nANOS: "<<anos;
+}
+
+12-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n[3][3];
+    int l;
+    int c;
+    int t;
+    l=0;
+    c=0;
+    t=0;
+    for(l=0; l<=2; l++)
+    {
+        for(c=0; c<=2; c++)
+        {
+            cout<<"\nIntroduza o elemento linha "<<l+1<<" coluna "<<c+1<<" :";
+            cin>>n[l][c];
+        }
+    }
+    cout<<"\n Diagonal Principal \n";
+    for(l=0; l<=2; l++)
+    {
+        cout<< n[l][l]<<"\n";
+    }
+    for(t=0; t<=l; t++)
+    {
+        cout<<"\t";
+    }
+}
