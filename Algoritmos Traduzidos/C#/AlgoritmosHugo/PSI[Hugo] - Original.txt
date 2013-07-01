@@ -1,0 +1,140 @@
+Alg_31
+Criar um algoritmo que imprima a média aritmética entre os números 8, 9 e 7.
+
+inicio
+	inteiro ma
+	ma<-0
+	ma<-(8+9+7)/3
+	escrever "a media é ",ma 
+fim
+
+------------------------------------------------------------------------
+
+Alg_36
+Ler dois números inteiros e imprimir a soma. Antes do resultado, deverá aparecer a mensagem: Soma.
+
+inicio
+	inteiro num1
+	inteiro num2
+	inteiro soma
+	num1<-0
+	num2<-0
+	escrever "introduza 2 numeros:"
+	ler num1
+	ler num2
+	soma<- num1+num2
+	escrever "soma :", soma
+fim
+------------------------------------------------------------------------
+Alg_37
+Ler dois números inteiros e imprimir o produto.
+
+Nota: Fluxograma em falta.
+------------------------------------------------------------------------
+Alg_38
+Ler um número real e imprimir a terça parte deste número.
+
+inicio
+	real num1
+	num1<-0.0
+	escrever "introduza um numero real: "
+	ler num1
+	num1<-num1/3
+	escrever num1
+fim
+------------------------------------------------------------------------
+Alg_39
+Entrar com dois números reais e imprimir a média aritmética com a mensagem "média " antes do resultado.
+
+inicio
+	real num1
+	real num2
+	inteiro media
+	num1<-0.0
+	num2<-0.0
+	escrever "introduza 2 numeros:"
+	ler num1
+	ler num2
+	media<- (num1+num2)/2
+	escrever "média :", media
+fim
+------------------------------------------------------------------------
+Alg_43
+Entrar com um número e imprimir o logaritmo desse número na base 10.
+
+inicio
+	real x
+	inteiro logaritmo
+	x<-0.0
+	escrever "introduza um numero"
+	ler x
+	logaritmo<-log(x)/log(10)
+	escrever "o logaritmo base 10 deste numero é :",logaritmo
+fim
+------------------------------------------------------------------------
+Alg_44
+Entrar com o número e a base em que se deseja calcular o logaritmo desse núme¬ro e imprimi-lo.
+
+inicio
+	inteiro base
+	real x
+	inteiro logaritmo
+	base<-0
+	x<-0.0
+	escrever "introduza a base do logaritmo que pretende"
+	ler base
+	escrever "introduza um numero"
+	ler x
+	logaritmo<-log(x)/log(base)
+	escrever "o logaritmo base 10 deste numero é :",logaritmo
+fim
+------------------------------------------------------------------------
+Alg_45
+Entrar com um número e imprimir a seguinte saída:
+
+numero: 
+quadrado: 
+raiz quadrada:
+
+inicio
+	real x
+	inteiro raizquad
+	inteiro quad
+	x<-0.0
+	escrever "introduza um numero :"
+	ler x
+	raizquad <- raiz(x)
+	quad<- (x*x)
+	escrever "a raiz quadrada é :", raizquad, " e o quadrado é: ", quad 
+fim
+------------------------------------------------------------------------
+Alg_46
+Fazer um algoritmo que possa entrar com o saldo de uma aplicação e imprima o novo saldo, considerando o reajuste de 1%.
+
+inicio
+	real saldo
+	inteiro nsaldo
+	saldo<- 0.0
+	escrever "introduza o saldo: "
+	ler saldo
+	nsaldo <- saldo*1.01
+	escrever "o novo saldo é :",nsaldo
+fim
+------------------------------------------------------------------------
+Alg_54
+Criar um algoritmo que calcule e imprima a área de um triangulo.
+
+inicio
+	real base
+	real altura
+	inteiro area
+	base<-0.0
+	altura<-0.0
+	escrever "introduza a base"
+	ler base
+	escrever "introduza a altura"
+	ler altura
+	area<- (base*altura)/2
+	escrever "A area é :", area
+fim
+------------------------------------------------------------------------

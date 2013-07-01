@@ -1,0 +1,5 @@
+C:\Users\Ricardo\Desktop\Hugo\AlgoritmosHugo\AlgoritmosHugo\bin\Debug\AlgoritmosHugo.exe
+C:\Users\Ricardo\Desktop\Hugo\AlgoritmosHugo\AlgoritmosHugo\bin\Debug\AlgoritmosHugo.pdb
+C:\Users\Ricardo\Desktop\Hugo\AlgoritmosHugo\AlgoritmosHugo\obj\Debug\AlgoritmosHugo.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\Hugo\AlgoritmosHugo\AlgoritmosHugo\obj\Debug\AlgoritmosHugo.exe
+C:\Users\Ricardo\Desktop\Hugo\AlgoritmosHugo\AlgoritmosHugo\obj\Debug\AlgoritmosHugo.pdb
