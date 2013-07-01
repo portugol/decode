@@ -1,0 +1,150 @@
+Alg_59
+Entrar com os valores dos catetos de um triângulo retângulo e imprimir a hipotenusa.
+
+inicio
+	real cateto1
+	real cateto2
+	inteiro h
+	cateto1<-0.0
+	cateto2<-0.0
+	escrever "introduza o 1º cateto "
+	ler cateto1
+	escrever "introduza o 2º cateto "
+	ler cateto2
+	h<- raiz((cateto1^2)+(cateto2^2))
+	escrever "a hipotenusa é ",h
+fim
+------------------------------------------------------------------------
+Alg_60
+Entrar com a razão de uma PA e o valor do 1º termo. Calcular e imprimir o 10º termo da série.
+
+inicio
+	real razao
+	real termo
+	inteiro dec
+	razao<-0.0
+	termo<-0.0
+	escrever "introduza o 1º termo"
+	ler termo
+	escrever "introduza a razao"
+	ler razao
+	dec<- termo + (9*razao)
+	escrever "O 10º termo desta progressão aritmética é: ",dec
+fim
+------------------------------------------------------------------------
+Alg_61
+Entrar com a razão de urna PG e o valor do 1º termo. Calcular e imprimir o 5° ter¬mo da série.
+
+inicio
+	real razao
+	real termo
+	inteiro quinto
+	razao<-0.0
+	termo<-0.0
+	escrever "introduza o 1º termo"
+	ler termo
+	escrever "introduza a razao"
+	ler razao
+	quinto<- termo * (razao^4)
+	escrever "O 5º termo desta progressão geométrica é: ",quinto
+fim
+------------------------------------------------------------------------
+Alg_64
+Ler uma temperatura em graus centígrados e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: F = (9.C+160)/5 onde F é a temperatura em Fahrenheit e C é a temperatura ern centígrados.
+
+inicio
+	real c
+	inteiro f
+	c<-0.0
+	escrever "introduza o valor em graus centígrados "
+	ler c
+	f<-(9*c+160)/5
+	escrever "graus farenheit = ",f
+fim
+------------------------------------------------------------------------
+Alg_67
+Efetuar o cálculo do valor de uma prestação em atraso, utilizando a fórmula: 
+prestação = valor + (valor* (taxa/100)*tempo).
+
+inicio
+	real valor
+	real taxa
+	inteiro tempo
+	inteiro prest
+	valor<-0.0
+	taxa<-0.0
+	tempo<-0
+	escrever "introduza o valor da prestação"
+	ler valor
+	escrever "introduza a taxa "
+	ler taxa
+	escrever "introduza o numero de meses em atraso "
+	ler tempo
+	prest<-valor+(valor*(taxa/100)*tempo)
+	escrever "A prestação em atraso é ",prest
+fim
+------------------------------------------------------------------------
+Alg_69
+Criar um algoritmo que leia o numerador  e o denominador de uma fração e trans¬formá-lo em um número decimal.
+
+inicio
+	real num1
+	real num2
+	inteiro ndec
+	num1 <- 0.0
+	num2 <- 0.0
+	ndec <- 0
+	num1 <- 0.0
+	num2 <- 0.0
+	escrever "introduza 1º o numerador e de seguida o denominador:"
+	ler num1
+	ler num2
+	ndec <- num1 / num2
+	escrever "numero decimal = " , ndec
+fim
+------------------------------------------------------------------------
+Alg_77_v1
+Ler dois números reais e imprimir o quadrado da diferença do primeiro valor pelo segundo 
+
+inicio
+	real a
+	real b
+	inteiro quadif
+	a<-0.0
+	b<-0.0
+	escrever "introduza dois valores"
+	ler a
+	ler b
+	quadif<-(a-b)^2
+	escrever "o quadrado da diferença = ",quadif
+fim
+------------------------------------------------------------------------
+Alg_77_v2
+Ler dois números reais e imprimir a diferença dos quadrados.
+
+inicio
+	real a
+	real b
+	inteiro difqua
+	a<-0.0
+	b<-0.0
+	escrever "introduza dois valores"
+	ler a
+	ler b
+	difqua<-(a^2)-(b^2)
+	escrever "a diferença dos quadrados = ",difqua
+fim
+------------------------------------------------------------------------
+Alg_78
+Dado um polígono convexo de n lados, podemos calcular o número de diagonais diferentes (nd) desse polígono pela fórmula : nd = n (n - 3 ) / 2. Fazer um algorit¬mo que leia quantos lados tem o polígono, calcule e escreva o número de diago¬nais diferentes (nd) do mesmo.
+
+inicio
+	inteiro n
+	inteiro nd
+	n<-0
+	escrever "digite o numero de lados do poligono: "
+	ler n
+	nd<-(n*(n-3))/2
+	escrever "numero de diagonais = ",nd
+fim
+------------------------------------------------------------------------

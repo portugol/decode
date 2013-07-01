@@ -1,0 +1,5 @@
+C:\Users\Ricardo\Desktop\Luis\AlgoritmosLuis\AlgoritmosLuis\bin\Debug\AlgoritmosLuis.exe
+C:\Users\Ricardo\Desktop\Luis\AlgoritmosLuis\AlgoritmosLuis\bin\Debug\AlgoritmosLuis.pdb
+C:\Users\Ricardo\Desktop\Luis\AlgoritmosLuis\AlgoritmosLuis\obj\Debug\AlgoritmosLuis.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\Luis\AlgoritmosLuis\AlgoritmosLuis\obj\Debug\AlgoritmosLuis.exe
+C:\Users\Ricardo\Desktop\Luis\AlgoritmosLuis\AlgoritmosLuis\obj\Debug\AlgoritmosLuis.pdb
