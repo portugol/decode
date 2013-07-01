@@ -1,0 +1,117 @@
+DECISÃO
+
+
+Verificar se um número introduzido pelo utilizador é par.
+
+
+
+Filipe Farinha
+
+3
+Programa que verifica se um número fornecido pelo utilizador é positivo, negativo ou nulo.
+
+
+4
+Programa que verifica se um dado número é par ou ímpar.
+
+
+5
+Programa que verifica se um ano é comum ou bissexto.
+
+
+6
+Programa que calcula o IMC (Índice de Massa Corporal).
+
+
+Filipe Dias
+
+100
+Ler um número inteiro de 4 casa e imprimir se é ou não múltiplo de quatro o número formado pelos algarismos que estão nas casas das unidades de milhar e das centenas.
+
+
+101
+Construir um algoritmo que indique se o número digitado está compreendido entre 20 e 90 ou não.
+
+
+102
+Entrar com um número e imprimir uma das mensagens: maior do que 20, igual a 20 ou menor do que 20.
+
+
+103
+Entrar com o ano de nascimento de uma pessoa e o ano atual. Imprimir a idade da pessoa. Não se esqueça de verificar se o ano de nascimento é um ano válido.
+
+
+104
+Entrar com nome, sexo e idade de uma pessoa. Se a pessoa for do sexo feminino e tiver menos de 25 anos, imprimir nome e a mensagem: ACEITA.Caso contrário, imprimir nome e mensagem: NÃO ACEITA (Considerar f ou F).
+
+
+105
+Entrar com a sigla do estado de uma pessoa e imprimir uma das seguintes mensagens:
+•	Carioca
+•	Paulista
+•	Mineiro
+•	Outros estados
+
+
+108
+Implemente um algoritmo que permite a introdução do número do mês do nascimento.
+
+
+109
+João é pescador e cada vez que ele traz um peso de peixes (kg) maior que o estabelecido pelo regulamento europeu de pesca (50kg), deverá pagar uma multa de 4 Euros por quilo excedente. Assim, João precisa que desenvolva um algoritmo que leia a variável P (peso de peixes) e verifique se há excesso. Se houver, gravar na variável E (excesso) e na variável M (multa) o valor da multa que João deverá pagar.
+
+
+110
+Construa o fluxograma que permite o cálculo do zero da equação ax+b=0.
+
+
+Claudia Jesus
+
+1
+Entrar com dois números e imprimi-los em ordem crescente (suponha números diferentes).
+
+
+2
+Entrar com dois números e imprimir o número menor (suponha números diferentes).
+
+
+3
+Entrar com a idade de uma pessoa e informar:
+•	Se é maior de idade;
+•	Se é menor de idade;
+•	Se é maior de 65 anos;
+
+
+4
+Segundo uma tabela médica, o peso ideal está relacionado com a altura e o sexo.
+Fazer um algoritmo que receba a altura e o sexo de uma pessoa, calcular e imprimir o seu peso ideal, utilizando as seguintes fórmulas:
+•	para homens:  (72.7 * H) - 58
+•	para mulheres: (62.1 * H) - 44.7
+
+
+6
+Entrar com um número e imprimir uma das mensagens: é múltiplo de 3 ou não é múltiplo de 3.
+
+
+7
+Entrar com um número e informar se ele é divisível por 10, por 5, por 2 ou se não é divisível por nenhum destes.
+
+
+8
+Ler um número inteiro de 3 casas decimais e imprimir se o algarismo da casa das centenas é par ou ímpar.
+
+
+9
+Escreva um algoritmo que solicite ao usuário que digite os tamanhos de três lados de um triângulo e informe se os lados de fato compõem um triângulo. Lembre-se de que, em um triângulo, cada lado é menor que a soma dos outros dois lados.
+
+
+Fazer um algoritmo que leia o percurso em quilómetros, o tipo do carro e informe o consumo estimado de combustível, sabendo-se que um carro tipo C faz 12km com um litro de gasolina, um tipo B faz 9km e o tipo C, 8km por litro.
+
+
+
+Paulo Simões
+
+1
+
+Construa um algoritmo que permite actualizar o salário de uma equipa de profissionais. O gerente deverá ser aumentando em 3%, o técnico em 5% e as restantes classes trabalhadores em 1%.
+
