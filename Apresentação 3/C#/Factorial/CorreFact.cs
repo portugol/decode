@@ -17,21 +17,18 @@ namespace Factorial
 	{
 		public static void Main(string[] args)
 		{
-			Int64 i;
-			i = Int64.Parse(Console.ReadLine());
-			Int64 result;
-			result = Factory(i);
-			Console.WriteLine(result);
-			Console.ReadLine();		
+			int i;
+			i = int.Parse(Console.ReadLine());
+			int result;
+			result = Fact(i);
+			Console.WriteLine(result);	
 		}
-		public static Int64 Factory(Int64 i)
-		{
-			Int64 res;
-			res = i;
-			while(i!=1){
-				res = res * (i-1);
-				i--;
-			}return res;
+		public static int Fact(int k){
+		if (k>2){
+        		return k=k*Fact(k-1);
+		}else{
+				return k;
 		}
+	}
 	}
 }
