@@ -1,0 +1,34 @@
+Alg_31
+Create an algorithm that prints the arithmetic mean between the numbers 8 , 9 and 7.
+------------------------------------------------------------------------
+
+Alg_36
+Create an algorithm that that reads two integers and prints the sum. Before the result the message 'Sum' should be shown on screen.
+------------------------------------------------------------------------
+Alg_37
+Read two integers and print the product.
+------------------------------------------------------------------------
+Alg_38
+Create an algorithm that reads a real number and prints one third of that number.
+------------------------------------------------------------------------
+Alg_39
+Create an algorithm that inserts two real numbers and prints their arithmetic mean with the message "mean" before the result.
+------------------------------------------------------------------------
+Alg_43
+Create an algorithm that asks for a number then prints the base 10 logarithm of a number.
+------------------------------------------------------------------------
+Alg_44
+Create an algorithm that asks for a number and a base then prints the logarithm of a number.
+------------------------------------------------------------------------
+Alg_45
+Create an algorithm that asks for a number then prints:
+Number:
+Square:
+Square Root:
+------------------------------------------------------------------------
+Alg_46
+Create an algorithm that asks for the balance then prints the balance after a reajustment of 1%.
+------------------------------------------------------------------------
+Alg_54
+Create an algorithm that calculates and prints the area of a triangle.
+------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+Alg_59
+Create an algorithm that asks for the cathetus then prints the hipotenuse of a triangle.
+------------------------------------------------------------------------
+Alg_60
+Create an algorithm that asks for the difference and the value of the first term then prints the tenth term of an arithmetic progression.
+------------------------------------------------------------------------
+Alg_61
+Create an algorithm that asks for the difference and the value of the first term then prints the fifth term of a geometric progression.
+------------------------------------------------------------------------
+Alg_64
+Create an algorithm that reads a temperature in Celcius and converts it to Fahrenheit. The formula used in the conversion is: F = (9.C+160)/5 where F is the temperature in Fahrenheit and C is the temperature in Celcius.
+------------------------------------------------------------------------
+Alg_67
+Create an algorithm that calculates the value of an overdue installment, using the formula:
+installment = value + (value* (rate/100)*time).
+------------------------------------------------------------------------
+Alg_69
+Create an algorithm that that reads the numerator and the denominator of a fraction and prints it as a decimal number.
+------------------------------------------------------------------------
+Alg_77_v1
+Create an algorithm that reads two real numbers and prints the difference between the first and second value.
+------------------------------------------------------------------------
+Alg_77_v2
+Create an algorithm that reads two real numbers and prints the difference of squares of those numbers.
+------------------------------------------------------------------------
+Alg_78
+Given a convex polygon with n sides, we can calculate the number of different diagonals (nd) of that polygon using the formula: nd = n (n-3) / 2. Create an algorithm that that reads how many sides a polygon has then calculate and print the number of different diagonals (nd) it has.
+------------------------------------------------------------------------

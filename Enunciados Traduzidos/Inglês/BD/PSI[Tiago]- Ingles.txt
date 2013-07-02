@@ -1,0 +1,20 @@
+﻿Alg_55
+Create an algorithm that calculates and prints the area of a lozenge.
+
+Alg_Área do quadrado
+Create an algorithm that that asks for the value of a side then prints the area of a square.
+
+Alg_Área do rectângulo
+Create an algorithm that asks dor the height and width then prints the area of a rectangle.
+
+Alg_Perimetro do quadrado
+Create an algorithm that asks for a side then prints the perimeter of a square.
+
+Alg_Perimetro do rectângulo
+Create an algorithm that asks dor the height and width then prints the perimeter of a rectangle.
+
+Alg_Potência
+Create an algorithm that asks for a base and an exponent then prints its power.
+
+Alg_Volume do Paralelepípedo
+Create an algorithm that asks dor the height, the greater side and the lesser side then prints the volume of a rectangle.

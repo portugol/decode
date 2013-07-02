@@ -1,0 +1,25 @@
+﻿1. Create an algorithm that prints a triangle on screen. 
+
+2. Create an algorithm that asks for the side then calculates the area of a square.
+
+3. Create an algorithm that verifies if the number inserted by the user is positive, negative or null.
+
+4. Create an algorithm that verifies if a number is even or odd.
+
+5. Create an algorithm that verifies if a year is a leap year or not.
+
+6. Create an algorithm that calculates the BMI(Body Mass Index).
+
+7. Create an algorithm that asks for a number then prints the multiplication table of that number.
+
+8. Create an algorithm that calculates the factorial of a number inserted by the user.
+
+9. Write an algorithm that prints the 10 first even numbers.
+
+10. Create an algorithm that prints the sum of all integers in a range inserted by the user.
+
+11. Write an algorithm that prints the 10 first integers.
+
+12. Write an algorithm that calculates the sum and product of the n first natural numbers.
+
+13. Write an algorithm that asks for a number and simultaneously prints the ascending and descending sequence between 1 and that number.
