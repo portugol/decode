@@ -1,4 +1,4 @@
-1-
+100-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -22,7 +22,7 @@ void main()
 
 
 
-2-
+101-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -45,7 +45,7 @@ void main()
 
 
 
-3-
+102-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -100,6 +100,29 @@ void main()
 
 104-
 
+#include <stdio.h>
+
+int main()
+{
+    int idade;
+    char nome[100], sexo[1];
+    printf("\n Digite nome: ");
+    gets(nome);
+    printf("\n Digite sexo(m/f): ");
+    gets(sexo);
+    printf("\n Digite idade: ");
+    scanf("%d",&idade);
+    if((sexo=="F" || sexo=="f") && idade<25)
+    {
+        printf("\n %s ACEITA",nome);
+    }
+    else
+    {
+        printf("\n $s Nao ACEITA",nome);
+
+    }
+    printf("\n");
+}
 
 
 
@@ -107,6 +130,39 @@ void main()
 
 
 105-
+#include <stdio.h>
+
+int main()
+{
+    char sigla[100];
+    printf("\n Digite Sigla: ");
+    gets(sigla);
+    if(sigla=="RJ" || sigla=="rj")
+    {
+        printf("\n Carioca");
+    }
+    else
+    {
+        if(sigla=="SP" || sigla=="sp")
+        {
+            printf("\n Paulista");
+        }
+        else
+        {
+            if(sigla=="MG" || sigla=="mg")
+            {
+                printf("\n Minas Gerais");
+            }
+            else
+            {
+                printf("\n Outros estados");
+            }
+        }
+    }
+    printf("\n");
+}
+
+
 
 
 
