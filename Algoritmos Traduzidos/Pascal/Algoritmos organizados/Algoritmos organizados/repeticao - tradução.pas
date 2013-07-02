@@ -60,10 +60,9 @@ var mes : Integer;
 	Begin 
 		write('Introduza um mes: ') ; 
  		read(mes);
-     	writeln('mes introduzido: ', mes) ; 
      End;
  	until (mes < 0) or (mes > 13);
- 	
+ 	writeln('mes introduzido: ', mes) ; 
  End.
 
 
