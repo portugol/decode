@@ -1,0 +1,11 @@
+program mesnascimento
+integer :: mes
+mes=0
+
+do
+  print *,"introduza um mes"
+  read*,mes
+if(mes<0 .or. mes<13) exit
+enddo
+print *,"mes introduzido",mes
+end
