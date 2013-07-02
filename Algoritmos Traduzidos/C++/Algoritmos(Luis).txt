@@ -1,0 +1,157 @@
+1-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float cateto1;
+    float cateto2;
+    float h;
+    cout<<"introduza o 1 cateto ";
+    cin>>cateto1;
+    cout<<"introduza o 2 cateto ";
+    cin>>cateto2;
+    h=sqrt((pow(cateto1,2)+pow(cateto2,2)));
+    cout<<"a hipotenusa e "<<h;
+}
+
+2-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float razao=0.0;
+    float termo=0.0;
+    int dec;
+    cout<< "introduza o 1 termo";
+    cin>>termo;
+    cout<< "introduza a razao";
+    cin>>razao;
+    dec= termo + (9*razao);
+    cout<<"O 10 termo desta progressao aritmética e: "<<dec;
+}
+
+
+3-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float razao=0.0;
+	float termo=0.0;
+	float quinto;
+	cout<< "introduza o 1º termo";
+	cin>>termo;
+	cout<< "introduza a razao";
+	cin>>razao;
+	quinto=termo * pow(razao,4);
+	cout<< "O 5º termo desta progressão geométrica é: "<<quinto;
+}
+
+4-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+	float c;
+	int f;
+	cout<<"introduza o valor em graus centígrados ";
+	cin>>c;
+	f=(9*c+160)/5;
+	cout<<"graus farenheit = "<<f;
+}
+
+5-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float valor;
+    float taxa;
+    int tempo;
+    int prest;
+    cout<< "introduza o valor da prestacao";
+    cin>>valor;
+    cout<< "introduza a taxa ";
+    cin>>taxa;
+    cout<< "introduza o numero de meses em atraso ";
+    cin>>tempo;
+    prest=valor+(valor*(taxa/100)*tempo);
+    cout<< "A prestacao em atraso e "<<prest;
+}
+
+
+6-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float num1;
+	float num2;
+	int ndec;
+	cout<<"introduza 1º o numerador e de seguida o denominador:";
+	cin>>num1;
+	cin>>num2;
+	ndec = num1 / num2;
+	cout<<"numero decimal = %i" , ndec;
+}
+
+
+7-
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+	float a;
+	float b;
+	int quadif;
+	cout<<"introduza dois valores";
+	cin>>a;
+	cin>>b;
+	quadif=pow((a-b),2);
+	cout<<"o quadrado da diferença = "<<quadif;
+}
+
+
+8-
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    float a;
+    float b;
+    int difqua;
+    cout<<"introduza dois valores \n";
+    cin>>a;
+    cin>>b;
+    difqua=pow(a,2)-pow(b,2);
+    cout<<"a diferença dos quadrados = "<<difqua;
+}
+
+
+9-
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+int n=0;
+	int nd;
+	cout<<"digite o numero de lados do poligono: ";
+	cin>>n;
+	nd=(n*(n-3))/2;
+	cout<<"numero de diagonais = "<<nd;
+}

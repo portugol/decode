@@ -1,0 +1,162 @@
+1-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char sexo;
+    float h;
+    float peso;
+    cout<<"Digite a altura:";
+    cin>>h;
+    cout<<"digite o sexo (M ou F):";
+    cin>>sexo;
+    if (sexo=='M' || sexo=='m')
+    {
+		peso = 72.7 * h - 58;
+    }
+    else
+    {
+        peso = 62.1 * h - 44.7;
+    }
+	cout<<"O seu peso ideal é: "<< peso;
+}
+
+
+
+2-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	for (int i=1; i<=100; i++)
+	{
+		cout<<i<<" ";
+	}
+}
+
+3-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    int d;
+    int a;
+    cout<<"Digite o numero de tres casas:";
+    cin>>a;
+    d = a / 10 % 10;
+    cout<<"Algarismo na casa das dezenas: "<<d;
+}
+4-repetido
+
+5-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float a;
+    float b;
+    float c;
+    float diagonal;
+    cout<<"Digite a base:";
+    cin>>a;
+    cout<<"Digite a altura:";
+    cin>>b;
+    cout<<"Digite a profundidade:";
+    cin>>c;
+    diagonal = sqrt(a*2+b*2+c*2);
+    cout<<"Diagonal: "<< diagonal;
+}
+
+
+6-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float diagmaior;
+	float diagmenor;
+	float area;
+	cout<<"Medida da diagonal maior:";
+	cin>>diagmaior;
+	cout<<"Medida da diagonal menor:";
+	cin>>diagmenor;
+	area = (diagmaior * diagmenor)/2;
+	cout<<"Area: "<< area;
+}
+
+
+7-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int quinto;
+	int razao;
+	int termo;
+	cout<<"Entre com o 1 termo:";
+	cin>>termo;
+	cout<<"Entre com a razao:";
+	cin>>razao;
+	quinto = termo * razao^4;
+	cout<<"5 termo desta PG e: "<< quinto;
+}
+
+
+
+
+8-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+float preco;
+	float npreco;
+	cout<<"Digite o valor do produto: ";
+	cin>>preco;
+	npreco = preco*0.91;
+	cout<<"Preço com desconto: "<< npreco;
+}
+
+
+9-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num;
+	int demon;
+	cout<<"Divisao de Numeros inteiros com resultado inteiro \n";
+	cout<<"Digite o numerador:";
+	cin>>num;
+	cout<<"Digite o denominador:";
+	cin>>demon;
+	cout<<"Decimal: "<< num/demon;
+}
+
+
+10-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float numero;
+    cout<<"Digite o numero:";
+    cin>>numero;
+    if (numero>20)
+    {
+        cout<<numero;
+    }
+}
+

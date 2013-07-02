@@ -1,0 +1,209 @@
+1-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int i, j;
+	for (i=1; i<=5; i++)
+	{
+		for (j=1; j<=i; j++)
+		{
+			cout<<"*";
+		}
+		cout<<"\n";
+	}
+}
+
+
+2-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int lado, area;
+	cout<<"Medida do lado do quadrado: ";
+	cin>>lado;
+	cout<<"\n";
+	area = lado * lado;
+	cout<<"A area do quadrado é: "<< area;
+}
+
+3-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int numero;
+	cout<<"Digite um numero: ";
+	cin>>numero;
+	if ( numero > 0)
+	{
+		cout<<"positivo";
+	}
+	else
+	{
+		if ( numero < 0)
+		{
+			cout<<"negativo";
+		}
+		else
+		{
+			cout<<"nulo";
+		}
+	}
+}
+
+
+4-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n;
+	cout<<"Digite um número: ";
+	cin>>n;
+	if ( n%2 == 0)
+	{
+		cout<<"Número par";
+	}
+	else
+	{
+		cout<<"Número ímpar";
+	}
+}
+
+5-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int ano;
+	cout<<" Digite um ano: ";
+	cin>>ano;
+	if (ano % 400 == 0)
+	{
+		cout<<"Ano bisisexto";
+	}
+	else
+	{
+		if ((ano % 4 == 0) && (ano % 100 != 0))
+		{
+			cout<<"Ano bisisexto";
+		}
+		else
+		{
+			cout<<"Ano comum";
+		}
+	}
+}
+
+
+6-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int imc;
+    cout<<"Digite o valor do IMC (Índice de Massa Corporal): ";
+    cin>>imc;
+    if ( imc < 20 )
+    {
+        cout<<"Abaixo do peso";
+    }
+    else
+    {
+        if (imc >= 20 && imc <= 24)
+        {
+            cout<<"Peso ideal";
+        }
+        else
+        {
+            if (imc >= 25 && imc <= 39)
+            {
+                cout<<"Excesso de peso";
+            }
+            else
+            {
+                if (imc >= 30 && imc <= 39)
+                {
+                    cout<<"Obesidade";
+                }
+                else
+                {
+                    if ( imc > 39 )
+                    {
+                        cout<<"Obesidade mórbida";
+                    }
+                    else
+                    {
+                        cout<<"Valor inválido";
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+7-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int i, t, j = 1;
+	cout<<"Tabuada a mostrar: ";
+	cin>>t;
+	j = t;
+	for (i=1; i<=10; i++)
+	{
+		cout<< i <<" * "<< j<<" = "<<i*j<< "\n";
+	}
+
+}
+
+
+8-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int i, numero, factorial;
+	cout<<"Digite um numero: ";
+	cin>>numero;
+	factorial = 1;
+	for (i=1; i<=numero; i++)
+	{
+		factorial = factorial * i;
+	}
+	cout<<numero<<"! = "<< factorial;
+
+}
+
+
+10-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int li=0, ls=0, s=0;
+	cout<<"Limite inferior: ";
+	cin>>li;
+	cout<<"Limite superior: ";
+	cin>>ls;
+	while (li <= ls)
+	{
+		s = s + li;
+		li = li + 1;
+	}
+	cout<<s;
+
+}
