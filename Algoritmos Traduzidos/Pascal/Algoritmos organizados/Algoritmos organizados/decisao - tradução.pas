@@ -3,6 +3,16 @@ DECISÃO
 
 Verificar se um número introduzido pelo utilizador é par.
 
+Var n: Integer;
+ Begin
+ 	read(n);
+	IF(n mod 2 = 0)then
+	Begin
+		Write('Par')
+	End;
+ End. 
+
+
 
 
 Filipe Farinha
@@ -523,9 +533,6 @@ var numero, c: Integer;
 9
 Escreva um algoritmo que solicite ao usuário que digite os tamanhos de três lados de um triângulo e informe se os lados de fato compõem um triângulo. Lembre-se de que, em um triângulo, cada lado é menor que a soma dos outros dois lados.
 
-
-Fazer um algoritmo que leia o percurso em quilómetros, o tipo do carro e informe o consumo estimado de combustível, sabendo-se que um carro tipo C faz 12km com um litro de gasolina, um tipo B faz 9km e o tipo C, 8km por litro.
-
 var lado1, lado2, lado3 : Integer;
  Begin
  	lado1 := 0; 
@@ -546,6 +553,49 @@ var lado1, lado2, lado3 : Integer;
  		write('Os lados não formam um triângulo.');
  	End;
  End.
+
+ --------------------------------------------------------------------------------------------------------------------------------------------------
+10
+
+Fazer um algoritmo que leia o percurso em quilómetros, o tipo do carro e informe o consumo estimado de combustível, sabendo-se que um carro tipo C faz 12km com um litro de gasolina, um tipo B faz 9km e o tipo C, 8km por litro.
+
+var 
+	percurso, consumo : real;
+	tipo : String;
+ Begin
+ 	percurso := 0;
+ 	consumo := 0;
+ 	write('Selecione o tipo de carro (A / B / C): ');
+ 	readln(tipo);
+ 	write('Insira o número de km que deseja efetuar: ');
+ 	read(percurso);
+ 	if(tipo = 'C') or (tipo = 'c')then
+ 	Begin
+ 		consumo := percurso / 12;
+ 	End
+ 	else if(tipo = 'B') or (tipo = 'b')then
+ 		Begin
+ 			consumo := percurso / 10;
+ 		End
+ 		else if(tipo = 'A') or (tipo = 'a')then
+ 		Begin
+ 				consumo := percurso / 8;
+ 		End
+ 			else
+ 			Begin
+ 				consumo := 0;
+ 			End;
+	
+	if (consumo <> 0)then
+	Begin
+	 	write('Consumo estimado em litros: ', consumo);
+	End
+	else
+	Begin
+		write('Modelo inexistente');
+	End;
+ End.
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------

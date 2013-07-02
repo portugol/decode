@@ -43,9 +43,7 @@ var num1, num2, soma : Integer;
 	soma := num1 + num2;
 	write('soma :', soma);
  End.
-----------------------------------------------------------------
-Alg_37
-Ler dois números inteiros e imprimir o produto.
+
 ----------------------------------------------------------------
 Alg_38
 Ler um número real e imprimir a terça parte deste número.
@@ -416,6 +414,16 @@ var d, a: Integer;
  4
 Digitar o numero de 3 casas e imprimir o algarismo das centenas.
 
+var a, d : Integer;
+ Begin
+ 	a := 0;
+	d := 0;
+	write('Digite o numero de tres casas: ');
+	readln(a); 
+	d := (a mod 100) div 10;
+	write('Algarismo na casa das dezenas: ', d); 
+ End.
+ 
  --------------------------------------------------------------------------------------
  5 – Entrar com os lados a, b , c de um paralelepípedo. Calcular e imprimir a diagonal.
  
