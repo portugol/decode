@@ -467,16 +467,5 @@ var preco, npreco : Real;
  
   --------------------------------------------------------------------------------------
  
- 10 – Entrar com o número e imprimi-lo caso seja maior que 20
 
-
-var numero : Real;
- Begin 
- 	write('Digite o número: ');
-	readln(numero);
-	If(numero > 20)Then  
-	Begin
-		writeln(numero);
-	End;
- End.
  
