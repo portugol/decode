@@ -1,0 +1,27 @@
+<script>
+	var sigla;
+	sigla = prompt("\nDigite sigla: ");
+	if (sigla == "RJ" || sigla == "rj")
+		{
+			document.write("<br>carioca");
+		}
+	else
+		{
+			if (sigla == "SP" || sigla == "sp")
+				{
+					document.write("<br>paulista");
+				} 
+			else
+				{
+					if (sigla == "MG" || sigla == "mg")
+						{
+							document.write("<br>mineiro");
+						} 
+					else
+					{
+						document.write("<br>outros estados");
+					}
+				}
+		}
+	document.write("<br>");
+</script>
