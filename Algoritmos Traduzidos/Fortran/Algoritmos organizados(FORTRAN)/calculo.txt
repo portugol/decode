@@ -1,0 +1,656 @@
+﻿CÁCULO
+
+
+Filipe Farinha
+
+001
+2
+Programa que calcula a área de um quadrado cujo lado é fornecido pelo utilizador.
+
+program areaquadrado
+integer :: lado,area
+print *,"Medida do lado do quadrado"
+read *,lado
+print *," "
+area = lado * lado
+print *,"a area do quadrado é:",area
+end
+
+
+Hugo
+
+002
+Alg_31
+Criar um algoritmo que imprima a média aritmética entre os números 8, 9 e 7.
+
+
+program alg_31
+
+integer :: ma
+ma=(8+9+7)/3
+print *,"a media é",ma
+end
+
+
+003
+Alg_36
+Ler dois números inteiros e imprimir a soma. Antes do resultado, deverá aparecer a mensagem: Soma.
+program alg_36
+
+integer :: num1
+integer :: num2
+integer :: soma
+
+num1=0
+num2=0
+
+print *,"introduza 2 numeros"
+read *,num1
+read *,num2
+soma = num1+num2
+print *,"soma = ",soma
+end
+
+
+
+
+004
+Alg_38
+Ler um número real e imprimir a terça parte deste número.
+
+
+program Alg_38
+
+real :: num1
+num1=0.0
+print *,"introduza um numero real"
+read *,num1
+num1=num1/3
+
+print *,num1
+end
+
+
+
+005
+Alg_39
+Entrar com dois números reais e imprimir a média aritmética com a mensagem "média " antes do resultado.
+
+
+program Alg_39
+
+real :: num1
+real :: num2
+integer :: media
+
+num1=0.0
+num2=0.0
+print *,"introduza 2 numeros"
+read *,num1
+read *,num2
+media =(num1+num2)/2
+print *,"media = ",media
+end
+
+
+
+
+
+006
+Alg_43
+Entrar com um número e imprimir o logaritmo desse número na base 10.
+
+
+program Alg_43
+
+real :: x
+real :: logaritmo
+x=0.0
+print *,"introduza um numero"
+read *,x
+logaritmo = log10(x)
+print *,"o logaritmo base 10 deste numero é ",logaritmo
+end
+
+
+
+
+
+007
+Alg_44
+Entrar com o número e a base em que se deseja calcular o logaritmo desse número e imprimi-lo.
+
+
+program Alg_44
+
+real :: base
+real :: x
+real :: logaritmo
+base=0.0
+x=0.0
+
+print *,"introduza a base do logaritmo que pretende"
+read *,base
+print *,"introduza um numero"
+read *,x
+logaritmo = log(x)/log(base)
+print *,"o logaritmo base ",base,"deste numero é ",logaritmo
+end
+
+
+
+008
+Alg_45
+Entrar com um número e imprimir a seguinte saída:
+numero: 
+quadrado: 
+raiz quadrada:
+
+
+
+program Alg_45
+
+real :: x
+integer :: raizquad
+integer :: quad
+
+x=0.0
+print *,"introduza um numero"
+read *,x
+raizquad = SQRT(x)
+quad =x*x
+print *,"a raiz quadrada é ",raizquad," e o quadrado é",quad
+end
+
+
+
+
+009
+Alg_46
+Fazer um algoritmo que possa entrar com o saldo de uma aplicação e imprima o novo saldo, considerando o reajuste de 1%.
+
+
+program alg_46
+
+real :: saldo
+real :: nsaldo
+
+saldo =0.0
+print *,"introduza o saldo"
+read *,saldo
+nsaldo=saldo*1.01
+print *,"o novo saldo é ",nsaldo
+end
+
+
+
+
+010
+Alg_54
+Criar um algoritmo que calcule e imprima a área de um triangulo.
+
+
+program Alg_54
+real :: base
+real :: altura
+real :: area
+
+base=0.0
+altura=0.0
+print *,"introduza a base"
+read *,base
+print *,"introduza a altura"
+read *,altura
+area =(base*altura)/2
+print *,"a area é :",area
+end
+
+
+
+Luis
+
+011
+Alg_59
+Entrar com os valores dos catetos de um triângulo retângulo e imprimir a hipotenusa.
+
+
+program alg_59
+
+real :: cateto1
+real :: cateto2
+real :: h
+
+cateto1=0.0
+cateto2=0.0
+
+print *,"introduza o 1º cateto"
+read *,cateto1
+print *,"introduza o 2º cateto"
+read *,cateto2
+h=SQRT((cateto1**2)+(cateto2**2))
+print *,"a hipotenusa é ",h
+end
+
+
+
+
+012
+Alg_60
+Entrar com a razão de uma PA e o valor do 1º termo. Calcular e imprimir o 10º termo da série.
+
+
+
+program Alg_60
+
+real :: razao
+real :: termo
+real :: dec
+
+razao=0.0
+termo=0.0
+
+print *,"introduza o 1º termo"
+read *,termo
+print *,"introduza a razao"
+read *,razao
+dec =termo+(9*razao)
+print *,"o 10º termo desta progressao aritmetica e: ",dec
+end
+
+
+
+013
+Alg_61
+Entrar com a razão de uma PG e o valor do 1º termo. Calcular e imprimir o 5° termo da série.
+
+program Alg_61
+
+real :: razao
+real :: termo
+real :: quinto
+
+razao=0.0
+termo=0.0
+
+print *,"introduza o 1º termo"
+read *,termo
+print *,"introduza a razao"
+read *,razao
+
+quinto=termo*(razao**4)
+print *,"o 5º termmo desta progressao geometrica é ",quinto
+end
+
+
+
+
+
+014
+Alg_64
+Ler uma temperatura em graus Celcius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: F = (9.C+160)/5 onde F é a temperatura em graus Fahrenheit e C é a temperatura em graus Celcius.
+
+program Alg_64
+
+real :: c
+real :: f
+c=0.0
+
+print *,"introduza o valor em graus centigrados"
+read *,c
+f=(9*c+160)/5
+print *,"graus em farenheit :",f
+end
+
+
+
+
+
+015
+Alg_67
+Efetuar o cálculo do valor de uma prestação em atraso, utilizando a fórmula: 
+prestação = valor + (valor* (taxa/100)*tempo).
+
+
+program Alg_67
+
+real :: valor
+real :: taxa
+real :: tempo
+real :: prest
+
+valor=0.0
+taxa=0.0
+tempo=0.0
+
+print *,"introduza o valor da prestação"
+read *,valor
+print *,"introduza a taxa"
+read *,taxa
+print *,"introduza o numero de meses em atraso"
+read *,tempo
+
+prest=valor+(valor*(taxa/100)*tempo)
+print *,"a prestação e, atraso é :",prest
+end
+
+
+
+016
+Alg_69
+Criar um algoritmo que leia o numerador e o denominador de uma fração e transformá-lo em um número decimal.
+
+
+program Alg_69
+
+real :: num1
+real :: num2
+real :: ndec
+
+num1=0.0
+num2=0.0
+ndec=0.0
+
+print *,"introduza 1º o numerador e de seguida o denominador"
+read *,num1
+read *,num2
+
+ndec=num1/num2
+print *,"numero decimal= ",ndec
+end
+
+
+
+017
+Alg_77_v1
+Ler dois números reais e imprimir o quadrado da diferença do primeiro valor pelo segundo.
+
+program Alg_77_v1
+real :: a
+real :: b
+real quadif
+
+a=0.0
+b=0.0
+
+print *,"introduza 2 valores"
+read *,a
+read *,b
+quadif = (a-b)**2
+print *,"o quadrado da diferença= ",quadif
+end
+
+
+
+
+
+018
+Alg_77_v2
+Ler dois números reais e imprimir a diferença dos quadrados.
+
+
+
+program Alg_77_v2
+real :: a
+real :: b
+real difquad
+
+a=0.0
+b=0.0
+
+print *,"introduza 2 valores"
+read *,a
+read *,b
+difquad = (a**2)-(b**2)
+print *,"a diferença dos quadrados= ",difquad
+end
+
+
+
+
+019
+Alg_78
+Dado um polígono convexo de n lados, podemos calcular o número de diagonais diferentes (nd) desse polígono pela fórmula: nd = n (n - 3) / 2. Fazer um algorit¬mo que leia quantos lados tem o polígono, calcule e escreva o número de diago¬nais diferentes (nd) do mesmo.
+
+program Alg_78
+
+integer :: n
+integer :: nd
+
+n=0
+
+print *,"digite o numero de lados do poligono"
+read *,n
+nd =(n*(n-3))/2
+print *,"numero de diagonais = ",nd
+end
+
+
+
+Tiago
+
+020
+Alg_Área do quadrado
+Elabore um algoritmo que peça o valor de um lado e imprima a área do quadrado.
+
+program Alg_areaQuadrado
+
+real :: lado
+real :: area
+lado=0.0
+
+print *,"introduza o valor do lado do quadrado"
+read *,lado
+area =lado*lado
+print *,"area = ",area
+end
+
+
+
+
+
+021
+Alg_Perimetro do rectângulo
+Elabore um algoritmo que peça o valor da altura e da largura e imprima o perimetro do rectângulo.
+
+
+program Alg_perimetroRectangulo
+
+real :: base
+real :: altura
+real :: perimetro
+
+base=0.0
+altura=0.0
+
+print *,"base:"
+read *,base
+print *,"altura:"
+read *,altura
+
+perimetro=2*(altura+base)
+print *,"perimetro = ",perimetro
+end
+
+
+
+
+
+022
+Alg_Perimetro do quadrado
+Elabore um algoritmo que peça o valor de um lado e imprima o perimetro do quadrado.
+
+
+program Alg_perimetroQuadrado
+real :: lado
+real :: perimetro
+
+lado =0.0
+
+print *,"introduza o valor do lado do quandrado"
+read *,lado
+perimetro = lado*4
+
+print *,"perimetro = ",perimetro
+end
+
+
+
+
+023
+Alg_Potência
+Elabore um algoritmo que peça o valor da base e o valor do expoente e imprima a sua potência.
+
+program Alg_potencia
+
+real :: b
+real :: p
+real :: res
+
+b=0.0
+p=0.0
+res=0.0
+
+print *,"intriduza a base"
+read *,b
+print *,"introduza a potencia"
+read *,p
+
+res =b**p
+print *,"o resultado da potencia é : ",res
+end
+
+
+
+
+
+024
+Alg_Volume do Paralelepípedo
+Elabore um algoritmo que peça o valor da altura, do lado maior e menor e imprima o volume do rectângulo.
+
+
+program Alg_volumeParalelepipedo
+
+real :: lmaior
+real :: lmenor
+real :: altura
+real :: volume
+
+lmaior=0.0
+lmenor=0.0
+altura=0.0
+
+print *,"introduza o lado maior,o lado menor, e a altura por esta ordem"
+read *,lmaior
+read *,lmenor
+read *,altura
+
+volume =lmaior*lmenor*altura
+print *,"o volume é; ",volume
+end
+
+
+025
+Alg_55
+Criar um algoritmo que calcule e imprima a área de um losango.
+
+program Alg_55
+
+real :: dmenor
+real :: dmaior
+real :: area
+
+dmenor=0.0
+dmaior=0.0
+
+print *,"introduza a diagonal menor"
+read *,dmenor
+print *,"introduza a diagonal maior"
+read *,dmaior
+
+area =(dmenor*dmaior)/2
+print *,"a area é : ",area
+end
+
+
+
+
+Diogo Marques
+
+026
+3
+Digitar o numero de 3 casas e imprimir o algarismo das dezenas.
+
+
+program numero3casas
+integer :: d,a
+print *,"Digite o numero de tres casas"
+read *,a
+d=mod(a/10,10)
+print *,"Algarismo na casa das dezenas :",d
+end
+
+
+027
+4
+Digitar o numero de 3 casas e imprimir o algarismo das centenas.
+
+program inteiro3casas
+integer ::a,d,c
+print *,"Digite o numero de tres casas"
+read *,a
+d=mod(a,100)/10
+print *," "
+print *,"Algarismo na casa das dezenas: ",d
+end
+
+
+
+028
+5
+Entrar com os lados a, b , c de um paralelepípedo. Calcular e imprimir a diagonal.
+
+
+program paralelepipedo
+real :: a,b,c,diagonal
+print *,"digite a base"
+read *,a
+print *,"digite a altura"
+read *,b
+print *,"digite a profundidade"
+read *,c
+diagonal =sqrt(a*2 + b*2 + c*2)
+print *,"diagonal",diagonal
+end
+
+
+029
+6
+Crie um algoritmo que calcule e imprima a área de um losango.
+
+
+program areaLosango
+real :: diagmaior,diagmenor,area
+print *,"Medida da diagonal maior"
+read *,diagmaior
+print *,"Medida da diagonal menor"
+read *,diagmenor
+area=(diagmaior*diagmenor)/2
+print *,"area :",area
+end
+
+
+
+
+030
+8
+Faça um algoritmo que possa entrar com o valor de um produto e imprima o novo tendo em vista um desconto de 9%.
+
+program produtos
+real :: preco,npreco
+print *,"digite o valor do produto"
+read *,preco
+npreco=preco*0.91
+print *,"Preco com desconto:",npreco
+end
+
+

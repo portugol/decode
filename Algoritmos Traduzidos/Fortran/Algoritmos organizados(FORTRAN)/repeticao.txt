@@ -1,0 +1,119 @@
+﻿REPETIÇÃO
+
+001
+Escrever um número de 1 a 10.
+
+
+program numeros1ate10
+
+integer :: l
+l=1
+
+while(l<=10) do
+	print *,l
+    l=l+1
+endwhile
+end
+
+002
+Pedir um número positivo.
+
+
+program Positivo
+
+integer :: l
+l=0
+do while(l<=0)
+  read *,l
+
+end do
+end
+
+
+
+Filipe Farinha
+
+003
+10
+Programa que imprime a soma de todos os numeros inteiros num intervalo introduzido pelo utilizador.
+
+program somaInteiros
+integer li,ls,s
+s=0
+print *,"Limite Inferior:"
+read *,li
+print *,"Limite Superior"
+read *,ls
+
+do while(li<=ls)
+  s=s+li
+  li=li+1
+end do
+print *,s
+end
+
+
+
+Paulo Simões
+
+004
+3
+Faça um algoritmo que imprima todos os números pares no intervalo de 1 a 100.
+
+program parImpar
+integer :: contador
+contador =2
+  do while(contador <=100)
+    print *,contador
+    contador=contador +2
+  end do
+end
+
+
+
+005
+4
+Faça um algoritmo que o usuário informa um número e o verifica se ele é um número triangular.
+
+
+program triangular
+integer :: p,num1,num
+num1=1
+
+print *,"Digite um numero"
+read *,num
+p=num1*(num1+1) * (num1+2)
+
+do while(p < num)
+  num1=num1+1
+  p=num1*(num1+1)*(num1+2)
+end do
+
+if(p==num)then
+  print *,"triangular"
+else
+  print *,"nao triangular"
+end if
+end
+
+
+
+006
+8
+Dado um dado país A com 5.000.000 de habitantes e uma taxa de natalidade de 3% ao ano, e um país B com 7.000.000 de habitantes e uma taxa de natalidade de 2% ao ano, calcular e imprimir o tempo necessário para que a população do país A ultrapasse a população do país B.
+
+
+program habitantes
+integer :: anos
+real :: a,b
+a=5000000
+b=7000000
+anos=0
+do while (a <= b)
+  a=a*1.03
+  b=b*1.02
+  anos = anos +1
+end do
+print *,"anos ;",anos
+end
+

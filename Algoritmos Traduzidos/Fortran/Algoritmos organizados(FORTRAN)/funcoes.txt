@@ -1,0 +1,25 @@
+﻿FUNÇÕES
+
+Crie um algoritmo que permita o cáculo de um factorial.
+
+program factorial
+
+Integer :: l,j,fact
+l=5
+
+j=fact(l)
+print *, j
+
+end
+
+
+recursive function fact(k) result(res)
+implicit none
+integer :: res,k
+	if(k>2) then
+    	res=k*fact(k-1)
+     else
+       res=k
+    end if
+
+ endfunction

@@ -1,0 +1,613 @@
+﻿DECISÃO
+
+
+001
+Verificar se um número introduzido pelo utilizador é par.
+
+
+program PAR
+Integer :: n
+
+read *,n
+
+if(mod(n,2)==0) then
+  print *,"PAR"
+endif
+end
+  
+
+
+Filipe Farinha
+
+002
+3
+Programa que verifica se um número fornecido pelo utilizador é positivo, negativo ou nulo.
+
+
+
+program verificaPositivo
+integer :: numero
+print *,"Digite um numero:"
+read *,numero
+if(numero>0)then
+  print *,"Positivo"
+  else if(numero<0)then
+    print *,"Negativo"
+    else
+      print *,"Nulo"
+end if
+end
+
+
+
+
+003
+4
+Programa que verifica se um dado número é par ou ímpar.
+
+program ParImpar
+integer :: n
+
+print *,"Digite um numero"
+read *,n
+if(mod(n,2)==0)then
+  print *,"Numero par"
+else
+  print *,"Numero impar"
+end if
+end
+
+
+
+
+004
+5
+Programa que verifica se um ano é comum ou bissexto.
+
+
+program anoBissexto
+integer :: ano
+
+print *,"Digite um ano"
+read *,ano
+
+if(mod(ano,400)==0)then
+  print *,"Ano bissexto"
+  else if((mod(ano,4)==0).and.(mod(ano,100)/=0))then
+    print *,"Ano bissexto"
+    else
+      print *,"Ano comum"
+end if
+end
+
+
+
+
+
+005
+6
+Programa que calcula o IMC (Índice de Massa Corporal).
+
+program ImcCheck
+integer :: imc
+
+print *,"Digite o valor do IMC(Indice de massa corporal)"
+read *,imc
+
+if(imc<20)then
+  print *,"Abaixo do peso"
+  else if((imc>=20).and.(imc<=24))then
+    print *,"Peso ideal"
+    else if((imc>=25).and.(imc<=29))then
+      print *,"Excesso de peso"
+      else if((imc>=30).and.(imc<=39))then
+        print *,"Obesidade"
+        else if(imc>39)then
+          print *,"Obesidade mórbida"
+          else
+            print *,"Valor inválido"
+end if
+end
+
+
+Filipe Dias
+
+006
+100
+Ler um número inteiro de 4 casa e imprimir se é ou não múltiplo de quatro o número formado pelos algarismos que estão nas casas das unidades de milhar e das centenas.
+
+program ex100
+integer :: num,c
+print *,"numero de 4 algarismos"
+read *,num
+c = num / 100
+if(mod(num,4)==0) then
+  print *,"o numero e multiplo de 4"
+else
+  print *,"o numero nao é multiplo de 4"
+end if
+end
+
+
+007
+101
+Construir um algoritmo que indique se o número digitado está compreendido entre 20 e 90 ou não.
+
+program ex101
+
+real :: num
+print *,"digite numero"
+read *,num
+
+if(num>20 .and. num<90)then
+  print *,"o numero esta entre 20 e 90, exclusive"
+else
+  print *,"o numero nao esta entre 20  e 90"
+endif
+end
+
+
+
+
+008
+102
+Entrar com um número e imprimir uma das mensagens: maior do que 20, igual a 20 ou menor do que 20.
+
+
+
+
+program ex102
+real :: numero
+print *,"digite numero"
+
+read*,numero
+
+if(numero >20)then
+  print *,"maior que 20"
+  elseif (numero <20)then
+  	print *,"menor que 20"
+    else
+      print *,"igual a 20"
+  
+endif
+end
+
+
+
+
+009
+103
+Entrar com o ano de nascimento de uma pessoa e o ano atual. Imprimir a idade da pessoa. Não se esqueça de verificar se o ano de nascimento é um ano válido.
+
+
+program ex103
+
+integer :: anon,anoa
+
+print *,"insira o ano corrente"
+read *,anoa
+
+print *,"insire o ano de nascimento"
+read *,anon
+
+if(anon>anoa)then
+  print *,"ano de nascimento invalido"
+else
+  print *,"iade :",anoa-anon
+endif
+end
+
+
+
+010
+104
+Entrar com nome, sexo e idade de uma pessoa. Se a pessoa for do sexo feminino e tiver menos de 25 anos, imprimir nome e a mensagem: ACEITA.Caso contrário, imprimir nome e mensagem: NÃO ACEITA (Considerar f ou F).
+
+
+program ex104
+integer :: idade
+character (len=10) :: nome
+character :: sexo
+
+print *,"digite o nome"
+read *,nome
+
+print *,"digite o sexo(m ou M / f ou F)"
+read *,sexo
+
+print *,"digite a idade"
+read*,idade
+
+if((sexo=='F'.or.sexo=='f').and.idade<25 )then
+  print *,nome," aceita"
+else
+  print *,nome," nao aceita"
+endif
+end
+
+
+
+011
+105
+Entrar com a sigla do estado de uma pessoa e imprimir uma das seguintes mensagens:
+•	Carioca
+•	Paulista
+•	Mineiro
+•	Outros estados
+
+
+program ex105
+
+character(len=10) :: sigla
+print *,"digite a sigla"
+read *,sigla
+
+if(sigla=="RJ" .or. sigla=="rj")then
+  print *,"carioca"
+else if	(sigla =="SP" .or. sigla=="sp")then
+  print *,"paulista"
+else if	(sigla=="MG" .or. sigla=="mg")then
+  print *,"mineiro"
+  else
+    print *,"outros estados"
+endif
+end
+
+
+
+012
+108
+Implemente um algoritmo que permite a introdução do número do mês do nascimento.
+
+
+program mesnascimento
+integer :: mes
+mes=0
+
+do
+  print *,"introduza um mes"
+  read*,mes
+if(mes<0 .or. mes<13) exit
+enddo
+print *,"mes introduzido",mes
+end
+
+
+013
+109
+João é pescador e cada vez que ele traz um peso de peixes (kg) maior que o estabelecido pelo regulamento europeu de pesca (50kg), deverá pagar uma multa de 4 Euros por quilo excedente. Assim, João precisa que desenvolva um algoritmo que leia a variável P (peso de peixes) e verifique se há excesso. Se houver, gravar na variável E (excesso) e na variável M (multa) o valor da multa que João deverá pagar.
+
+program ex106
+integer :: ex,peso,m
+peso=0
+ex=0
+m=4
+
+print *,"insira o peso dos peixes"
+read *,peso
+
+if	(peso > 50) then
+  ex=peso-50
+  ex=ex*m
+  print *,"tem de pagar",ex,"euros pelo excedente apanhado"
+else
+  print *,"nao precisa de pagar multa"
+end if
+end
+
+
+
+014
+110
+Construa o fluxograma que permite o cálculo do zero da equação ax+b=0.
+
+
+program ex110
+
+real :: a,b,x
+a=0.0
+b=0.0
+x=0.0
+
+print *,"escreva o valor de a"
+read *,a
+print *,"escreva o valor de b"
+read *,b
+
+if(a/= 0)then
+  x=(b*(-1)/a)
+  print *,"o valor de x é:",x
+else
+  print *,"nao existe valor de zero"
+endif
+end
+
+
+
+
+Claudia Jesus
+
+015
+1
+Entrar com dois números e imprimi-los em ordem crescente (suponha números diferentes).
+
+
+program ordemcrescente
+
+real :: a,b
+a=0.0
+b=0.0
+
+print *, "Digite o primeiro valor"
+read *, a
+print *, "Digite o segundo valor"
+read *, b
+
+if (a<b) then
+  print *,a,b
+ else
+  print *,b,a
+endif
+end 
+
+
+
+
+
+016
+2
+Entrar com dois números e imprimir o número menor (suponha números diferentes).
+
+
+
+program verificarmenor
+
+real ::a,b
+a=0
+b=0
+
+print *,"Digite primeiro numero"
+read *,a
+print *,"Digite segundo numero"
+read *,b
+
+if(a<b) then
+  print *,"Menor: ",a 
+else
+  print *,"Menor: ",b
+endif
+end
+
+
+
+
+
+017
+3
+Entrar com a idade de uma pessoa e informar:
+•	Se é maior de idade;
+•	Se é menor de idade;
+•	Se é maior de 65 anos;
+
+
+program Veridade
+
+integer :: idade
+idade=0
+
+print *,"Digite a sua idade"
+read *,idade
+
+if(idade>=65) then
+   print *,"maior de 65"
+   else if(idade>=18) then
+     print *,"maior de idade"
+   else
+     print *,"menor de idade"
+endif
+
+end
+
+
+
+
+018
+4
+Segundo uma tabela médica, o peso ideal está relacionado com a altura e o sexo.
+Fazer um algoritmo que receba a altura e o sexo de uma pessoa, calcular e imprimir o seu peso ideal, utilizando as seguintes fórmulas:
+•	para homens:  (72.7 * H) - 58
+•	para mulheres: (62.1 * H) - 44.7
+
+
+
+program pesoideal
+character(1) :: sexo
+real :: h,peso
+h=0
+peso=0
+
+print *,"Introduza a altura"
+read *,h
+print *,"Introduza o sexo M/F"
+read *,sexo
+
+if(sexo.eq."M" .or. sexo.eq."m" ) then
+  peso=72.7 * h -58
+ else
+  peso=62.1 * h -44.7
+endif
+print *,"o seu peso ideal é",peso
+end
+
+
+
+
+019
+6
+Entrar com um número e imprimir uma das mensagens: é múltiplo de 3 ou não é múltiplo de 3.
+
+
+program multiplo
+integer :: numero
+numero =0
+print *,"Digite um numero"
+read *,numero
+
+if(mod(numero,3)==0) then
+  print *,"é multiplo de 3"
+else
+  print *,"nao é multiplo de 3"
+endif
+end
+
+
+020
+7
+Entrar com um número e informar se ele é divisível por 10, por 5, por 2 ou se não é divisível por nenhum destes.
+
+
+program divisivel
+integer :: numero
+numero=0
+
+print *,"Digite um numero"
+read *,numero
+
+if(mod(numero,10)==0)then
+  print *,"é multiplo de 10"
+  else if(mod(numero,2)==0)then
+    print *,"é multiplo de 2"
+    else if(mod(numero,5)==0)then
+      print *,"é multiplo de 5"
+      else
+        print *,"nao é multiplo de 2 nem de 5"
+endif
+end
+
+
+
+021
+8
+Ler um número inteiro de 3 casas decimais e imprimir se o algarismo da casa das centenas é par ou ímpar.
+
+
+
+program algarismoParouImpar
+integer :: numero,c
+numero=0
+c=0
+
+print *,"Digite um numero de 3 algarismos"
+read *,numero
+c=numero/100
+
+if(mod(c,2)==0)then
+  print *,"o algarismo das centenas é par, ",c
+else
+  print *,"o algarismo das centenas é ímpar, ",c
+endif
+end
+
+
+
+022
+9
+Escreva um algoritmo que solicite ao usuário que digite os tamanhos de três lados de um triângulo e informe se os lados de fato compõem um triângulo. Lembre-se de que, em um triângulo, cada lado é menor que a soma dos outros dois lados.
+
+
+
+program triangulo
+integer :: lado1,lado2,lado3
+lado1=0
+lado2=0
+lado3=0
+
+print *,"Digite o valor do primeiro lado"
+read *,lado1
+print *,"Digite o valor do segundo lado"
+read *,lado2
+print *,"Digite o valor do terceiro lado"
+read *,lado3
+
+if(lado3<(lado1+lado2).and.lado2<(lado1+lado3).and.lado1<(lado2+lado3))then
+  print *,"os lados formam um triangulo"
+else
+  print *,"os lados nao formam um triangulo"
+endif
+end
+
+
+023
+10
+Fazer um algoritmo que leia o percurso em quilómetros, o tipo do carro e informe o consumo estimado de combustível, sabendo-se que um carro tipo C faz 12km com um litro de gasolina, um tipo B faz 9km e o tipo C, 8km por litro.
+
+
+
+program combustivel
+real :: percurso,consumo
+character(1) :: tipo
+percurso=0
+consumo=0
+
+print *,"selecioneo tipo de carro (A/B/C)"
+read *,tipo
+print *,"insira o numero de KM que deseja efetuar"
+read *,percurso
+
+if((tipo=="c").or.(tipo=="C"))then
+  consumo=percurso/12
+  else if((tipo=="b").or.(tipo=="B"))then
+    consumo=percurso/10
+    else if((tipo=="a").or.(tipo=="A"))then
+      consumo=percurso/8
+      else
+        consumo=0
+ endif
+ if(consumo/=0)then
+   print *,"consumo estimado em litros:",consumo
+ else
+   print *,"modelo inexistente"
+ endif
+ end
+
+Paulo Simões
+
+024
+1
+Construa um algoritmo que permite actualizar o salário de uma equipa de profissionais. O gerente deverá ser aumentando em 3%, o técnico em 5% e as restantes classes trabalhadores em 1%.
+
+program ActualizarSalario
+real :: salario
+character(8) :: prof
+
+print *,"insira o salario"
+read *,salario
+print *,"Escolha a sua classe trabalhadora:tecnico , gerente, normal "
+read *,prof
+
+if(prof=="tecnico")then
+  salario=salario*1.05
+  else if(prof=="gerente")then
+    salario=salario*1.03
+    else
+      salario=salario*1.01
+endif
+print *,"o novo salario é: ",salario
+end
+
+
+
+Diogo Marques
+
+025
+10
+Entrar com o número e imprimi-lo caso seja maior que 20
+
+program verificarMaior
+real :: numero
+print *,"digite o numero"
+read *,numero
+if(numero>20)then
+  print*,numero
+end if
+end
