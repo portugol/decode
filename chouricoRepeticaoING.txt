@@ -1,6 +1,6 @@
-insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("",1,3,7,2);
-insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("",1,3,7,2);
-insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("",2,3,8,2);
-insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("",2,3,8,2);
-insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("",3,3,9,2);
-insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("",3,3,9,2);
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that writes a number from 1 to 10.",1,3,7,2);
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a positive number.",1,3,7,2);
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that prints the sum of all integers in a range inserted by the user.",2,3,8,2);
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that prints all odd numbers from 1 to 100.",2,3,9,2);
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a number then prints if it is a triangular number.",3,3,9,2);
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Given a country A with 5.000.000 inhabitants and a yearly birthrate of 3%, and a country B with 7.000.000 inhabitants and a yearly birthrate of 2%, calculate and print the amount of time required for the population of country A  to surpass the population of country B.",3,3,9,2);
