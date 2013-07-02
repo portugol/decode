@@ -17,10 +17,9 @@ namespace AlgoritmosClaudia
 	{
 		public static void Main(string[] args)
 		{
-		string sexo;
-        double h,peso;
-        h = 0;
-        peso = 0;
+		string sexo = "";
+        double h = 0.0;
+        double peso = 0.0;
         Console.WriteLine("introduza a altura:");
         h = double.Parse(Console.ReadLine());
         Console.WriteLine("introduza o sexo: M/F");

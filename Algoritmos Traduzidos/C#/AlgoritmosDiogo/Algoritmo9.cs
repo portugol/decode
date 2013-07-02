@@ -17,9 +17,8 @@ namespace AlgoritmosDiogo
 	{
 		public static void Main(string[] args)
 		{
-			int num,demon;
-			num=0;
-			demon=0;
+			int num=0;
+			int demon=0;
 			Console.WriteLine("digite o numerador:");
 			num = int.Parse(Console.ReadLine());
 			Console.WriteLine("digite o denominador:");

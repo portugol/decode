@@ -17,10 +17,9 @@ namespace AlgoritmosDiogo
 	{
 		public static void Main(string[] args)
 		{
-			double diagmaior,diagmenor,area;
-			diagmaior=0.0;
-			diagmenor=0.0;
-			area=0.0;
+			double diagmaior=0.0;
+			double diagmenor=0.0;
+			double area=0.0;
 			Console.WriteLine("Medida da diagonal maior:");
 			diagmaior = double.Parse(Console.ReadLine());
 			Console.WriteLine("medida da diagonal menor:");

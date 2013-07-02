@@ -17,9 +17,9 @@ namespace AlgoritmosClaudia
 	{
 		public static void Main(string[] args)
 		{
-        int numero,c;
-        numero = 0;
-        Console.WriteLine("Digite o primeiro numero com 3 algorismos:");
+        int numero = 0
+		int c = 0;
+        Console.WriteLine("Digite o primeiro numero com 3 algarismos:");
         numero = int.Parse(Console.ReadLine());
         c = numero/100;
         

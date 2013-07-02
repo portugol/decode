@@ -17,8 +17,7 @@ namespace AlgoritmosClaudia
 	{
 		public static void Main(string[] args)
 		{
-        int numero;
-        numero = 0;
+        int numero = 0;
         Console.WriteLine("Digite o primeiro numero:");
         numero = int.Parse(Console.ReadLine());
         

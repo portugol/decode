@@ -17,11 +17,10 @@ namespace AlgoritmosDiogo
 	{
 		public static void Main(string[] args)
 		{
-			int quinto,razao,termo;
-			quinto =0;
-			termo =0;
-			razao=0;
-			Console.WriteLine("entre com o primeiro termo:");
+			int quinto =0;
+			int razao=0;
+			int termo =0;			
+			Console.WriteLine("entre com o 1º termo:");
 			termo = int.Parse(Console.ReadLine());
 			Console.WriteLine("entre com a razao:");
 			razao = int.Parse(Console.ReadLine());

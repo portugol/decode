@@ -17,10 +17,9 @@ namespace AlgoritmosClaudia
 	{
 		public static void Main(string[] args)
 		{
-		string tipo;
-        double percurso,consumo;
-        percurso = 0;
-        consumo = 0;
+        double percurso = 0;
+        double consumo = 0;
+		string tipo = "";
         Console.WriteLine("Selecione o tipo de carro:(A/B/C)");
         tipo = Console.ReadLine();
         Console.WriteLine("Insira o numero de kms que deseja efectuar:");

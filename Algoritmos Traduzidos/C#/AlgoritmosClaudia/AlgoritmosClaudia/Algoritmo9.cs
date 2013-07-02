@@ -17,10 +17,9 @@ namespace AlgoritmosClaudia
 	{
 		public static void Main(string[] args)
 		{
-		int lado1,lado2,lado3;
-        lado1 = 0;
-        lado2 = 0;
-        lado3 = 0;
+        int lado1 = 0;
+        int lado2 = 0;
+        int lado3 = 0;
         Console.WriteLine("Digite o valor do primeiro lado:");
         lado1 = int.Parse(Console.ReadLine());
         Console.WriteLine("Digite o valor do segundo lado:");

@@ -17,8 +17,7 @@ namespace AlgoritmosClaudia
 	{
 		public static void Main(string[] args)
 		{
-        int idade;
-        idade = 0;
+        int idade = 0;
         Console.WriteLine("Digite a sua idade:");
         idade = int.Parse(Console.ReadLine());
         if (idade >= 65)

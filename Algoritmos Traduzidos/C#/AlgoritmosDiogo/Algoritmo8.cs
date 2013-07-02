@@ -17,9 +17,8 @@ namespace AlgoritmosDiogo
 	{
 		public static void Main(string[] args)
 		{
-			double preco,npreco;
-			preco=0.0;
-			npreco=0.0;
+			double preco=0.0;
+			double npreco=0.0;
 			Console.WriteLine("Digite o valor do produto:");
 			preco = double.Parse(Console.ReadLine());
 			npreco = preco *0.91;
