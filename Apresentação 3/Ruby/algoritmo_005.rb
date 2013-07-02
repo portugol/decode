@@ -8,5 +8,5 @@ end
 
 puts "Introduza o número do factorial a calcular"
 i = gets
-print "Factorial de #{i.to_i} é: " + factorial(i.to_i).to_s
+print "Factorial de #{i.to_i} é: #{factorial(i.to_i).to_s}"
 
