@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner = new Scanner (System.in);
         System.out.println("insire o numero de 4 algarismos");
         num=scanner.nextInt();
-        
+        c=num/100;
         if(c%4==0){
             System.out.println("multiplo de 4");
         }else{
