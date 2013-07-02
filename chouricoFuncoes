@@ -1,0 +1,1 @@
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Crie um algoritmo que permita o cáculo de um factorial.",4,4,7,1);

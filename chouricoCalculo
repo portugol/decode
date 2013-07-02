@@ -1,0 +1,59 @@
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Criar um algoritmo que imprima a média aritmética entre os números 8, 9 e 7.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Ler dois números inteiros e imprimir a soma. Antes do resultado, deverá aparecer a mensagem: Soma.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Ler um número real e imprimir a terça parte deste número.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Entrar com dois números reais e imprimir a média aritmética com a mensagem "média " antes do resultado.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Entrar com um número e imprimir o logaritmo desse número na base 10.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Entrar com o número e a base em que se deseja calcular o logaritmo desse número e imprimi-lo.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Entrar com um número e imprimir a seguinte saída:
+numero: 
+quadrado: 
+raiz quadrada:",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Fazer um algoritmo que possa entrar com o saldo de uma aplicação e imprima o novo saldo, considerando o reajuste de 1%.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Criar um algoritmo que calcule e imprima a área de um triangulo.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Entrar com os valores dos catetos de um triângulo retângulo e imprimir a hipotenusa.",1,1,7,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Programa que calcula a área de um quadrado cujo lado é fornecido pelo utilizador.",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Entrar com a razão de uma PA e o valor do 1º termo. Calcular e imprimir o 10º termo da série.",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Entrar com a razão de uma PG e o valor do 1º termo. Calcular e imprimir o 5° termo da série.",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Ler uma temperatura em graus Celcius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: F = (9.C+160)/5 onde F é a temperatura em graus Fahrenheit e C é a temperatura em graus Celcius.",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Efetuar o cálculo do valor de uma prestação em atraso, utilizando a fórmula: 
+prestação = valor + (valor* (taxa/100)*tempo).",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Criar um algoritmo que leia o numerador e o denominador de uma fração e transformá-lo em um número decimal.",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Ler dois números reais e imprimir o quadrado da diferença do primeiro valor pelo segundo.",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Ler dois números reais e imprimir a diferença dos quadrados.",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Dado um polígono convexo de n lados, podemos calcular o número de diagonais diferentes (nd) desse polígono pela fórmula: nd = n (n - 3) / 2. Fazer um algorit¬mo que leia quantos lados tem o polígono, calcule e escreva o número de diago¬nais diferentes (nd) do mesmo.",2,1,8,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Elabore um algoritmo que peça o valor de um lado e imprima a área do quadrado.",2,1,9,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Elabore um algoritmo que peça o valor da altura e da largura e imprima o perimetro do rectângulo.",3,1,9,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Elabore um algoritmo que peça o valor de um lado e imprima o perimetro do quadrado.",3,1,9,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Elabore um algoritmo que peça o valor da base e o valor do expoente e imprima a sua potência.",3,1,9,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Elabore um algoritmo que peça o valor da altura, do lado maior e menor e imprima o volume do rectângulo.",3,1,9,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Criar um algoritmo que calcule e imprima a área de um losango.",3,1,9,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Digitar o numero de 3 casas e imprimir o algarismo das dezenas.",3,1,9,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Digitar o numero de 3 casas e imprimir o algarismo das centenas.",3,1,9,1);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Entrar com os lados a, b , c de um paralelepípedo. Calcular e imprimir a diagonal.",3,1,9,1);
