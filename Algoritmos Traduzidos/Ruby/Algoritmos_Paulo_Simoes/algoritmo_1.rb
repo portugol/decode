@@ -16,4 +16,4 @@ else
 	salario = salario.to_i * 1.01
 end
 
-puts "O novo salario e: " + salario.to_s
+puts "O novo salario e: #{salario.to_s}"

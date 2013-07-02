@@ -9,4 +9,4 @@ pi = 0.0
   end
   pi = 4*pi
 end
-puts "O valor de pi e " + pi.to_s
+puts "O valor de pi e #{pi.to_s}"

@@ -4,7 +4,7 @@ numero = gets
 if numero.to_i > 0
   puts "Positivo"
 elsif numero.to_i < 0
-  puts "Negativo\n"
+  puts "Negativo"
 else
   puts "Nulo"
 end

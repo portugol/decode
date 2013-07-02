@@ -7,4 +7,4 @@ while mes.to_i <= 0 || mes.to_i >= 13
 	puts "Introduza um mes"
 	mes = gets.chomp
 end
-	puts "mes introduzido: " + mes
+	puts "mes introduzido: #{mes}"

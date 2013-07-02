@@ -4,7 +4,7 @@ a = gets
 puts "digite o segundo numero"
 b = gets
 if a.to_i < b.to_i
-  puts "Menor; " + a
+  puts "Menor: #{a}"
 else
-  puts "Menor: " + b
+  puts "Menor: #{b}"
 end
