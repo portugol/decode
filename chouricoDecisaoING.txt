@@ -1,0 +1,63 @@
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Verify if the number inserted by the user is even.
+",1,2,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that verifies if the number inserted by the user is positive, negative or null.",1,2,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that verifies if a number is even or odd.",1,2,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that verifies if a year is a leap year or not.",1,2,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that calculates the BMI(Body Mass Index).",1,2,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that reads an integer with 4 digits and then prints wether or not the number formed by the ones digit the thousands digit and the hundreds digit is a multiple of 4.",1,2,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that prints wether or not the number inserted is between 20 and 90.",1,2,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a number then prints one of these messages: greater than 20, equal to 20 or under 20.",1,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a persons birth year and the current year then prints that persons age. Do not forget to verify if the birth year is valid.",2,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the name, sex and age a person. If that person is female and under 25, print the name and the message: ACCEPT. Otherwise print the name and the message: DOES NOT ACCEPT(Consider f or F).",2,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the initials of a person's state then prints one of the following messages:
+	-Carioca
+	-Paulista
+	-Mineiro
+	-Other States",2,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that that allows the user to input his or hers birth month.",2,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("João is a fisherman and everytime he fishes a weight (kg) greater than the one established by the European regulations of fishing (50 kg) he must pay a fine of 4 euros per exceeding kilogram. For these reasons, João needs an algorithm created that reads the weight of the fishes(P) and verifies if it exceeds the 50kg. If it does the amount exceeded is stored in a variable E(excess) and in the variable F(fine) the value of the fine João has to pay.",2,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create a flowchart that allows the calculation of zero in the equation ax+b=0.",2,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for two different numbers then prints them in ascending order.",2,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for two different numbers then prints them in descending order.",2,2,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a person's age then prints one of the following messages:
+	Is an adult;
+	Is underage;
+	Is over 65 years old;
+",3,2,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("According to a medical table, the ideal weight is connected to height and sex.
+Create an algorithm that receives someone’s height and sex and calculates their ideal weight, using the following formulas:
+•	For men:  (72.7 * H) - 58
+•	For women: (62.1 * H) - 44.7",3,2,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Type a number and print one of the following messages: Multiple of 3(if the number is a multiple of 3) or Not Multiple of 3(if not a multiple). ",3,2,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Type a number and print whether it is divisible by 10, by 5, by 2 or not divisible by none of them.
+",3,2,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Read a 3 digit integer and print whether the hundreds digit is even or odd.",3,2,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Write an algorithm that asks for the size of the three sides of a triangle then print whether the sides do, in fact, form a triangle. Remember that, in a triangle, each side is lower than the sum off the other two.",3,2,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that reads a route, in kilometers, and the type of car and then prints the estimated consumption of fuel, knowing that a type A car can travel 12 km with a liter of gasoline, a type B car can travel 9km and type C car can travel 8km per liter.",3,2,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm which allows the update of the salary of a team of professionals. The Manager should receive a raise of 3%, the technician 5% and the remaining workers 1%.",3,2,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a number and then prints it if that number is greater than 2.",3,2,9,2);
+

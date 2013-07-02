@@ -92,3 +92,8 @@ Paulo Simões
 
 1
 Create an algorithm which allows the update of the salary of a team of professionals. The Manager should receive a raise of 3%, the technician 5% and the remaining workers 1%. 
+
+Diogo Marques 
+
+10
+Create an algorithm that asks for a number and then prints it if that number is greater than 2.

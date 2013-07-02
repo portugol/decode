@@ -1,0 +1,65 @@
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the side then calculates the area of a square.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that prints the arithmetic mean between the numbers 8 , 9 and 7.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that that reads two integers and prints the sum. Before the result the message 'Sum' should be shown on screen.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that reads a real number and prints one third of that number.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that inserts two real numbers and prints their arithmetic mean with the message 'mean' before the result.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a number then prints the base 10 logarithm of a number.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a number and a base then prints the logarithm of a number.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a number then prints:
+Number:
+Square:
+Square Root:",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the balance then prints the balance after a reajustment of 1%.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that calculates and prints the area of a triangle.",1,1,7,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the cathetus then prints the hipotenuse of a triangle.
+",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the difference and the value of the first term then prints the tenth term of an arithmetic progression.",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the difference and the value of the first term then prints the fifth term of a geometric progression.
+",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that reads a temperature in Celcius and converts it to Fahrenheit. The formula used in the conversion is: F = (9.C+160)/5 where F is the temperature in Fahrenheit and C is the temperature in Celcius.",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that calculates the value of an overdue installment, using the formula:
+installment = value + (value* (rate/100)*time).",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that that reads the numerator and the denominator of a fraction and prints it as a decimal number.",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that reads two real numbers and prints the difference between the first and second value.",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that reads two real numbers and prints the difference of squares of those numbers.
+",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Given a convex polygon with n sides, we can calculate the number of different diagonals (nd) of that polygon using the formula: nd = n (n-3) / 2. Create an algorithm that that reads how many sides a polygon has then calculate and print the number of different diagonals (nd) it has.",2,1,8,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that that asks for the value of a side then prints the area of a square.",2,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks dor the height and width then prints the perimeter of a rectangle.",3,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a side then prints the perimeter of a square.",3,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for a base and an exponent then prints its power.",3,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks dor the height, the greater side and the lesser side then prints the volume of a rectangle.",3,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that calculates and prints the area of a lozenge.",3,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Write a number with 3 digits then prints the tens digit.",3,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Write a number with 3 digits then prints the hundreds digit.",3,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the sides a,b and c of a parallelepiped then calculates and prints the diagonal.",3,1,9,2);
+
+insert into perguntas (Pergunta,Dificuldade,CapituloId,TipoPg,Lingua) Values ("Create an algorithm that asks for the value of a product then prints the new value with a discount of 9%.
+",3,1,9,2);

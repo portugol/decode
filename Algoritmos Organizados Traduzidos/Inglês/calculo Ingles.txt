@@ -13,7 +13,7 @@ Alg_31
 Create an algorithm that prints the arithmetic mean between the numbers 8 , 9 and 7.
 
 Alg_36
-Create an algorithm that that reads two integers and prints the sum. Before the result the message "Sum" should be shown on screen.
+Create an algorithm that that reads two integers and prints the sum. Before the result the message 'Sum' should be shown on screen.
 
 Alg_38
 Create an algorithm that reads a real number and prints one third of that number.
@@ -105,11 +105,6 @@ Write a number with 3 digits then prints the hundreds digit.
 5
 Create an algorithm that asks for the sides a,b and c of a parallelepiped then calculates and prints the diagonal.
 
-6
-Create an algorithm that calculates and prints the area of a lozenge.
-
 8
 Create an algorithm that asks for the value of a product then prints the new value with a discount of 9%.
 
-10
-Create an algorithm that asks for a number and then prints it if that number is greater than 2.
