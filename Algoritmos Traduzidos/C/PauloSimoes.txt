@@ -1,5 +1,25 @@
 1-
+#include <stdio.h>
 
+int main()
+{
+   int salario;
+
+    char prof[80];
+        scanf("%d",&salario);
+       gets(prof);
+       printf(prof);
+        if (prof=="tecnico") {
+        salario=(salario*1.05);
+        }else{
+            if (prof=="gerente") {
+            salario=(salario*1.03);
+            }else{
+            salario=(salario*1.01);
+            }
+        }
+    printf("O novo salario e: %d",salario);
+}
 
 
 
@@ -234,6 +254,23 @@ void main()
 
 10-
 
+#include <stdio.h>
+
+int main()
+{
+    char nomes[10];
+    int l;
+    l=0;
+    for(l=0; l<=9; l++)
+    {
+        printf("\n Digite o %d nome: ",l+1);
+        gets(nomes[l]);
+    }
+    for (l=0; l<=9; l++)
+    {
+        puts(nomes[l]);
+    }
+}
 
 
 
