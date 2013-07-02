@@ -1,6 +1,6 @@
-﻿Module _1
+﻿Module PS1
     Sub main()
-        Dim salario As Integer
+        Dim salario As Long
         salario = 0
         Dim prof As String
         prof = ""

@@ -1,0 +1,19 @@
+program ex110
+
+real :: a,b,x
+a=0.0
+b=0.0
+x=0.0
+
+print *,"escreva o valor de a"
+read *,a
+print *,"escreva o valor de b"
+read *,b
+
+if(a/= 0)then
+  x=(b*(-1)/a)
+  print *,"o valor de x é:",x
+else
+  print *,"nao existe valor de zero"
+endif
+end

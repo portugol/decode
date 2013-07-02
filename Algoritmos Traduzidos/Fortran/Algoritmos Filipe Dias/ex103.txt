@@ -1,0 +1,16 @@
+program ex103
+
+integer :: anon,anoa
+
+print *,"insira o ano corrente"
+read *,anoa
+
+print *,"insire o ano de nascimento"
+read *,anon
+
+if(anon>anoa)then
+  print *,"ano de nascimento invalido"
+else
+  print *,"iade :",anoa-anon
+endif
+end

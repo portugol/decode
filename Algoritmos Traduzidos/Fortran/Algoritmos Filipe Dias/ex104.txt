@@ -1,0 +1,20 @@
+program ex104
+integer :: idade
+character (len=10) :: nome
+character :: sexo
+
+print *,"digite o nome"
+read *,nome
+
+print *,"digite o sexo(m ou M / f ou F)"
+read *,sexo
+
+print *,"digite a idade"
+read*,idade
+
+if((sexo=='F'.or.sexo=='f').and.idade<25 )then
+  print *,nome," aceita"
+else
+  print *,nome," nao aceita"
+endif
+end
