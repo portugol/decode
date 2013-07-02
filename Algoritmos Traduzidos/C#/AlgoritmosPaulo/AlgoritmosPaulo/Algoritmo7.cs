@@ -18,8 +18,7 @@ namespace AlgoritmosPaulo
 		public static void Main(string[] args)
 		{
 			string[] nomes = new string[10];
-			int l;
-			l = 0;
+			int l = 0;
 			while(l <= 9){
 				Console.WriteLine("Digite "+(l+1)+" nome");
 				nomes[l] = Console.ReadLine();

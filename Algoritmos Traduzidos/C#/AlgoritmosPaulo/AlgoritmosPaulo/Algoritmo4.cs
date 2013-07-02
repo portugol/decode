@@ -17,7 +17,9 @@ namespace AlgoritmosPaulo
 	{
 		public static void Main(string[] args)
 		{
-			int p,num1,num;
+			int p=0;
+			int num1=0;
+			int num=0;
 			num1 = 1;
 			Console.WriteLine("Digite um numero:");
 			num = int.Parse(Console.ReadLine());

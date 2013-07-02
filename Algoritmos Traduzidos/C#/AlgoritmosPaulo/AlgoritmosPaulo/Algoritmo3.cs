@@ -17,8 +17,7 @@ namespace AlgoritmosPaulo
 	{
 		public static void Main(string[] args)
 		{
-        int contador;
-        contador=0;
+        int contador=0;
         while(contador <= 100){
         Console.WriteLine(contador);
         contador += 2;
