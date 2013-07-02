@@ -1,0 +1,39 @@
+<script>
+	var percurso = 0.0;
+	var consumo = 0.0;
+	var tipo = "";
+
+	tipo = prompt("Selecione o tipo de carro (A / B / C)");
+	percurso = prompt("Insira o numero de km que deseja efectuar");
+	
+	if (tipo == "C" || tipo == "c")
+		{
+			consumo = percurso / 12;
+		}
+	else
+		{
+			if (tipo == "B" || tipo == "b")
+				{
+				consumo = percurso / 10;
+				}
+			else
+				{
+					if (tipo == "A" || tipo == "a")
+						{
+							consumo = percurso / 8;
+						}
+					else
+						{
+							consumo = 0;
+						}
+				}
+		}
+		if (consumo != 0)
+			{
+				document.write("Cosumo estimado em litros: " + consumo);
+			}
+		else
+			{
+				document.write("Modelo inexistente");
+			}
+</script>
