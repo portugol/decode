@@ -1,0 +1,19 @@
+package pkg101;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       
+        double num=0.0;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("digite um numero");
+        num=Double.parseDouble(scanner.next());
+        if (num>20 && num <90) {
+            System.out.println("o numero esta entre 20 e 90");
+        }else{
+            System.out.println("o numero nao esta entre 20  e 90");
+        }
+    }
+}

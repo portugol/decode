@@ -1,0 +1,27 @@
+package pkg109;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int peso,ex,m;
+        peso=0;
+        ex=0;
+        m=4;
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("insira o peso dos peixes");
+        peso=scanner.nextInt();
+        
+        if (peso>50) {
+            ex=peso-50;
+            ex=ex*m;
+            System.out.println("tem de pagar "+ex+"euros pelo excedente de peixe apanhado");
+            
+        }else{
+            System.out.println("nao precisa de pagar multa");
+        }
+        
+    }
+}

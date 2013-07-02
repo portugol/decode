@@ -1,0 +1,28 @@
+package pkg1005;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      String sigla;
+      Scanner scanner = new Scanner(System.in);
+      
+        System.out.println("digite sigla");
+        sigla=scanner.nextLine();
+        
+        if (sigla.equals("RJ") || sigla.equals("rj")) {
+            System.out.println("carioca");
+            
+        }else if (sigla.equals("SP") || sigla.equals("sp")) {
+            System.out.println("paulista");
+        }else if (sigla.equals("MG") || sigla.equals("mg")) {
+            System.out.println("mineiro");
+        }else{
+            System.out.println("outros estados");
+            
+        }
+        
+        
+    }
+}

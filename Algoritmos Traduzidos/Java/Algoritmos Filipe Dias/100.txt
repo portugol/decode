@@ -1,0 +1,22 @@
+package pkg100;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int num,c;
+        num=0;
+        c=0;
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("insire o numero de 4 algarismos");
+        num=scanner.nextInt();
+        
+        if(c%4==0){
+            System.out.println("multiplo de 4");
+        }else{
+            System.out.println("nao é multiplo de 4");
+        }    
+          
+    }
+}

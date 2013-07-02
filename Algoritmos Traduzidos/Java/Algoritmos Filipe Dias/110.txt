@@ -1,0 +1,28 @@
+package pkg110;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       
+        double a,b,x;
+        a=0.0;
+        b=0.0;
+        x=0.0;
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("escreva o valor de a");
+        a=Double.parseDouble(scanner.next());
+        System.out.println("escreva o valor de b");
+        b=Double.parseDouble(scanner.next());
+        
+        if (a!=b) {
+            x=(b*(-1) / a);
+            System.out.println("o valor de x é:"+x);
+        }else{
+            System.out.println("nao existe zero");
+        }
+        
+    }
+}

@@ -1,0 +1,29 @@
+package pkg104;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      
+        int idade=0;
+        String nome,sexo;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Digite o nome");
+        nome=scanner.nextLine();
+        System.out.println("Digite o sexo");
+        sexo=scanner.nextLine();
+        System.out.println("Digite a idade");
+        idade=scanner.nextInt();
+        
+        if ((sexo.equals("F") || sexo.equals("f")) && idade<25) {
+            System.out.println(nome+"aceita");
+        }else{
+            System.out.println(nome+"nao aceita");
+        }
+        
+        
+    }
+}

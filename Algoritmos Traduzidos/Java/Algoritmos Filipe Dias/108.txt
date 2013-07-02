@@ -1,0 +1,22 @@
+package pkg108;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+       
+        int mes=0;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("insira o mes em que nasceu de 1 a 12");
+        
+        mes=scanner.nextInt();
+        
+        if (mes <1 || mes >12) {
+            System.out.println("insira um mes valido");
+        }else{
+            System.out.println("mes introduzido:"+mes);
+        }
+        
+    }
+}
