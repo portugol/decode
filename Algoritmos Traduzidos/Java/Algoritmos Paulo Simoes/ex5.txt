@@ -1,18 +1,29 @@
-public class Ex5 {
+import java.util.Scanner;
 
- 
-    public static void main(String[] args) {
+public class Ex4 {
 
-        int min;
-        int seg;
-
-        System.out.println("10:00");
-        for (min = 9; min >= 9; min--) {
-            for (seg = 59; seg >= 30; seg--) {
-                System.out.println("");
-                System.out.println(min + ": " + seg);
-            }
+      public static void main(String[] args) {
+       int P;
+       int num1;
+       int num;
+       Scanner scanner = new Scanner(System.in);
+       
+       num1=1;
+        System.out.println("Digite um Numero");
+        num=Integer.parseInt(scanner.nextLine());
+        
+        P=num1 * (num1+1) * (num1+2);
+        
+        while (P < num) {
+            num1=num1+1;
+            P=num1 *(num1+1) *(num1+2);
         }
-
+        
+        if (P==num) {
+            System.out.println("Triangular");
+        }else{
+            System.out.println("Nao triangular");
+        }
+        
     }
 }

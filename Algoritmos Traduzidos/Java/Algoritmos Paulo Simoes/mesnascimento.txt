@@ -1,0 +1,19 @@
+package mesnascimento;
+
+import java.util.Scanner;
+
+public class Mesnascimento {
+
+
+    public static void main(String[] args) {
+      
+        int mes=0;
+        Scanner scanner = new Scanner(System.in);
+        do{
+            System.out.println("introduza um mes");
+            mes=scanner.nextInt();
+        }while(mes<0 || mes >13);
+        
+        System.out.println("mes introduzido :"+mes);
+    }
+}

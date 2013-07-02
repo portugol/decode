@@ -1,29 +1,18 @@
-import java.util.Scanner;
+public class Ex5 {
 
-public class Ex6 {
+ 
+    public static void main(String[] args) {
 
- public static void main(String[] args) {
-        
-        int k;
-        int n;
-        double pi=0;
-        double aux = 0;
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Digite o valor de n: ");
-        n = Integer.parseInt(scanner.nextLine());
-        
-        for (k = 0;  k<= n; k++) {
-            if ((k%2) ==0) {
-                aux = (2*k+1);
-                pi = pi + (1/aux) ;
-            }else{
-                aux = (2*k+1);
-                pi = pi - (1/aux) ;
+        int min;
+        int seg;
+
+        System.out.println("10:00");
+        for (min = 9; min >= 9; min--) {
+            for (seg = 59; seg >= 30; seg--) {
+                System.out.println("");
+                System.out.println(min + ": " + seg);
             }
         }
-        pi=4*pi;
-        System.out.println("o valor de pi é: " + pi);
-        
+
     }
 }

@@ -1,29 +1,13 @@
-import java.util.Scanner;
+public class Ex3 {
 
-public class Ex4 {
-
-      public static void main(String[] args) {
-       int P;
-       int num1;
-       int num;
-       Scanner scanner = new Scanner(System.in);
-       
-       num1=1;
-        System.out.println("Digite um Numero");
-        num=Integer.parseInt(scanner.nextLine());
-        
-        P=num1 * (num1+1) * (num1+2);
-        
-        while (P < num) {
-            num1=num1+1;
-            P=num1 *(num1+1) *(num1+2);
-        }
-        
-        if (P==num) {
-            System.out.println("Triangular");
-        }else{
-            System.out.println("Nao triangular");
-        }
-        
+ 
+    public static void main(String[] args) {
+      int contador;
+      contador=2;
+      
+      while(contador <= 100){
+          System.out.println(contador);
+          contador+=2;
+      }
     }
 }
