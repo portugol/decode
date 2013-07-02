@@ -17,10 +17,9 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			int idade;
-			idade = 0;
-			string nome;
-			string sexo;
+			int idade = 0;
+			string nome="";
+			string sexo="";
 			Console.WriteLine("Digite nome:");
 			nome = Console.ReadLine();
 			Console.WriteLine("digite sexo:");

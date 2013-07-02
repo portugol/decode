@@ -17,10 +17,9 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			double a,b,x;
-			a= 0.0;
-			b=0.0;
-			x=0.0;
+			double a=0.0;
+			double b=0.0;
+			double x=0.0;
 			Console.WriteLine("Escreva o valor de a:");
 			a = double.Parse(Console.ReadLine());
 			Console.WriteLine("Escreva o valor de b:");

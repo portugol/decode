@@ -17,9 +17,9 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			int num,c;
-			num=0;
-			Console.WriteLine("Digite um numero com 4 casas:");
+			int num=0;
+			int c = 0;
+			Console.WriteLine("Digite um numero com 4 algarismos:");
 			num = int.Parse(Console.ReadLine());
 			c = (num/100);
 			if(c%4==0)

@@ -17,10 +17,9 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			int n,num,fat;
-			n=0;
-			num=0;
-			fat=0;
+			int n=0;
+			int num=0;
+			int fat=0;
 			Console.WriteLine("Este programa calcula N factotial");
 			Console.WriteLine("Digite o valor a ser calculado:");
 			num = int.Parse(Console.ReadLine());

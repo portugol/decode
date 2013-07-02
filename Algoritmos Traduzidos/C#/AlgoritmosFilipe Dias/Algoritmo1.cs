@@ -17,12 +17,12 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			double num;
-			num = 0.0;
+			double num = 0.0;
 			Console.WriteLine("Digite o numero:");
 			num = double.Parse(Console.ReadLine());
 			if(num >20 && num <90)
 			{
+				Console.WriteLine("numero esta na faixa de 20 a 90");
 				}else
 			{
 				Console.WriteLine("numero esta fora da faixa de 20 a 90");			

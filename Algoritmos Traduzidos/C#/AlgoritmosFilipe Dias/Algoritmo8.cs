@@ -17,8 +17,7 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			int mes;
-			mes = 0;
+			int mes = 0;
 			Console.WriteLine("Insira mes em que nasceu: (1 a 12)");
 			mes = int.Parse(Console.ReadLine());
 			if(mes<1 | mes>12)

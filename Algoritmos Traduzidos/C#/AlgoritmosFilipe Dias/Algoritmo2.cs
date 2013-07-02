@@ -17,8 +17,7 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			double numero;
-			numero = 0.0;
+			double numero = 0.0;
 			Console.WriteLine("Digite Numero:");
 			numero = double.Parse(Console.ReadLine());
 			if(numero > 20)

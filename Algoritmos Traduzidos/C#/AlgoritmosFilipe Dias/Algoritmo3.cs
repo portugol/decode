@@ -17,9 +17,8 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			int anon, anoa;
-			anon=0;
-			anoa=0;
+			double anon=0;
+			double anoa=0;
 			Console.WriteLine("Insira o ano corrente:");
 			anoa = int.Parse(Console.ReadLine());
 			Console.WriteLine("Insira o ano de nascimento:");
