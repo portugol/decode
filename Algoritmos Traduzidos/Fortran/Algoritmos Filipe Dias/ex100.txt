@@ -1,0 +1,11 @@
+program ex100
+integer :: num,c
+print *,"numero de 4 algarismos"
+read *,num
+c = num / 100
+if(mod(num,4)==0) then
+  print *,"o numero e multiplo de 4"
+else
+  print *,"o numero nao é multiplo de 4"
+end if
+end

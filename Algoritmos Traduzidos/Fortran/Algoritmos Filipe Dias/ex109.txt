@@ -1,0 +1,17 @@
+program ex106
+integer :: ex,peso,m
+peso=0
+ex=0
+m=4
+
+print *,"insira o peso dos peixes"
+read *,peso
+
+if	(peso > 50) then
+  ex=peso-50
+  ex=ex*m
+  print *,"tem de pagar",ex,"euros pelo excedente apanhado"
+else
+  print *,"nao precisa de pagar multa"
+end if
+end

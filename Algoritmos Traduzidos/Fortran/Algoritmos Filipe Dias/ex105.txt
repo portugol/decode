@@ -1,0 +1,16 @@
+program ex105
+
+character(len=10) :: sigla
+print *,"digite a sigla"
+read *,sigla
+
+if(sigla=="RJ" .or. sigla=="rj")then
+  print *,"carioca"
+else if	(sigla =="SP" .or. sigla=="sp")then
+  print *,"paulista"
+else if	(sigla=="MG" .or. sigla=="mg")then
+  print *,"mineiro"
+  else
+    print *,"outros estados"
+endif
+end

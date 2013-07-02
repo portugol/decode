@@ -1,0 +1,12 @@
+program ex101
+
+real :: num
+print *,"digite numero"
+read *,num
+
+if(num>20 .and. num<90)then
+  print *,"o numero esta entre 20 e 90, exclusive"
+else
+  print *,"o numero nao esta entre 20  e 90"
+endif
+end
