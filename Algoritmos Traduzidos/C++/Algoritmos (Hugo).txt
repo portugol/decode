@@ -1,0 +1,157 @@
+1-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n=0;
+    int ma;
+    ma=(8+9+7)/3;
+    cout<<"a media é: "<< ma;
+}
+
+
+2-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ int num1;
+	int num2;
+	int soma;
+	cout<<"Introduza 2 numeros: \n";
+	cin>>num1;
+	cin>>num2;
+	soma = num1+num2;
+	cout<<"Soma: "<< soma;
+}
+
+3-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num1;
+	int num2;
+	int produto;
+	cout<<"Introduza 2 numeros:";
+	cin>>num1;
+	cin>>num2;
+	produto = num1*num2;
+	cout<<"Produto: "<< produto;
+}
+
+
+4-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+float num1;
+	cout<<"Introduza um numero real: ";
+	cin>>num1;
+	num1 = num1/3;
+	cout<<"Terceira parte é: "<< num1;
+}
+
+
+5-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float num1;
+	float num2;
+	int media;
+	cout<<"Introduza 2 numeros:";
+	cin>>num1;
+	cin>>num2;
+	media = (num1+num2)/2;
+	cout<<"Media: "<< media;
+}
+
+
+6-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float x;
+    int logaritmo;
+    cout<<"introduza um numero";
+    cin>>x;
+    logaritmo=log(x)/log(10);
+    cout<<"O logaritmo base 10 deste numero e: "<< logaritmo;
+}
+
+
+7-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+int base;
+	float x;
+	int logaritmo;
+	cout<<"Introduza a base do logaritmo que pretende calcular";
+	cin>>base;
+	cout<<"Introduza um numero";
+	cin>>x;
+	logaritmo=log(x)/log(base);
+	cout<<"O logaritmo base 10 deste numero é: "<< logaritmo;
+}
+
+
+8-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+float x;
+	int raizquadrada;
+	int quad;
+	cout<<"Introduza um numero";
+	cin>>x;
+	raizquadrada=sqrt(x);
+	quad=x*x;
+	cout<<"A raiz quadrada é: "<<raizquadrada<< "e o quadrado é: "<<quad;
+}
+
+
+9-
+	float saldo;
+	int nsaldo;
+	cout<<"introduza o saldo: ";
+	cin>>saldo;
+	nsaldo=saldo*1.01;
+	cout<<"o novo saldo é : "<<nsaldo;
+
+
+10-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    float x;
+    float base;
+    float altura;
+    int area;
+    cout<<"introduza a base";
+    cin>>base;
+    cout<< "introduza a altura";
+    cin>>altura;
+    area=(base*altura)/2;
+    cout<<"A area é :"<< area;
+}

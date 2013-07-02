@@ -1,0 +1,120 @@
+1-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float largura=0.0;
+	float altura=0.0;
+	float area;
+	cout<<"introduza a largura";
+	cin>>largura;
+	cout<<"introduza a altura";
+	cin>>altura;
+	area= largura*altura;
+	cout<<"A area e : "<< area;
+}
+
+
+2-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float lado;
+	float area;
+	cout<<"introduza o tamanho do lado";
+	cin>>lado;
+	area= lado*lado;
+	cout<<"A area e : "<< area;
+}
+
+
+3-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float largura;
+	float altura;
+	float perimetro;
+	cout<<"introduza a largura";
+	cin>>largura;
+	cout<<"introduza a altura";
+	cin>>altura;
+	perimetro= 2*largura+2*altura;
+	cout<<"O perimetro e : "<< perimetro;
+}
+
+
+4-
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float lado;
+	float perimetro;
+	cout<<"introduza o tamanho do lado";
+	cin>>lado;
+	perimetro= lado*4;
+	cout<<"o perimetro e : "<< perimetro;
+}
+
+
+5-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+	int b=0;
+	int p=0;
+	int res=0;
+	cout<< "introduza a base: ";
+	cin>>b;
+	cout<< "introduza a potencia: ";
+	cin>>p;
+	res =pow(b,p);
+	cout<< "o resultado da potencia e: " << res;
+}
+
+
+6-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int altura, ladomaior,ladomenor,volume;
+    cout<<"Introduza o valor da altura: ";
+    cin>>altura;
+    cout<<"Introduza o valor do lado maior: ";
+    cin>>ladomaior;
+    cout<<"Introduza o valor do lado menor: ";
+    cin>>ladomenor;
+    volume=ladomaior*ladomenor*altura;
+    cout<<"o volume e : "<< volume;
+
+}
+
+7-
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int ds,dp,area;
+    cout<<"Introduza o valor da diagonal principal: ";
+    cin>>dp;
+    cout<<"Introduza o valor da outra diagonal ";
+    cin>>ds;
+    area=(ds*dp)/2;
+    cout<<"A area e : "<< area;
+
+}
