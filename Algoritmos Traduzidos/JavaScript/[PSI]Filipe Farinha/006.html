@@ -1,0 +1,35 @@
+<script>
+	var imc = 0;
+
+	imc = prompt("Digite o valor IMC (Indice de Massa Corporal):");
+	
+	if (imc < 20)
+		{
+			document.write("Abaixo do peso");
+		}
+	else
+		{
+			if (imc >= 20 && imc <= 24)
+				{
+					document.write("Peso ideal");
+				}
+			else
+				{
+					if (imc >= 25 && imc <= 29)
+						{
+							document.write("Excesso de peso");
+						}
+					else
+						{
+							if (imc >= 30 && imc <= 39)
+								{
+									document.write("Obesidade");
+								}
+							else
+								{
+									document.write("Valor invalido");
+								}
+						}
+				}
+		}
+</script>
