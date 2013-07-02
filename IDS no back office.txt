@@ -1,0 +1,4 @@
+Calculo : 15 ao 44(inclusive)
+Decisao:  45 ao 69(inclusive)
+Repetição:70 ao 75(inclusive)
+Funções:  76    
