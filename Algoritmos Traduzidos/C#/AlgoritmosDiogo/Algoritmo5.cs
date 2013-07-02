@@ -17,11 +17,10 @@ namespace AlgoritmosDiogo
 	{
 		public static void Main(string[] args)
 		{
-			double a,b,c,diagonal;
-			a=0.0;
-			b=0.0;
-			c=0.0;
-			diagonal=0.0;
+			double a=0.0;
+			double b=0.0;
+			double c=0.0;
+			double diagonal=0.0;
 			Console.WriteLine("digite a base:");
 			a = double.Parse(Console.ReadLine());
 			Console.WriteLine("digite a altura:");

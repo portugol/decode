@@ -17,8 +17,7 @@ namespace AlgoritmosClaudia
 	{
 		public static void Main(string[] args)
 		{
-        int numero;
-        numero = 0;
+        int numero = 0;
         Console.WriteLine("Digite um numero:");
         numero = int.Parse(Console.ReadLine());
         if (numero % 3 == 0)

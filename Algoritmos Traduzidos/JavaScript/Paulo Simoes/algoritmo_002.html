@@ -1,0 +1,46 @@
+<html>
+
+<head>
+</head>
+
+<body>
+	<script type="text/javascript">
+
+	var opcao;
+	document.write("1 - Verão  2 - Outono  3 - Inverno  4 - Primavera");
+	do
+	{
+		opcao = prompt ("Escolha a opção do menu referente ao período desejado:");
+	}
+	while(opcao < 1 || opcao > 4);
+	
+	switch (opcao)
+	{
+		case '1':
+		document.write("<br>Verão");
+		break;
+
+		case '2':
+		document.write("<br>Outono");
+		break;
+
+		case '3':
+		document.write("<br>Inverno");
+		break;
+
+		case '4':
+		document.write("<br>Primavera");
+
+		break;
+
+		default:
+		break;
+
+	}	
+
+
+	</script>
+
+</body>
+
+</html>

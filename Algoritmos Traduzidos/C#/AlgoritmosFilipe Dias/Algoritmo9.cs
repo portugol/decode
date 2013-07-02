@@ -17,10 +17,9 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			int peso, ex, m;
-			peso =0;
-			ex =0;
-			m =0;
+			int peso =0;
+			int ex =0;
+			int m =0;
 			m =4;
 			Console.WriteLine("insira o peso dos peixes:");
 			peso = int.Parse(Console.ReadLine());

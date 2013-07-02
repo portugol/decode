@@ -1,0 +1,21 @@
+<script>
+
+	var sexo = "";
+	var h = 0.0;
+	var peso = 0.0;
+
+	h = prompt("Introduza a altura:");
+	sexo = prompt("Introduza o sexo M/F");
+
+	if (sexo == "M" || sexo =="m") 
+		{
+			peso = 72,7 * (h - 58);
+		}
+	else
+		{
+			peso = 62,1 * (h - 44,7);
+		}
+
+	document.write("O seu peso ideal é: " + peso);
+	
+</script>

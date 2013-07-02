@@ -1,0 +1,20 @@
+<script>
+	var idade = 0;
+	var nome = "";
+	var sexo = "";
+
+	nome = prompt("\nDigite nome: ");
+	sexo = prompt("\nDigite sexo: ");
+	idade = prompt("\nDigite idade: ");
+
+	if ((sexo == "F" || sexo == "f") && (idade < 25))
+		{
+			document.write("<br>" + nome + " ACEITA");
+		}
+	else
+		{
+			document.write("<br>" + nome + " NAO ACEITA");
+		}
+	
+	document.write("<br>");
+</script>

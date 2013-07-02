@@ -17,12 +17,12 @@ namespace AlgoritmosDiogo
 	{
 		public static void Main(string[] args)
 		{
-			int a, d;
-			a=0;
-			d=0;
+			int a=0;
+			int d=0;
 			Console.WriteLine("Digite um numero com 3 casas:");
 			a = int.Parse(Console.ReadLine());
 			d = (a/100) % 10;
+			Console.Write(" ");
 			Console.WriteLine("Algarismo na casa das centenas: "+d);
 		}
 	}

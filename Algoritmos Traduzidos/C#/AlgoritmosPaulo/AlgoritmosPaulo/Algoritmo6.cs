@@ -17,13 +17,12 @@ namespace AlgoritmosPaulo
 	{
 		public static void Main(string[] args)
 		{
-		int k, n;
-		k = 0;
-		double pi;
-		pi= 0.0;
+		int k = 0;
+		int n = 0;
+		double pi = 0.0;
 		Console.WriteLine("Digite o valor de N:");
 		n = int.Parse(Console.ReadLine());
-		while(k >= 0 && k < n){
+		while(k <= n){
 			if(k % 2 == 0)
 			{
 				pi = (pi + 1)/(2*k+1);

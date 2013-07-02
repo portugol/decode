@@ -1,0 +1,14 @@
+	<script>
+		var valor = 0.0;
+		var taxa = 0.0;
+		var tempo = 0;
+
+		valor = prompt ("introduza o valor da prestacao");
+		taxa = prompt ("introduza a taxa");
+		tempo = prompt ("introduza o numero de meses em atraso");
+
+		prest = valor + (valor * (taxa / 100) * tempo);
+
+		document.write("A prestacao em atraso e ", prest);
+			
+	</script>

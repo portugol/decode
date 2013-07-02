@@ -1,0 +1,3 @@
+FUNÇÕES
+
+Crie um algoritmo que permita o cáculo de um factorial.

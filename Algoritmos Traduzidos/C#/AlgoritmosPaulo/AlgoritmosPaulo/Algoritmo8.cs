@@ -17,13 +17,11 @@ namespace AlgoritmosPaulo
 	{
 		public static void Main(string[] args)
 		{
-			int anos;
-			double a, b;
-			anos = 0;
-			a = 0.0;
-			b = 0.0;
-			a = 5000000;
-			b = 7000000;
+			int anos = 0;
+			int a = 0.0;
+			int b = 0.0;
+			int a = 5000000;
+			int b = 7000000;
 			while(a < b)
 			{
 				a = a*1.03;

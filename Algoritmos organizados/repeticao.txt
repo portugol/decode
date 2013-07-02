@@ -1,0 +1,33 @@
+REPETIÇÃO
+
+001
+Escrever um número de 1 a 10.
+
+
+002
+Pedir um número positivo.
+
+
+Filipe Farinha
+
+003
+10
+Programa que imprime a soma de todos os numeros inteiros num intervalo introduzido pelo utilizador.
+
+
+
+Paulo Simões
+
+004
+3
+Faça um algoritmo que imprima todos os números pares no intervalo de 1 a 100.
+
+
+005
+4
+Faça um algoritmo que o usuário informa um número e o verifica se ele é um número triangular.
+
+
+006
+8
+Dado um dado país A com 5.000.000 de habitantes e uma taxa de natalidade de 3% ao ano, e um país B com 7.000.000 de habitantes e uma taxa de natalidade de 2% ao ano, calcular e imprimir o tempo necessário para que a população do país A ultrapasse a população do país B.

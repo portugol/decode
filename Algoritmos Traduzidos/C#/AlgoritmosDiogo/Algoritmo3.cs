@@ -17,9 +17,8 @@ namespace AlgoritmosDiogo
 	{
 		public static void Main(string[] args)
 		{
-			int d, a;
-			d=0;
-			a=0;
+			int d=0;
+			int a=0;
 			Console.WriteLine("Digite o numero com 3 casas:");
 			a = int.Parse(Console.ReadLine());
 			d = (a/10) % 10;

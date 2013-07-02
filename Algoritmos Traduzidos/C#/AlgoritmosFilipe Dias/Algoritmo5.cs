@@ -17,7 +17,7 @@ namespace AlgoritmosFilipe
 	{
 		public static void Main(string[] args)
 		{
-			string sigla;
+			string sigla="";
 			Console.WriteLine("digite sigla:");
 			sigla = Console.ReadLine();
 			if(sigla == "RJ" | sigla == "rj")

@@ -17,8 +17,7 @@ namespace AlgoritmosDiogo
 	{
 		public static void Main(string[] args)
 		{
-			double numero;
-			numero = 0.0;
+			double numero = 0.0;
 			Console.WriteLine("digite o numero:");
 			numero = double.Parse(Console.ReadLine());
 			if(numero > 20)
